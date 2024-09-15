@@ -1,0 +1,19 @@
+.external-style {
+    color: green;
+}
+h1 {
+    color: purple; /* Element selector */
+}
+#unique {
+    color: orange; /* ID selector */
+}
+.highlight {
+    background-color: yellow; /* Class selector */
+}
+.background-image {
+    background-image: url('background.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 200px;
+}

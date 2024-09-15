@@ -1,0 +1,6 @@
+// Create a heading that that contains any value, then create a button, when we click it, this value changes.
+
+
+// create a form that accept name, email, password, submit and reset button:
+	use {useState} with to change the fields of name, email, password
+	use {useState} with the submit button to prevent the reload of the page.

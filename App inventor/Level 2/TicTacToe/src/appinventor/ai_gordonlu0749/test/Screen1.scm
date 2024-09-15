@@ -1,0 +1,4 @@
+#|
+$JSON
+{"authURL":["creator.kodular.io","ai2.appinventor.mit.edu"],"YaVersion":"213","Source":"Form","Properties":{"$Name":"Screen1","$Type":"Form","$Version":"30","AccentColor":"&HFF00728A","AlignHorizontal":"3","AlignVertical":"2","AppName":"test","PrimaryColor":"&HFFA5CF47","PrimaryColorDark":"&HFF41521C","Title":"Screen1","Uuid":"0","$Components":[{"$Name":"Button1","$Type":"Button","$Version":"7","Text":"Start Game","Uuid":"-695110446"},{"$Name":"Label1","$Type":"Label","$Version":"5","Text":"Text for Label1","Uuid":"2027577740"},{"$Name":"Vertical_Arrangement1","$Type":"VerticalArrangement","$Version":"4","Uuid":"-1079798956"},{"$Name":"TicTacToe1","$Type":"TicTacToe","$Version":"1","Uuid":"260345439"},{"$Name":"Notifier1","$Type":"Notifier","$Version":"6","Uuid":"1241047567"}]}}
+|#

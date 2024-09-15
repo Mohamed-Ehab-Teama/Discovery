@@ -1,0 +1,6 @@
+
+
+Create Component in react that contain a button, when we click that button it displays a prompt that say "Welcome + {youe name}"
+# store your name in variable using useState() Hook.
+	do a conditional rendring: when that name is "Mohamed", display <h1> that say welcome Mohamed </h1>
+		if the name is not "Mohamed", display <h2> Welcome Guest </h2>

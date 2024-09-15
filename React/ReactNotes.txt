@@ -1,0 +1,132 @@
+React apps are made out of components.
+
+A component is a piece of the UI (user interface) that has its own logic and appearance.
+
+A component can be as small as a button, or as large as an entire page.
+
+The (export default) keywords specify the main component in the file.
+
+{JSX} stands for JavaScript XML. It’s a syntax extension for JavaScript that allows you to write HTML-like code within JavaScript files.
+
+----------------------------------------------------------------------------------------------------
+To create react project:
+    npx create-react-app nameOfApp
+To create react project:
+    create-react-app nameOfApp
+To start react project:
+    npm start
+Install create-react-app globally using npm
+    npm install -g create-react-app
+----------------------------------------------------------------------------------------------------
+Session 03:
+                Rendre Lists
+
+const myList = [
+    {id : 1, name : 'Mohamed'},
+    {id : 2, name : 'Ahmed'},
+    {id : 3, name : 'Ali'},
+];
+
+
+function RendreList() {
+    const newList = myList.map(myList => 
+        <>
+            <li>{myList.id}</li>
+            <li>{myList.name}</li>
+        </>
+    );
+
+    return (
+        <ul> {newList} </ul>
+    );
+
+    
+----------------------------------------------------------------------------------------------------
+Session 04:
+
+    {React events} are user interactions with a web application, such as clicks, keyboard inputs, and other actions that trigger a response in the user interface.
+        Naming Convention: React events are named using {camelCase} onClick()
+
+
+    {Conditional rendering} is a technique used in web development to display different content based on certain conditions.
+        if signed in        => rendre profile page
+        if not signed in    => rendre login page
+
+
+    {state} refers to a special object that holds data or information about the component. This data can change over time, and when it does, it triggers a re-render of the component to reflect the new state
+        It allows React components to manage dynamic information, such as user input, API responses, or changes in the component’s internal state
+
+
+    {Hooks} are functions that allow you to use state and other React features in functional components without writing a class
+        ex) useState()
+
+
+    {useState} hook in React is a powerful tool for managing state in functional components.
+    const [varName, funcNameToUse] = useState('name')
+
+
+    ex)
+    import { useState } from "react";
+
+    function FavoriteColor() {
+        const [color, setColor] = useState("");
+    }
+    <button type="button" onClick={() => setColor("blue")} > Blue </button>
+
+
+    ex)
+    const [car, setCar] = useState({
+        brand: "Ford",
+        model: "Mustang",
+        year: "1964",
+        color: "red"
+    });
+
+    const updateColor = () => {
+        setCar(previousState => {
+        return { ...previousState, color: "blue" }
+        });
+
+    return(
+        <>
+            {car.brand}
+            <button type="button" onClick={updateColor} >Blue</button>
+        </>
+    );
+
+----------------------------------------------------------------------------------------------------
+Session 05:
+
+    Adding Forms in React
+
+    Handling Forms : we use state to manage form data. We handle changes using the 'onChange' event to update the state.
+
+    In React, form data is typically handled by the components. This means that the form inputs are controlled by the state of the component
+
+    In React, [ e.target.value ] is used to access the value of the form element that triggered an event
+
+    Submitting Forms: We handle form submissions by defining an onSubmit handler that is called when the form is submitted. 
+        This function often prevents the default form submission (which refreshes the page) and handles the submitted data.
+
+    when the user submits the form, the form data is logged, and the page doesn’t reload due to ' event.preventDefault() '.
+
+    In React, event.target.value is commonly used to get the value of an input field when an event occurs, such as when a user types in a text box.
+
+
+Code:
+
+
+
+    <button onClick={ChangeToRed}>To Red</button>
+
+    const [name, setName] = useState('');
+
+    <input type="text" value={name} onChange={ (e) => setName(e.target.value) } />
+
+        function handleSubmit(e) {
+        e.preventDefault();
+        const obj = { name , email };
+        console.log(obj);
+    }
+
+    <form onSubmit={handleSubmit}>
