@@ -1,0 +1,112 @@
+CSS => 'cascading style sheets' : is a design language that makes a website look more appealing1.
+    It determines the visual structure, layout, and aesthetics of a website, while HTML determines textual content1.
+    The significance of CSS in web development is that it brings added design flexibility and interactivity.
+
+
+While HTML is used to define the 'structure' and 'semantics' of your content,
+CSS is used to 'style' it and lay it out. 
+    For example, you can use CSS to alter the font, color, size, and spacing of your content, split it into multiple columns, or add animations and other decorative features.
+
+
+The history and evolution of CSS can be summarized as follows:
+1994: Håkon Wium Lie proposed the idea of CSS.
+1996: CSS1 became a W3C Recommendation.
+1998: CSS2 was released and work on CSS3 began. 
+CSS3 was published as a set of separate documents known as modules123.
+Before CSS: Several style sheet languages were proposed, including DSSSL and FOSI4.
+
+------------------------------------------------------------------------------------------
+
+Inline Style, Internal Style, External style
+
+------------------------------------------------------------------------------------------
+
+Basic Selectors:
+    .class              .intro	        Selects all elements with class="intro"
+    .class1.class2	    .name1.name2	Selects all elements with both name1 and name2 set within its class attribute
+    .class1 .class2	    .name1 .name2	Selects all elements with name2 that is a descendant of an element with name1
+    #id	                #firstname      Selects the element with id="firstname"
+    *	                *               Selects all elements
+    element	            p               Selects all <p> elements
+    element.class	    p.intro         Selects all <p> elements with class="intro"
+    element,element	    div, p	        Selects all <div> elements and all <p> elements
+    element element	    div p	        Selects all <p> elements inside <div> elements
+
+
+Pseudo Classes:
+    A pseudo-class is used to define a special state of an element.
+    Syntax: "selector:pseudo-class"
+    Ex) a:link, a:visited, a:hover, a:active
+
+
+Combinator: 
+    is something that explains the relationship between the selectors.
+
+    descendant selector (space) : ( div p )
+        Descendant means anywhere nested within it in the DOM tree. Could be a direct child, could be five levels deep, it is still a descendant.
+
+    child selector (>) : ( div > p )
+        The child selector selects all elements that are the children of a specified element.
+
+    Adjacent Sibling Selector (+) : ( p + p )
+        select any paragraph tag that is directly after another paragraph tag (with nothing in between)”
+
+    The general sibling combinator (~) : ( img ~ p )
+        selects elements at the same hierarchy level
+            you would be selecting all paragraphs in an article that come after the image
+
+
+------------------------------------------------------------------------------------------
+
+Color:
+    color names : red, green, black
+
+    HEX code : #RRGGBB : #00ff00, #0000ff, #ff0000
+    HEX with transparency : #00ff0080, #0000ff50, #ff000020
+
+    RGB : rgb(Red, Green, Blue) : (0 : 255) : rgb(255, 0, 0)
+    RGB with transparency : rgb(Red, Green, Blue, alpha) : (0 : 255), alpha = >(0.0 : 1.0) : rgb(255, 0, 0, 0.5)
+
+    HSL : hsl(hue, saturation, lightness) : hsl(120, 100%, 50%)
+
+    HSLA : hsla(hue, saturation, lightness, alpha) : hsla(120, 100%, 50%, 0.3)
+
+
+------------------------------------------------------------------------------------------
+
+Background:
+
+    background-color: lightblue;
+    opacity: 0.3;
+
+    background-image: url("paper.gif");
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-size: 75% 50%;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+        specifies whether the background image should scroll or be fixed
+
+
+    background: lightblue url("img_tree.gif") no-repeat fixed center;
+
+------------------------------------------------------------------------------------------
+
+Width and height:
+
+    height: 200px;
+    width: 500px;
+
+    height: 50%;
+    width: 90%;
+
+    max-width: 500px;
+    max-height: 150px;
+        The max-height property defines the maximum height of an element.
+        If the content is smaller than the maximum height, the max-height property has no effect.
+
+    min-width: 100px;
+    min-height: 80px;
+        If the content is smaller than the minimum height, the minimum height will be applied.
+        If the content is larger than the minimum height, the min-height property has no effect.
