@@ -1,6 +1,0 @@
-
-
-Crete a python script that contain:
-	a Veichle class, Engine class, Car class, Bike class.
-		make the relationship (Inheritance and Composition) between classes 
-			and print the properities and functions.

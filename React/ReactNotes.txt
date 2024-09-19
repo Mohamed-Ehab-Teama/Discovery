@@ -132,3 +132,31 @@ Code:
     <form onSubmit={handleSubmit}>
 ----------------------------------------------------------------------------------------------------
 session 06:
+
+'React Router': is a standard library for routing in React. 
+    It enables the navigation between different views or components in a React application, allowing you to change the browser URL and render the corresponding component without refreshing the page. 
+    This is crucial for building single-page applications (SPAs) where you want to update the UI in response to user navigation without reloading the entire page
+
+
+Features of React Router:
+    Declarative Routing: React Router allows you to define your routes using JSX, making your routing logic easy to read and understand.
+    Nested Routing: You can create nested routes to organize your application into smaller components that represent different sections of the UI.
+    Dynamic Routing: Routes can be created dynamically, enabling you to pass data through the URL, such as user IDs or product IDs.
+    History Management: React Router provides history management to control and manipulate the browser's session history.
+    URL Parameters: You can extract and use parameters from the URL to display content dynamically.
+    Navigation Guards: You can control navigation based on certain conditions, such as user authentication.
+    Code Splitting: React Router supports lazy loading of components, which helps in improving the performance of your application by loading components only when needed.
+
+
+
+To Use React Router:
+    first: Install React Router:
+                                    npm install react-router-dom
+                                    or
+                                    yarn add react-router-dom
+
+    import { BrowserRouter, Routes, Route } from 'react-router-dom';
+
+    import { Link } from 'react-router-dom';
+
+

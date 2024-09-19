@@ -1,0 +1,73 @@
+Introduction to GUI:
+    A GUI (Graphical User Interface) allows users to interact with electronic devices through graphical elements like buttons, windows, menus, and icons, instead of typing commands in a terminal. 
+    In Python, there are several libraries to create GUIs, and one of the most popular and easy-to-use libraries is Tkinter.
+
+
+What are Tcl, Tk, and Tkinter?
+    Tcl (Tool Command Language): Tcl is a scripting language designed to provide a robust and flexible way to control applications and software tools.
+
+    Tk: Tk is a GUI toolkit developed as part of the Tcl project. 
+        It provides the building blocks (widgets like buttons, labels, and entry fields) needed to create user interfaces.
+        It’s the foundation on which many GUI frameworks, including Tkinter, are built.
+
+    Tkinter: Tkinter is Python's standard GUI library that acts as a Python wrapper for the Tk toolkit. 
+        It provides a way to create GUIs in Python using the Tcl/Tk GUI toolkit, making it easy to build applications with graphical elements in Python.
+
+
+To Create a Tkinter App:
+    Import Tkinter:
+        import tkinter as tk
+
+    Create the Main Window (Root):
+        root = tk.Tk()
+
+    Add Widgets:
+        label = tk.Label(root, text="Hello, Tkinter!")
+        label.pack()  # Adds the label to the window
+
+    Main Loop: Call the mainloop() method to start the application and wait for user interaction:
+        root.mainloop()
+
+
+To customize the size of the window:
+root.geometry("800x500")
+
+To add a title for the window:
+    root.title("My First GUI App in python")
+
+
+
+Tinker Widgets:
+    Label:
+        label = tk.Label(root, text="This is a label")
+        label.pack()
+
+    Button:
+        button = tk.Button(root, text="Click Me")
+        button.pack()
+
+    Entry: A text input field.
+        entry = tk.Entry(root)
+        entry.pack()
+
+    Text: A multi-line text input field.
+        text = tk.Text(root)
+        text.pack()
+
+    Frame: A container to group widgets together.
+        frame = tk.Frame(root)
+        frame.pack()
+
+    Canvas: Used for drawing shapes, lines, and images.
+        canvas = tk.Canvas(root, width=300, height=200)
+        canvas.pack()
+
+    Checkbutton: A checkbox widget.
+        check_button = tk.Checkbutton(root, text="Check me")
+        check_button.pack()
+
+    Radiobutton:
+        radio_button = tk.Radiobutton(root, text="Option 1")
+        radio_button.pack()
+
+    
