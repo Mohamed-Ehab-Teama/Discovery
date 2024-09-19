@@ -1,0 +1,91 @@
+/* body{
+    background-color: blanchedalmond;
+} */
+
+/* h1{
+    background-color: burlywood;
+    color: brown;
+} */
+
+/* #wel{
+    color: black;
+    background-color: yellowgreen;
+}
+
+.clc{
+    color: rgb(54, 210, 30);
+    background-color: blue;
+}
+
+.clc0 {
+    background-color: black;
+} */
+
+/* *{
+    color: greenyellow;
+    background-color: blue;
+} */
+
+/* .pa{
+    color: wheat;
+    background-color: black;
+} */
+
+/* h1, p, #wel, .clc0 {
+    color: rgb(183, 226, 43);
+    background-color: rgb(255, 0, 0);
+} */
+
+body {
+    /* color Name */
+    color: red; 
+
+    /* Hexadecimal */
+    color: #6b393947;
+
+    /* RGB => Red Green Blue */
+    color: rgb(0, 255, 0);
+
+    /* RGBA => Red Green Blue Alpha */
+    color: rgba(240,250,12,1);
+
+    /* HSL => Hue Saturation Brightness */
+    color: hsl(100, 100%, 80%);
+
+    /* HSL => Hue Saturation Brightness Alpha */
+    color: hsla(40, 100%, 50%, 0.8);
+
+    color: orange;
+
+    background-color: aqua;
+    background-image: url(back-img.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-position: center top; */
+    background-attachment: scroll;
+
+
+
+
+
+}
+
+
+
+.hi{
+    background-color: burlywood;
+    color: blue;
+
+    width: 250px;
+    width: 75%;
+
+    height: 50px;
+    height: 35vh;
+
+    min-width: 10%;
+    max-width: 80%;
+
+    min-height: 50px;
+    max-height: 100px;
+    
+}
