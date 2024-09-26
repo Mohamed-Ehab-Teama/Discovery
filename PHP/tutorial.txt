@@ -1,0 +1,118 @@
+Type Casting :
+    change a variable from one data type into another, 
+    and sometimes you want a variable to have a specific data type.
+
+    (string) - Converts to data type String
+    (int) - Converts to data type Integer
+    (float) - Converts to data type Float
+    (bool) - Converts to data type Boolean
+    (array) - Converts to data type Array
+    (object) - Converts to data type Object
+    (unset) - Converts to data type NULL
+
+    EX) $a = (string) $a;
+        $a = (int) $a;
+
+--------------------------------------------------------------------------------------
+
+String And Escaping :
+    To insert characters that are illegal in a string, use an escape character.
+        An escape character is a backslash \ followed by the character you want to insert.
+
+    \n  =>  New Line
+
+    EX) $x = "We are the so-called "Vikings" from the north."; //Error
+        $x = "We are the so-called \"Vikings\" from the north."; // No problem
+
+
+--------------------------------------------------------------------------------------
+
+Difference between single and double quotes.
+
+--------------------------------------------------------------------------------------
+
+Heredoc And Nowdoc:
+    Heredoc strings are like double-quoted strings without escaping.
+    Nowdoc strings are like single-quoted strings without escaping.
+
+        Heredoc :
+$str = <<<IDENTIFIER
+place a string here
+it can span multiple lines
+and include single quote ' and double quotes "
+IDENTIFIER;
+
+        Nowdoc:
+$str = <<<'IDENTIFIER'
+place a string here
+it can span multiple lines
+and include single quote ' and double quotes "
+IDENTIFIER;
+
+
+Rules:
+    The identifier must contain only alphanumeric characters and underscores and start with an underscore or a non-digit character.
+
+    The closing identifier must follow these rules:
+        - Begins at the first column of the line
+        - Contains no other characters except a semicolon (;).
+        - The character before and after the closing identifier must be a newline character defined by the local operating system
+
+
+--------------------------------------------------------------------------------------
+
+Variable Variable :
+    $a = "Hello";
+    $$a = "World";
+
+    $a => Hello
+    $$a => World
+    $Hello => World
+
+--------------------------------------------------------------------------------------
+
+Predefined Variables :
+    $_SERVER , $_GET, $_POST, $GLOBALS, $_SESSION
+
+--------------------------------------------------------------------------------------
+
+Constants :
+    Constants are like variables, except that once they are defined they cannot be changed or undefined
+    no $ sign before the constant name
+    Note: Unlike variables, constants are automatically global across the entire script.
+
+    define(name, value);
+
+    Two Ways To create a constant:
+        define("GREETING", "Welcome to W3Schools.com!");
+        const MYCAR = "Volvo";
+
+    const vs. define()
+        const cannot be created inside another block scope, like inside a function or inside an if statement.
+        define can be created inside another block scope.
+
+--------------------------------------------------------------------------------------
+
+Magic Constants and Predefined Constants :
+
+    Predefined constants : are constants that are always available
+    Magic constants : are special constants that change depending on where they are used
+
+    Magic Constants :--
+        __LINE__: The current line number of the file.
+        __FILE__: The full path and filename of the file. If used inside an include, the name of the included file is returned.
+        __DIR__: The directory of the file. If used inside an include, the directory of the included file is returned.
+        __FUNCTION__: The function name.
+        __CLASS__: The class name.
+        __METHOD__: The class method name.
+        __NAMESPACE__: The name of the current namespace.
+
+    Predefined Constants :--
+        PHP_VERSION: The current PHP version as a string.
+        PHP_INT_MAX: The maximum integer size.
+        PHP_EOL: The correct 'End Of Line' symbol for this platform.
+        DIRECTORY_SEPARATOR: The correct directory separator for this platform (either '/' or '').
+        PATH_SEPARATOR: The correct PATH separator for this platform (either ':' or ';').
+
+
+--------------------------------------------------------------------------------------
