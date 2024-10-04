@@ -20,9 +20,36 @@ Constants - Predefined Constants - Magic constants
 
 
 
+// define("USER_NAME", "Mohamed");
+// const NAME = "Ali";
 
 
 
+// echo USER_NAME;
+// echo "<br>";
+// echo NAME;
+// echo "<br>";
+// echo "<br>";
+//              Pre-defined Constants
+// echo PHP_VERSION;
+// echo "<br>";
+// echo PHP_FLOAT_MAX;
+// echo "<br>";
+// echo PHP_FLOAT_MIN;
+// echo "<br>";
+// echo PHP_INT_MIN;
+// echo "<br>";
+// echo PHP_INT_MAX;
+// echo "<br>";
+// echo "<br>";
+
+//              Magic Constants
+// echo __LINE__ ;
+// echo "<br>";
+// echo __DIR__;
+// echo "<br>";
+// echo __FILE__;
+// echo "<br>";
 
 
 
@@ -45,6 +72,38 @@ Logical Operators:
 
 */
 
+//      Power
+// echo 5 ** 3;
+
+// $x = 10;
+
+// $x = $x + 10;
+
+// $x += 10;
+// $x -= 10;
+// $x *= 10;
+// $x /= 10;
+// $x %= 10;
+// $x **= 10;
+
+//              SpaceShip Operator
+// echo 10 <=> 100 ;
+// echo 100 <=> 100 ;
+// echo 102 <=> 100 ;
+
+
+// $x = 2;
+
+// echo $x++;
+// echo ++$x;
+
+// echo $x--;
+// echo --$x;
+
+// echo $x;
+
+
+echo "<br>";
 
 
 
@@ -108,3 +167,43 @@ Logical Operators:
             }
 
 */
+
+
+$x = 15;
+
+// if ( $x > 10 ){
+//     echo "$x is greater than 10";
+// }
+
+// if ($x > 10 ){
+//     echo "True";
+// }else {
+//     echo "False";
+// }
+
+// if ( $x == 10){
+//     echo "Equal";
+// } elseif ( $x >= 10) {
+//     echo "Greater";
+// }else{
+//     echo "Less than";
+// }
+
+
+$x = 50;
+
+switch ($x){
+    case 10:
+    case 30:
+    case 20:
+        echo "Equal 20";
+        break;
+    case 50:
+        echo "Equal 50";
+        break;
+    case 100:
+        echo "Equal 100";
+        break;
+    default:
+        echo "Something went wrong";
+}

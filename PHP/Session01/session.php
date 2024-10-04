@@ -25,6 +25,6 @@
 // echo $$a;
 // echo "<br>";
 // echo $hello;
-define("user_name", "saif amr");
-echo user_name;
+// define("user_name", "saif amr");
+// echo user_name;
 
