@@ -1,4 +1,12 @@
 <?php
+
+/*
+Constants - Predefined Constants - Magic constants
+Operators : ( Arithmetic Assignment Comparison Increment Logical )
+if      if esle     if elseif else
+switch
+*/
+
 /*
 Constants - Predefined Constants - Magic constants
     to define constant:

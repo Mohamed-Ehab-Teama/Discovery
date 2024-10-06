@@ -1,5 +1,14 @@
 <?php
 
+/*
+Type Casting
+
+strings
+single quotes VS double quotes
+heredoc Vs nowdoc
+
+*/
+
 // echo "<hr>";
 // $name = "saif";
 // // echo "hello $name";

@@ -1,0 +1,56 @@
+
+
+Session 01
+    What is PHP
+    Istall PHP and prepare out environment
+    php start tag
+    variables
+    naming rules
+    comments
+    datatypes
+    type casting
+
+
+Session 02
+    string and escaping
+    heredoc and nowdoc
+    variable variable
+    Pre-defined variables
+    constants
+    Pre-defined and Magic constants
+    Operators : ( Arithmetic, Assignment, Comparison, Increment, Logical )
+    Operators precedence
+
+
+Session 03
+    if - if else - if elseif else
+    switch
+    while
+    do while
+    for
+    foreach 
+
+
+
+Session 04
+    functions
+    include - require
+    string functions
+    array functions
+    math functions
+
+
+Session 05
+    filters
+    date and time
+    Sessions and Cookies
+    header and redirect
+
+
+
+Session 06
+    Dealing with forms
+
+
+
+
