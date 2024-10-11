@@ -1,6 +1,12 @@
 <?php
 
 /*
+Functions : 
+function function_name(parameters){
+    code
+    }
+*/
+/*
 Date
 include - require - include_once - require_once
 files:

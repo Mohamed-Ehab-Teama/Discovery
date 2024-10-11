@@ -4,8 +4,8 @@
 Arrays
 Loops: (While, Do While, for, foreach)
 functions
-    array functions
-    string functions
+    array functions     array_push()    array_pull()    array_unshift()    array_shift()            count()     explode(separator, value)
+    string functions    strlen()    strrev()    trim()  implode(separator, value)
 */
 
 
@@ -35,6 +35,50 @@ Arrays:
 
 
 
+// $arr = [];   or      $arr = array();
+
+// $arr = [10,20,30,40, "Mohamed", "Session", True];
+
+
+// array_unshift($arr , "Hello ");
+// array_shift($arr);
+
+// array_push($arr, "last");
+// array_pop($arr);
+
+
+// $arr = [
+//     [10,20,30,40] ,
+//     ["Ali", "Moba"] ,
+//     [2002,2005]
+// ];
+
+
+
+
+// echo "<pre>";
+// print_r($arr);
+// echo "</pre>";
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
 Loops : 
     while (condition) {
@@ -61,11 +105,44 @@ Loops :
 
 
 
+// $i = 0;
+// while ( $i < 10 ){
+//     echo $i;
+//     echo "<br>";
+//     $i++;
+// }
+
+// $i = -1;
+// do {
+//     echo $i;
+//     echo "<br>";
+//     $i--;
+// } while ($i >= 0);
 
 
-/*
-Functions : 
-    function function_name(parameters){
-        code
-    }
-*/
+// for ( $i = 0; $i < 15; $i++)
+// {
+//     echo $i;
+//     echo "<br>";
+// }
+
+
+// $arr = [ 10, 20, 30, 40, 50];
+
+// foreach ( $arr as $value ) {
+//     echo $value;
+//     echo "<hr>";
+// }
+
+
+
+
+
+
+
+
+
+
+
+
+
