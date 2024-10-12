@@ -1,0 +1,34 @@
+Intro and install
+Python Syntax
+Comments
+Variables
+Data Types
+Numbers
+Type Casting
+Strings
+Boolean
+
+input
+
+Operators
+Lists
+Tuples
+Sets
+Dictionaries
+
+if else
+while
+for
+
+functions
+
+Math
+
+Arrays
+
+Classes and Objects
+Inheritance
+Iterators
+Polymorphism
+
+Modules

@@ -1,0 +1,34 @@
+Intro and install Xampp
+PHP syntax
+Comments
+Variables
+Echo and Print
+Data Types
+Strings
+PHP Numbers
+Type Casting
+Constants [pre-defined, magic]
+Arrays
+
+operators
+if, if else, if elseif else
+switch
+loops [ While, do while, for, foreach ]
+
+functions
+string functions
+math functions
+
+Date and Time
+
+File Handling
+
+Filters
+
+Super Globals
+Cookies
+Sessions
+
+PHP Exceptions
+
+Dealing With Forms
