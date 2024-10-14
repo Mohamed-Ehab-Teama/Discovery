@@ -3,9 +3,7 @@
 /*
 Arrays
 Loops: (While, Do While, for, foreach)
-functions
-    array functions     array_push()    array_pull()    array_unshift()    array_shift()            count()     explode(separator, value)
-    string functions    strlen()    strrev()    trim()  implode(separator, value)
+
 */
 
 
@@ -59,17 +57,6 @@ Arrays:
 // echo "<pre>";
 // print_r($arr);
 // echo "</pre>";
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -133,16 +120,4 @@ Loops :
 //     echo $value;
 //     echo "<hr>";
 // }
-
-
-
-
-
-
-
-
-
-
-
-
 
