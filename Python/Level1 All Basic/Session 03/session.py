@@ -47,19 +47,46 @@
 #################################################################################
 
 
-number1 = int(input("Enter the First number: \n"))
-number2 = int(input("Enter the Second number: \n"))
-operator = input("Enter the Operation operator [ + , - , * , / , // , ** ] ")
+# number1 = int(input("Enter the First number: \n"))
+# number2 = int(input("Enter the Second number: \n"))
+# operator = input("Enter the Operation operator [ + , - , * , / , // , ** ] ")
 
-if operator == "+":
-    print(number1, " + ", number2, " = ", number1 + number2, "\n")
-elif operator == "-":
-    print(number1, " - ", number2, " = ", number1 - number2, "\n")
-elif operator == "*":
-    print(number1, " * ", number2, " = ", number1 * number2, "\n")
-elif operator == "/":
-    print(number1, " / ", number2, " = ", number1 / number2, "\n")
-elif operator == "//":
-    print(number1, " Floor Division ", number2, " = ", number1 // number2, "\n")
-elif operator == "**":
-    print(number1, " Power ", number2, " = ", number1**number2, "\n")
+# if operator == "+":
+#     print(number1, " + ", number2, " = ", number1 + number2, "\n")
+# elif operator == "-":
+#     print(number1, " - ", number2, " = ", number1 - number2, "\n")
+# elif operator == "*":
+#     print(number1, " * ", number2, " = ", number1 * number2, "\n")
+# elif operator == "/":
+#     print(number1, " / ", number2, " = ", number1 / number2, "\n")
+# elif operator == "//":
+#     print(number1, " Floor Division ", number2, " = ", number1 // number2, "\n")
+# elif operator == "**":
+#     print(number1, " Power ", number2, " = ", number1**number2, "\n")
+
+#################################################################################
+
+
+# x = "Banana"
+# for i in x:
+#     for q in ('Heelo'):
+#         print ( i , " " , q )
+
+
+# name = 'mohamed'
+# for i in name:
+#     if ( i == 'm' ):
+#         print (i)
+#         # print ('\n')
+#     else:
+#         print ("Not M character")
+
+
+# range(11)         # 0 - 10
+# range(2,16)       # 2 - 15
+
+# print ( 13 % 5 )
+
+# for i in range(0,20):
+#     if (i % 2 != 0):
+#         print("Odd ", i)
