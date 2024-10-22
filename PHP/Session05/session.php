@@ -1,12 +1,12 @@
 <?php
 
+// echo "<pre>";
+// print_r(filter_list());
+// echo "</pre>";
 
-/*
-Cookies
-Sessions
-*/
+$str =  "moha\\\\\\\\\\\\\5____\"\"med  @a.a";
+echo filter_var($str, FILTER_VALIDATE_EMAIL);
 
+echo "<hr>";
 
-/*
-Filters
-*/
+echo filter_var($str, FILTER_SANITIZE_EMAIL);
