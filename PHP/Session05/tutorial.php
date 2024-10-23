@@ -2,23 +2,11 @@
 
 
 /*
-Cookies
+time()
 Sessions
 */
 
 // echo time();
-
-//      Cookies
-
-// Create cookie
-// setcookie(name, value, expire, path, domain, secure, httponly);
-
-// Modify a Cookie Value
-// setcookie($cookie_name, $cookie_value, time() + (86400 * 30), "/");
-
-// Delete a Cookie
-// setcookie("user", "", time() - 3600);
-
 
 
 
@@ -50,10 +38,13 @@ The filter_var() function filters a single variable with a specified filter. It 
     The variable you want to check
     The type of check to use
 
+filter_var($bool, FILTER_VALIDATE_BOOL, FILTER_NULL_ON_FAILURE)
+filter_var($url, FILTER_VALIDATE_URL, ["flags" => FILTER_NULL_ON_FAILURE | FILTER_FLAG_PATH_REQUIRED | FILTER_FLAG_QUERY_REQUIRED])
+var_dump(filter_var( $int, FILTER_VALIDATE_INT, ["flags" => FILTER_NULL_ON_FAILURE, "options" => ["min_range" => 50, "max_range" => 100]] ));
 */
 
 // filter_var($int, FILTER_VALIDATE_INT)
-// filter_var($int, FILTER_VALIDATE_EMAIL)
+// filter_var($email, FILTER_VALIDATE_EMAIL)
 // filter_var($email, FILTER_SANITIZE_EMAIL)
 // filter_var($url, FILTER_VALIDATE_URL)
 // filter_var($url, FILTER_SANITIZE_URL)
