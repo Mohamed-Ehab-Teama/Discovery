@@ -1,0 +1,68 @@
+/* 
+Text Alignment:
+    text-align:
+        left, center, right, justify=>[each line is stretched so that every line has equal width]
+    direction:
+        rtl, ltr
+Vertical Alignment:
+    vertical-align =>[sets the vertical alignment of an element]
+        baseline, top, bottom, text-top, text-bottom, sub, super
+Text Decoration:
+    text-decoration-line => overline, line-through, underline
+    text-decoration-color
+    text-decoration-style => solid, double, dotted, dashed, wavy
+    text-decoration-thickness => auto, px
+    text-decoration => shorthand
+    text-decoration: none; => remove decoration
+Text Transform:
+    text-transform: uppercase, lowercase, capitalize
+Text Shadow:    horizontal, vertical, blur, color
+    text-shadow: 2px 2px 3px red;
+Font Weight and Size:
+    font-weight: normal, bold, bolder, lighter, 100:900
+    font-size: px, em, rem
+        em => Relative to the font-size of the element (2em means 2 times the size of the current font)
+        rem => Relative to font-size of the root element   
+            html { font-size: 20px; }
+Font Style & Family:
+    font-family: "Times New Roman", Times, serif;
+    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Lucida Console", "Courier New", monospace;
+
+
+    ----------------------------------------------------------
+*/
+
+/* h1 {
+    text-align: center;
+} */
+
+/* div{
+    width: 200px;
+    text-align: justify;
+} */
+
+/* img{
+    vertical-align: super;
+} */
+
+/* p {
+    text-decoration-line: overline underline line-through;
+    text-decoration-color: rgb(124, 124, 111);
+    text-decoration-style: wavy;
+    text-decoration-thickness: 2px;
+    text-decoration: overline blue dashed 2px;
+} */
+
+/* p{
+    text-transform: capitalize;
+} */
+
+/* h1{
+    text-shadow: 5px 5px 5px yellow;
+    text-shadow: 0 0 8px red, 0 0 15px yellow;
+} */
+
+/* p{
+    font-weight: 900;
+} */
