@@ -1,0 +1,4 @@
+#|
+$JSON
+{"authURL":["ai2.appinventor.mit.edu"],"YaVersion":"229","Source":"Form","Properties":{"$Name":"Screen1","$Type":"Form","$Version":"31","AppName":"Translator","BackgroundImage":"308167138.jpg","Title":"Translator","Uuid":"0","$Components":[{"$Name":"TitleLable","$Type":"Label","$Version":"5","FontBold":"True","FontSize":"26","Text":"Enter Text to transale below","TextColor":"&HFFFF0000","Uuid":"1550176625"},{"$Name":"TitleText","$Type":"TextBox","$Version":"14","Hint":"Hint for TextBox1","Uuid":"2118493562"},{"$Name":"TranslationLabel","$Type":"Label","$Version":"5","FontBold":"True","FontSize":"25","Text":"Text for Label2","TextAlignment":"1","TextColor":"&HFFFF0000","Uuid":"-1334737454"},{"$Name":"TranslationButton","$Type":"Button","$Version":"7","Text":"Translate","Uuid":"-839838456"},{"$Name":"Translator1","$Type":"Translator","$Version":"1","Uuid":"-443615139"}],"Theme":"Classic"}}
+|#
