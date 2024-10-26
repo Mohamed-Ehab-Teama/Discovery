@@ -1,0 +1,67 @@
+/* h1 {
+    text-align: center;
+    direction: ltr;
+} */
+
+/* p {
+    width: 20%;
+    text-align: justify;
+} */
+
+/* span {
+    font-size: 5px;
+    vertical-align: text-bottom;
+} */
+
+/* p{
+    text-decoration-line: underline;
+    text-decoration-color: blue;
+    text-decoration-style: wavy;
+    text-decoration-thickness: 1px;
+    text-decoration: dashed blue overline line-through 2px;
+} */
+
+/* a{
+    text-decoration: none;
+    color: black;
+} */
+
+/* p{
+    text-transform: lowercase;
+    text-transform: uppercase;
+    text-transform: capitalize;
+} */
+
+/* p{
+    text-shadow: 10px 10px 5px blueviolet;
+    text-shadow: 0px 0px 5px rgb(75, 18, 207);
+} */
+
+/* p{
+    font-weight: normal;
+    font-weight: bold;
+    font-weight: bolder;
+    font-weight: lighter;
+    font-weight: 100;
+    font-weight: 900;
+
+    font-size: 16px;
+    font-size: 2em ;
+    font-size: 2rem;
+
+    font-style: italic;
+
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+} */
+
+p{
+    background-color: aqua;
+    width: 50%;
+    height: 50vh;
+    min-width: 100px;
+    max-width: 250px;
+    min-height: 20px;
+    max-height: 100px;
+    overflow: hidden;
+}
