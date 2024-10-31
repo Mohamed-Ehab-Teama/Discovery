@@ -6,7 +6,7 @@ What is PHP ?
     - Open Source
 
     search :
-        Famous Websites & Companies That Use PHP in 2022
+        Famous Websites & Companies That Use PHP
 
 Why PHP ?
     - Easy To Install And Learn
