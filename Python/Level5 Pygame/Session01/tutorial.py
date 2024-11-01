@@ -31,7 +31,7 @@ myIcon = pygame.image.load('Yamamoto .jpg')
 pygame.display.set_icon(myIcon)
 
     # Set the frame rate
-clock = pygame.time.Clock()
+# clock = pygame.time.Clock()
 
     # Main game loop
 while True:
@@ -46,7 +46,7 @@ while True:
     pygame.display.flip()
 
     # Cap the frame rate at 60 frames per second
-    clock.tick(60)
+    # clock.tick(60)
     
     
 #  Illustration:

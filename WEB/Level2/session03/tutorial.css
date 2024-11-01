@@ -1,0 +1,48 @@
+/* 
+    Content - The content of the box, where text and images appear
+
+    Border - A border that goes around the padding and content
+        border-style :
+        border-width :
+        border-color :
+        Sides : 
+                border-top :
+                border-right :
+                border-bottom :
+                border-left :
+        border: 5px solid red;
+        border-radius: 5px;
+
+    Padding - Clears an area around the content. The padding is transparent
+        padding-top :
+        padding-right :
+        padding-bottom :
+        padding-left :
+        padding :
+
+    Margin - Clears an area outside the border. The margin is transparent 
+        margin-top :
+        margin-right : 
+        margin-bottom : 
+        margin-left :
+        margin : 
+
+    Outline - a line drawn outside the element's border.
+        outline-style : dotted, dashed, solid, double, groove, ridge, inset, outset, none, hidden
+        outline-width : thin, medium, thick, specific size (in px)
+        outline-color :
+        outline-offset : adds space between an outline and the edge/border of an element. 
+            The space between an element and its outline is transparent.
+        outline: thick ridge pink
+
+*/
+
+.test{
+    background-color: aqua;
+    text-align: center;
+    border: solid red 2px;
+    margin: 20px;
+    padding: 15px;
+    outline: thick double red;
+    outline-offset: 5px;
+}
