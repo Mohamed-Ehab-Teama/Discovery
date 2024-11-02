@@ -1,4 +1,37 @@
-        
+# 1. Sum of All Numbers in a List
+# 2. Find the Maximum in a List
+# 3. Find the minimum in a List
+# 4. FizzBuzz : 
+        # if the number is divisible by 3 => Fizz
+        # if the number is divisible by 5 => Buzz
+        # if the number is divisible by 3 and 5 => FizzBuzz
+# 5. Palindrome Checker
+# 7. Reverse a String
+# 8. Count Vowels in a String
+# 9. Remove Duplicates from List
+# 11. Factorial of a Number
+
+num = 5
+res = 1
+
+for i in range(1, num+1):
+    res *= i
+
+print (res)
+#-------------------------------------------------------
+# Lists => are ordered, mutable collections that allow duplicate elements.
+            # my_list = [1, 2, 3, 4, 5]
+# Tuples => are ordered, immutable collections that allow duplicate elements.
+            # my_tuple = (1, 2, 3, 4, 5)
+# Dictionaries => are collections of key-value pairs. They are ordered, mutable, and do not allow duplicate keys
+            # my_dict = {'a': 1, 'b': 2, 'c': 3}
+# Sets => are unordered collections of unique elements. They are mutable and do not allow duplicate elements.
+            # my_set = {1, 2, 3, 4, 5}
+            
+# mutable object can be changed after it is created
+# immutable object can’t be changed after it is created
+#-------------------------------------------------------
+    
     # 1. Sum of All Numbers in a List
 
 # def sum_all_nums( numbers ):
@@ -150,3 +183,5 @@
 #     return fact
 
 # print ( factorial(6) )
+
+
