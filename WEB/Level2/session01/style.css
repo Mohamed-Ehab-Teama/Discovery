@@ -1,4 +1,4 @@
-h1 {
+/* h1 {
     background-color: aqua;
     color: yellowgreen;
 }
@@ -11,4 +11,47 @@ h1 {
 .hel {
     background-color: blue;
     color: white;
+} */
+
+.test {
+    color: blue;
+    color: #49c93b ;
+    color: #ff000099 ;
+    color: rgb(100, 188, 24) ;
+    color: rgba(100,20,240,0.5) ;
+    color: black;
+
+    color: white;
+
+}
+
+body {
+    background-color: aqua;
+    background-image: url('back-img.avif') ;
+    background-repeat: no-repeat;
+    background-position: top left;
+    background-size: contain;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.test05 {
+    background-color: blue;
+    color: gold;
+
+    /* width: 70%;
+    height: 70vh; */
+
+    /* min-width: 10px;
+    max-width: 60px;
+    min-width: 10%;
+    max-width: 30%; */
+
+    /* min-height: 20px;
+    max-height: 20vh; */
+
+    width: 50%;
+    height: 50vh;
+
+
 }
