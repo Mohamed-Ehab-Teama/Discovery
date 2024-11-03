@@ -1,0 +1,70 @@
+/* 
+    - A grid layout consists of a parent element, with one or more child elements.
+    Make a grid container:
+        display: grid;
+        display: inline-grid;
+
+    - The horizontal lines of grid items are called rows.
+    - The vertical lines of grid items are called columns.
+
+    - The spaces between each column/row are called gaps.  [ in Parent ]
+        column-gap: 50px;       => gab between columns
+        row-gap: 50px;          => gab between rows
+        gap: 50px 100px;        => shorthand property for the row-gap and the column-gap
+        gap: 50px;
+
+    The lines between columns are called 'column lines'.
+    The lines between rows are called 'row lines'.
+    [ In Items ]
+        grid-column-start: 1;
+        grid-column-end: 3;
+        grid-row-start: 1;
+        grid-row-end: 3;
+*/
+
+/* 
+To Start:
+    Parent:
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+        grid-template-rows: 80px 200px;
+        justify-content: space-around;      => space-around, space-between, space-evenly, center, start, end
+        align-content: center;              => space-around, space-between, space-evenly, center, start, end
+
+    Items:
+        grid-column: 1 / 3;                 => start on column 1 and end before column 3
+        grid-column: 1 / span 3;            => start on column 1 and span 3 columns
+        grid-column: 2 / span 3;            => start on column 2 and span 3 columns
+
+        grid-row: 1 / 4;
+        grid-row: 1 / span 2;
+*/
+
+
+/* 
+CSS Variables:
+    The variable name must begin with two dashes (--) and it is case sensitive!
+
+    To define Variables :
+        :root {
+            --blue: #1e90ff;
+            --white: #ffffff;
+        }
+    
+    To use Variables :
+        background-color: var(--blue);
+*/
+
+
+/* 
+CSS Frameworks: 
+    A CSS framework is a pre-designed library of CSS.
+    CSS frameworks and libraries are pre-written, reusable code collections that provide a set of predefined CSS styles, components, and layout structures. 
+    They aim to simplify the web development process by providing a foundation that developers can build upon.
+
+    Examples:
+        - Bootstrap
+        - Tailwind CSS
+        - Foundation
+        - Bulma
+*/

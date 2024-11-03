@@ -8,32 +8,64 @@
 # T = Text(root, bg, fg, bd, height, width, font, ..)
 # w = Scrollbar(master, options) 
 
+# ------------------------------------------------------
 
 import tkinter as tk
 
 root = tk.Tk()
 
-root.geometry('150x150')
-root.title('Session 05 Tutorial')
+root.geometry('500x450')
+root.title('Session 05 GUI')
 
-lab01 = tk.Label(root, text= 'Enter You Text Here : ', font='50')
-lab01.pack()
+label1 = tk.Label(root, text='Enter Your Text : ')
+label1.pack()
 
-scroll = tk.Scrollbar(root)
-scroll.pack( side='right', fill='both')
 
-mylist = tk.Listbox(root, yscrollcommand=scroll.set)
+frame = tk.Frame(root, bg='white')
+# frame.pack( padx=20, pady=20, ipadx=20, ipady=20 )
+frame.pack()
 
-for i in range(1,25):
-    mylist.insert(i, 'This is Line' + str(i) + '\n')
+scroll = tk.Scrollbar(frame, orient='vertical')
+scroll.pack( side='right', fill='y' )
 
-mylist.pack( side='left', fill='both')
+T = tk.Text(frame, width= 40, height=10, yscrollcommand= scroll.set)
+T.pack(ipadx=10, ipady=10, padx=10, pady=10)
 
-scroll.config( command= mylist.yview )
+scroll.config( command= T.yview )
+
 
 root.mainloop()
 
 
+
+# ------------------------------------------------------
+
+
+# import tkinter as tk
+
+# root = tk.Tk()
+
+# root.geometry('450x250')
+# root.title('Session 05 Tutorial')
+
+# lab01 = tk.Label(root, text= 'Enter You Text Here : ', font='50')
+# lab01.pack()
+
+# scroll = tk.Scrollbar(root)
+# scroll.pack( side='right', fill='both')
+
+# mylist = tk.Listbox(root, yscrollcommand=scroll.set)
+
+# for i in range(1,25):
+#     mylist.insert(i, 'This is Line' + str(i) + '\n')
+
+# mylist.pack( side='left', fill='both')
+
+# scroll.config( command= mylist.yview )
+
+# root.mainloop()
+
+# ------------------------------------------------------
 
 
 # # Create Text Widget
@@ -48,7 +80,7 @@ root.mainloop()
 # text['xscrollcommand'] = scrollb.set
 
 
-
+# ------------------------------------------------------
 
 
 # Cretae label
@@ -71,3 +103,5 @@ root.mainloop()
 
 # Communicate Back to the ScrollBar
 # text['yscrollcommand'] = scroll.set
+
+# ------------------------------------------------------
