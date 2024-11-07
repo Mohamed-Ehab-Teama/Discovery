@@ -40,28 +40,28 @@ comment 3
 
 // echo "<h1> Hello From H1 </h1>";
 
-echo " Hello 'Mohamed' ";
+// echo " Hello 'Mohamed' ";
 
-echo "<br>";
+// echo "<br>";
 
-echo ' Hello "Mohamed" ';
+// echo ' Hello "Mohamed" ';
 
-echo "<br>";
+// echo "<br>";
 
-echo " Hello 'Mohamed', welcome to \"Discovery\" ";
+// echo " Hello 'Mohamed', welcome to \"Discovery\" ";
 
-echo "<br>";
+// echo "<br>";
 
-echo ' Hello \'Mohamed\', welcome to "Discovery" ';
+// echo ' Hello \'Mohamed\', welcome to "Discovery" ';
 
-echo "<br>";
+// echo "<br>";
 
-echo " Hello 'Mohamed' " , 'Welcome to "Discovery" ';
+// echo " Hello 'Mohamed' " , 'Welcome to "Discovery" ';
 
-echo "<br>";
+// echo "<br>";
 
-echo "Mohamed" . " " . "Ahmed" . " " . "Deyaa";
+// echo "Mohamed" . " " . "Ahmed" . " " . "Deyaa";
 
-echo "<hr>";
+// echo "<hr>";
 
-print "Mohamed" . " " . "Ahmed" . " " . "Deyaa";
+// print "Mohamed" . " " . "Ahmed" . " " . "Deyaa";
