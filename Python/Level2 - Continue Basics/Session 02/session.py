@@ -27,7 +27,7 @@
 # print( new_list[-2] )
 # print( new_list[-4] )
 
-new_list = [ 10, 20, 30, 40, 60, 25, 15 ]
+# new_list = [ 10, 20, 30, 40, 60, 25, 15 ]
 # print ( new_list[1:6] )
 # print( new_list[-4:-1] )
 
