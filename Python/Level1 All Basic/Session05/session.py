@@ -26,7 +26,7 @@
 
     # Strings
     
-mess = "Hello Everyone He in He Python Discovery"
+# mess = "Hello Everyone He in He Python Discovery"
 # print ( mess[0] )
 # print ( mess[6] )
 # print ( mess[-1] )

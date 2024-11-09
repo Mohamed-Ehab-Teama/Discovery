@@ -4,9 +4,11 @@ Text Alignment:
         left, center, right, justify=>[each line is stretched so that every line has equal width]
     direction:
         rtl, ltr
+
 Vertical Alignment:
     vertical-align =>[sets the vertical alignment of an element]
         baseline, top, bottom, text-top, text-bottom, sub, super
+
 Text Decoration:
     text-decoration-line => overline, line-through, underline
     text-decoration-color
@@ -14,16 +16,20 @@ Text Decoration:
     text-decoration-thickness => auto, px
     text-decoration => shorthand
     text-decoration: none; => remove decoration
+
 Text Transform:
     text-transform: uppercase, lowercase, capitalize
+
 Text Shadow:    horizontal, vertical, blur, color
     text-shadow: 2px 2px 3px red;
+
 Font Weight and Size:
     font-weight: normal, bold, bolder, lighter, 100:900
     font-size: px, em, rem
         em => Relative to the font-size of the element (2em means 2 times the size of the current font)
         rem => Relative to font-size of the root element   
             html { font-size: 20px; }
+
 Font Style & Family:
     font-style: normal, italic, oblique=>[oblique is very similar to italic, but less supported]
     font-family: "Times New Roman", Times, serif;
