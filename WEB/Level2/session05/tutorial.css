@@ -1,0 +1,48 @@
+/* 
+z-index:
+    z-index: -1;
+    z-index: 1;
+    z-index: 10;
+
+List Styles:
+    list-style-type
+        list-style-type: circle;
+        list-style-type: square;
+
+    list-style-image
+        list-style-image: url('sqpurple.gif');
+
+    list-style-position:
+        list-style-position: outside;
+        list-style-position: inside;
+
+    list-style-type:none    =>  remove the markers/bullets
+
+    list-style:
+        list-style: square inside url("sqpurple.gif");
+
+cursor: 
+    cursor: value;
+        cursor: pointer;
+        cursor: text;
+        cursor: move;
+        cursor: grab;
+        cursor: cell;
+
+Caret color:
+    Set the color of the cursor in input elements
+        caret-color: red;
+
+float:
+    specifies how an element should float
+        float: left;    =>  floats to the left of its container
+        float: right;   =>  floats to the right of its container
+        float: none;    =>  The element does not float
+
+clear:
+    clear: left;    =>  The element is pushed below left floated elements
+    clear: right;   =>  The element is pushed below right floated elements
+    clear: both;    =>  The element is pushed below both left and right floated elements
+    clear: none;    =>  The element is not pushed below left or right floated elements. This is default
+
+*/
