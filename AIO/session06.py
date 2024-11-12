@@ -12,10 +12,10 @@
 # print(newlist)
 
 
-x = int(input())
-y = int(input())
-z = int(input())
-n = int(input())
+# x = int(input())
+# y = int(input())
+# z = int(input())
+# n = int(input())
 # l = []
 # for i in range(x+1):
 #     for j in range(y+1):
