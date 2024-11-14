@@ -1,3 +1,7 @@
+"""
+Functions
+"""
+
 '''
 Object-Oriented Programming (OOP): paradigm in Python where everything is modeled as objects.
         This helps manage larger codebases by grouping data (attributes) and methods (functions) together into units called classes.
