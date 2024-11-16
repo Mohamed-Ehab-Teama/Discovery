@@ -1,0 +1,113 @@
+.d1{
+    background-color: red;
+    width: 40%;
+    height: 80px;
+    position: absolute;
+    top: 50px;
+    left: 80px;
+    z-index: 2;
+}
+
+.d2{
+    background-color: blue;
+    width: 40%;
+    height: 80px;
+    position: absolute;
+    top: 80px;
+    left: 100px;
+    z-index: 1;
+}
+
+.d3{
+    background-color: orange;
+    width: 40%;
+    height: 80px;
+    position: absolute;
+    top: 100px;
+    left: 120px;
+}
+
+li{
+    background-color: beige;
+}
+
+.list1{
+    background-color: aqua;
+    list-style-type: circle ;
+    /* list-style-image: url('back-img.avif') ; */
+    list-style-type: square ;
+
+    list-style-position: outside;
+
+    /* list-style: circle outside url('back-img.avif'); */
+    list-style: circle outside ;
+}
+
+
+.test{
+    background-color: blueviolet;
+    width: 50%;
+    height: 100px;
+    margin: auto;
+    margin-top: 50px;
+
+    cursor: help;
+}
+
+.in{
+    background-color: blueviolet;
+    width: 30%;
+    height: 20px;
+    caret-color: orange;
+    cursor: grab;
+}
+
+.face{
+    background-color: orange;
+    width: 200px;
+    height: 200px;
+    margin: auto;
+    border-radius: 50%;
+    position: relative;
+}
+
+.left-eye{
+    background-color: black;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+}
+
+.right-eye{
+    background-color: black;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    position: absolute;
+    top: 50px;
+    right: 50px;
+}
+
+.mouth{
+    /* background-color: black; */
+    width: 80px;
+    height: 30px;
+    border-top: 0;
+    border-bottom: 5px black solid;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    position: absolute;
+    left: 60px;
+    bottom: 50px;
+}
+
+
+.container{
+    width: 50%;
+    margin: auto;
+    margin-top: 50px;
+    background-color: aqua;
+}
