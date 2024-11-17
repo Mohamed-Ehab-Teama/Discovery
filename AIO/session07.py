@@ -6,7 +6,6 @@
 #     return (celsius * 9/5 ) + 32
 # print ( celsius_to_fahrenheit(25) )
 
-
 # ------------------------------------------------------------------------------------------------------
 
 # 2. Check if a Number is Divisible by Another
@@ -56,6 +55,7 @@
 #     return len(words)
 # print(count_words("Hello, how are you?"))
 
+
 # ------------------------------------------------------------------------------------------------------
 
 # 7. Count the Occurrences of a Character in a String
@@ -84,6 +84,7 @@
 # print(is_sorted([1, 2, 3, 4, 5]))
 # print(is_sorted([1, 2, 3, 8, 5]))
 
+
 # ------------------------------------------------------------------------------------------------------
 
 # 10. Replace All Vowels in a String with ‘*’
@@ -96,6 +97,7 @@
 #     return str
 # print(replace_vowels("hello, Mohamed Ehab"))
 
+    
 # ------------------------------------------------------------------------------------------------------
 
 # 11. Calculate the Product of All Numbers in a List

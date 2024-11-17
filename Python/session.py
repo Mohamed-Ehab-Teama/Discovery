@@ -1,54 +1,97 @@
-
 # x = 10
+# x = 1.2
+# x = True
+# x = False
+# x = "Hello"
+# x = 'Hello'
 
-# while x < 20 :
-#     print(x)
-#     x += 1
+# x = " Hello World "
+# print (x)
+# print ( " Hello Python" )
+
+# x = " Hello Python "
+# print (x)
+
+# x = """ Hello
+#     python
+#     programming
+#     """
+# x = ''' Hello 
+#     python
+#     programming '''
+# x = ''' Hello Python  '''
+# x = """ Hello Python  """
+
+# print ( " Hello 'pytyhon' "  )
+# print ( ' Hello "python" ' )
+
+# print ( ' Hello \'python\'  ')
+# print ( " Hello \"Python\" " )
+
+
+# print(name)
+# print ( name[8] )
+# print ( name[-4] )
+
+# print ( len(name) )
+# print ( len( "Hello Python Programming" ) )
+
+# for i in str:
+#     if i in ('aeiou'):
+#         print (i)
+
+# str = "Welcome to python"
+
+# print( "to" in str )
+# print( "To" in str )
+
+# if "to" in str:
+#     print ("Existed")
+# else:
+#     print ("Not Existed")
+
+# if "To" not in str:
+#     print ("Not Existed")
+# else:
+#     print ("Existed")
     
-# x = x + 1
-# x += 1
-# x *= 1
-# x /= 10
-# x++ 
+    
+    
+# str = "Welcome to python"
+# print ( str[0:9] )
+# print ( str[0:9:3] )
+# print ( str[-6:-1] )
+# print ( str[-1:-7:-1] )
+# print ( str[:9] )
+# print ( str[4:] )
+# print ( str[::4] )
+# print ( str[::-1] )
 
-# print ( 18 % 3 )
+# str = "      @$%^&*       hello Everyone, welcome To DiscoveRy     !@##%$%&^*    "
+# str = "hello Everyone, welcome To DiscoveRy"
+# print ( len(str) )
+# print ( str.lower() )
+# print ( str.upper() )
+# print ( str.capitalize() )
+# print ( str.title() )
+# print (str.strip())
+# print (str.strip(" @$%^&*!#"))
+# print ( str.replace("o", "0") )
 
-# x = 0
-# while x <= 12:
-#     if x % 2 != 0:
-#         print(x, "ODD")
-#     x += 1
-
-# print( 2 ** 5)
-
-
-# x = 0
-
-# while x <= 10:
-#     if x == 5:
-#         x += 1
-#         continue
-#     print(x)
-#     x += 1
-
-# x = input('Enter Your Name \n')
-# print(x)
-
-# y = int( input('enter number \n') )
-# print( type(y) )
-
-# x = 0
-# num = int( input('Enter Number \n') )
-
-# while x < num:
-#     if x % 2 == 0:
-#         print(x)
-#     x += 1
-
-# start = int( input("Enter the beggining \n") )
-# end = int( input("Enter the last \n") )
-
-# while start <= end:
-#     if start % 5 == 0 :
-#         print(start)
-#     start += 1
+list0 = [10, 50, 60, 70, 80, 90, 100]
+print (list0)
+# print ( type(list0) )
+# print ( len(list0) )
+# print ( list0[0] )
+# print ( list0[-1] )
+# print ( list0[1:4] )
+# list0[2] = "Ahmed"
+# list0[3] = "New Test"
+list0.append(555)
+list0.insert(3, 3333)
+print (list0)
+list0.pop()
+list0.pop(-5)
+list0.remove(10)
+list0.clear()
+print (list0)
