@@ -1,13 +1,5 @@
-h1 {
-    color: wheat !important ;
+h1{
+    color: yellow !important ;
     background-color: black !important ;
 }
 
-div{
-    color: whitesmoke;
-    background-color: blue;
-}
-
-body {
-    background-color: black;
-}
