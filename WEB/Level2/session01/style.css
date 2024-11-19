@@ -1,57 +1,63 @@
-/* h1 {
+/* div {
+    color: blue;
     background-color: aqua;
-    color: yellowgreen;
 }
 
-#te {
+#div1 {
+    color: gold;
+    background-color: red;
+}
+
+.clc0 {
+    color: wheat;
     background-color: black;
-    color: yellow;
 }
 
-.hel {
-    background-color: blue;
-    color: white;
+.clc1 {
+    background-color: blueviolet;
 } */
 
+
+/*
 .test {
-    color: blue;
-    color: #49c93b ;
-    color: #ff000099 ;
-    color: rgb(100, 188, 24) ;
-    color: rgba(100,20,240,0.5) ;
-    color: black;
+     color: red ;
+    color: rgb(255, 0, 0) ;
+    color: rgba(0,0,255,0.2) ;
+    color: #00ff00 ;
+    color: #00ff0099 ;
 
-    color: white;
-
+    color: rgba(201, 217, 145, 0.998) ;
+    color: yellow;
+    background-color: blue; 
 }
+*/
 
-body {
-    background-color: aqua;
+/* body {
+    background-color: #00ff00;
     background-image: url('back-img.avif') ;
-    background-repeat: no-repeat;
-    background-position: top left;
-    background-size: contain;
-    background-size: cover;
-    background-attachment: fixed;
-}
+    background-size: cover ;
+    background-repeat: no-repeat ;
+    background-position: center center;
+    background-attachment: fixed ;
 
-.test05 {
-    background-color: blue;
-    color: gold;
+} */
 
-    /* width: 70%;
-    height: 70vh; */
+.test0 {
+    background-color: aqua;
+    /* width: 100px;
+    width: 80% ;
+    height: 100px;
+    height: 50vh ; */
 
-    /* min-width: 10px;
-    max-width: 60px;
-    min-width: 10%;
-    max-width: 30%; */
+    /* min-width: 100px;
+    max-width: 70%;
 
-    /* min-height: 20px;
-    max-height: 20vh; */
+    min-height: 50px;
+    max-height: 40vh ;
 
-    width: 50%;
-    height: 50vh;
+    overflow: scroll; */
 
+   
 
 }
+
