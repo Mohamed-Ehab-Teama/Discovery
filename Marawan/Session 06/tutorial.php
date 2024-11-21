@@ -7,7 +7,10 @@
 Operators
     - Used To Perform Operations On Values.
 
-    Arithmetic Operators
+-->
+
+<!-- 
+Arithmetic Operators
     - Used To Do Arithmetical Operations &#038; Conversion
 
     $a [+]  $b => Addition
@@ -16,7 +19,6 @@ Operators
     $a [/]  $b => Division
     $a [%]  $b => Modulus
     $a [**] $b => Exponentiation(power)
-
 -->
 
 
@@ -83,11 +85,8 @@ Logical Operators
 
 <!-- 
 
-Operators
-    - Used To Perform Operations On Values.
-
-    String Operators
-        - Concatenate Strings
+String Operators
+    - Concatenate Strings
 
     $a = "Mohamed";
     $b = "Ehab";
