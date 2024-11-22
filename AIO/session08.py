@@ -33,3 +33,36 @@ def char_repeat(str):
     return repeat
 
 
+# 7 - Write a function to find the longest word in a sentence.
+def longest_word(s):
+    words = s.split()
+    return max(words, key=len)
+
+
+# 8 - Write a function that removes all vowels from a string.
+def remove_vowels(s):
+    vowels = 'aeiouAEIOU'
+    return ''.join(char for char in s if char not in vowels)
+
+
+# 9 - Write a function that replaces all spaces in a string with a specified character
+def replace_spaces(s, char):
+    return s.replace(" ", char)
+
+
+# 10 - Write a function that finds all the words in a string that start with a specific letter.
+def words_starting_with(s, letter):
+    words = s.split()
+    return [word for word in words if word.lower().startswith(letter.lower())]
+
+
+# 11 - Write a function that checks if two strings are anagrams of each other (contain the same characters in a different order)
+def are_anagrams(s1, s2):
+    return sorted(s1.replace(" ", "").lower()) == sorted(s2.replace(" ", "").lower())
+
+
+# 12 - Write a function to check if a string contains only unique characters (no repeated characters)
+def has_unique_characters(s):
+    s = s.replace(" ", "").lower()  # Remove spaces and make lowercase
+    return len(s) == len(set(s))
+
