@@ -1,0 +1,73 @@
+body {
+    background-color: #f0f0f0; /* Light background */
+}
+
+.monkey {
+    width: 300px;
+    height: 400px;
+    position: relative;
+    margin: 100px auto;
+}
+
+.head {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: brown;
+    position: absolute;
+    top: 50px;
+    left: 75px;
+}
+
+.eyes {
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    top: 50px;
+}
+
+.eyes.left {
+    left: 40px;
+}
+
+.eyes.right {
+    right: 40px;
+}
+
+.ears {
+    width: 50px;
+    height: 50px;
+    background-color: #8B4513; /* Brown color */
+    border-radius: 50%;
+    position: absolute;
+    top: 30px;
+}
+
+.ears.left {
+    left: -25px;
+}
+
+.ears.right {
+    right: -25px;
+}
+
+.mouth {
+    width: 80px;
+    height: 40px;
+    background-color: pink;
+    border-radius: 50%;
+    position: absolute;
+    top: 100px;
+    left: 35px;
+}
+
+.body {
+    width: 150px;
+    height: 200px;
+    background-color: brown;
+    position: absolute;
+    top: 200px;
+    left: 75px;
+}
