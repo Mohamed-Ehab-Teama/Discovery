@@ -1,5 +1,6 @@
 """
 Functions
+
 """
 
 '''
@@ -24,3 +25,20 @@ How to Create a class, instance an object, then make interactions between object
 
 '''
 
+class Veichle:
+    def speed(self):
+        return ( "The Car is speeding " )
+    
+    def stop(self):
+        return ( "The Car has stopped " )
+    
+    def light(self):
+        return ( "The Car lights is on " )
+
+v1 = Veichle()
+v2 = Veichle()
+v10 = Veichle()
+
+print ( v1.speed() ) 
+print ( v2.light() ) 
+print ( v10.stop() ) 

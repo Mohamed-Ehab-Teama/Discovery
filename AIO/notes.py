@@ -1,6 +1,7 @@
 # newlist = [expression for item in iterable if condition == True]
 
 
+
 # string.join(iterable)
 # separator_string.join(iterable)
 

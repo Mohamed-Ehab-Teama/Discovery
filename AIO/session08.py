@@ -7,7 +7,6 @@ def is_palindrome(str):
 def contains_substring(str , substring):
     return substring in str
 
-
 # 3 - Write a function that counts the number of uppercase and lowercase letters in a string
 def count_case(str):
     upper_count = sum( 1 for char in str if char.isupper() )
@@ -51,7 +50,7 @@ def replace_spaces(s, char):
 
 
 # 10 - Write a function that finds all the words in a string that start with a specific letter.
-def words_starting_with(s, letter):
+def words_starting_with( s , letter):
     words = s.split()
     return [word for word in words if word.lower().startswith(letter.lower())]
 
