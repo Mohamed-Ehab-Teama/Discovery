@@ -1,9 +1,13 @@
 h1 {
-    color: yellow !important ;
-    background-color: black !important;
+    color: blue !important;
+    background-color: red !important;
 }
 
 div {
-    color: yellow;
-    background-color: red;
+    color: coral !important;
+    background-color: chartreuse !important;
+}
+
+body {
+    background-color: cornflowerblue;
 }
