@@ -1,0 +1,66 @@
+/* 
+@keyframes 
+
+    @keyframes example {
+        from {background-color: red;}
+        to {background-color: blue;}
+    } 
+
+    @keyframes example {
+        0%   {background-color: red;}
+        25%  {background-color: yellow;}
+        50%  {background-color: blue;}
+        100% {background-color: green;}
+    }   
+
+    div {
+        width: 80%;
+        height: 100px;
+        animation-name: example;
+        background-color: red;
+        animation-duration: 4s;
+    } 
+*/
+
+
+/* 
+animation-delay : ;
+animation-iteration-count : ;
+animation-direction : ;         => normal , reverse , alternate , alternate-reverse
+animation-timing-function: ;    => ease , linear , ease-in, ease-out, ease-in-out 
+
+    div {
+        width: 100px;
+        height: 100px;
+        position: relative;
+        background-color: red;
+        animation-name: example;
+        animation-delay: 2s;
+        animation-duration: 4s;
+        animation-iteration-count: 2;
+        animation-direction: alternate;
+        animation-timing-function: ease ;
+    }
+
+*/ 
+
+
+/* 
+visibility : ;       =>  visible, hidden
+display : ;          =>  none, inline, block, inline-block
+
+overflow : ;         =>  visible , hidden , scroll , auto 
+overflow-x : ;
+overflow-y : ;
+
+*/
+
+/* 
+
+transform: ;
+    translate       => Change position of an element
+        div {
+            translate: 100px 20px;
+        }
+
+*/
