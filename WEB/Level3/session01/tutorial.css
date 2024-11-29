@@ -1,66 +1,96 @@
 /* 
-@keyframes 
+Positioning
 
-    @keyframes example {
-        from {background-color: red;}
-        to {background-color: blue;}
-    } 
-
-    @keyframes example {
-        0%   {background-color: red;}
-        25%  {background-color: yellow;}
-        50%  {background-color: blue;}
-        100% {background-color: green;}
-    }   
-
-    div {
-        width: 80%;
-        height: 100px;
-        animation-name: example;
-        background-color: red;
-        animation-duration: 4s;
-    } 
+    Relative: Positions the element relative to its normal position.
+    Absolute: Positioned relative to the nearest positioned ancestor.
+    Fixed: Fixed to the viewport, unaffected by scrolling.
+    Sticky: Switches between relative and fixed based on scroll position.
 */
 
 
 /* 
-animation-delay : ;
-animation-iteration-count : ;
-animation-direction : ;         => normal , reverse , alternate , alternate-reverse
-animation-timing-function: ;    => ease , linear , ease-in, ease-out, ease-in-out 
+Animation   =>  Lets an element gradually change from one style to another.
 
-    div {
-        width: 100px;
-        height: 100px;
-        position: relative;
-        background-color: red;
-        animation-name: example;
-        animation-delay: 2s;
-        animation-duration: 4s;
-        animation-iteration-count: 2;
-        animation-direction: alternate;
-        animation-timing-function: ease ;
-    }
-
-*/ 
+    @keyframes
+    animation-name
+    animation-duration
+    animation-delay
+    animation-iteration-count
+    animation-direction
+    animation-timing-function
+    animation
 
 
-/* 
-visibility : ;       =>  visible, hidden
-display : ;          =>  none, inline, block, inline-block
+@keyframes example {
+  from {background-color: red;}
+  to {background-color: yellow;}
+}
 
-overflow : ;         =>  visible , hidden , scroll , auto 
-overflow-x : ;
-overflow-y : ;
+@keyframes example {
+  0%   {background-color: red;}
+  25%  {background-color: yellow;}
+  50%  {background-color: blue;}
+  100% {background-color: green;}
+}
+
+@keyframes example {
+  0%   {background-color:red; left:0px; top:0px;}
+  25%  {background-color:yellow; left:200px; top:0px;}
+  50%  {background-color:blue; left:200px; top:200px;}
+  75%  {background-color:green; left:0px; top:200px;}
+  100% {background-color:red; left:0px; top:0px;}
+}
+
+div {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  animation-name: example;
+  animation-duration: 4s;
+  animation-delay: 2s;
+  animation-iteration-count: 3;     animation-iteration-count: infinite;
+  animation-direction: reverse;     =>  normal, reverse, alternate [don't forget the iteration count], alternate-reverse
+  animation-timing-function: linear;    =>  ease, linear, ease-in, ease-out, ease-in-out
+
+  animation: example 5s linear 2s infinite alternate;
+}
 
 */
 
-/* 
 
-transform: ;
-    translate       => Change position of an element
-        div {
-            translate: 100px 20px;
-        }
+
+
+/* 
+display: none;          =>  The element is completely removed
+visibility: hidden;     =>  The element is hidden (but still takes up space)
+*/
+
+
+
+/* 
+Overflow
+
+Overflow, Overflow-x, Overflow-y
+
+    visible - Default. The overflow is not clipped. The content renders outside the element's box
+    hidden - The overflow is clipped, and the rest of the content will be invisible
+    scroll - The overflow is clipped, and a scrollbar is added to see the rest of the content
+    auto - Similar to scroll, but it adds scrollbars only when necessary
+*/
+
+
+
+/* 
+Transform
+
+    translate
+    rotate
+    scale
+    skew
+
+transform: rotate(20deg);
+transform: skewY(20deg);
+transform: scaleY(1.5);
+transform: translate(20px,20px);
 
 */
