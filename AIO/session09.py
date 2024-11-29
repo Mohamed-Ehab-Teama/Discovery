@@ -155,4 +155,84 @@
 # x = fruits.index(32)
 
 # ---------------------------------------------------------
+
+# sum()
+# max()
+# min()
+# len()
+
+# ---------------------------------------------------------
+# ---------------------------------------------------------
+# ---------------------------------------------------------
+
+# Tuple
+
+# Create a Tuple:
+# thistuple = ("apple", "banana", "cherry")
+
+# Tuple items are ordered, unchangeable, and allow duplicate values
+
+# length of tuple : print(len(thistuple))
+
+# The tuple() Constructor
+# thistuple = tuple(("apple", "banana", "cherry")) # note the double round-brackets
+
+# Access Items
+# print(thistuple[1])
+# print(thistuple[-1])
+# print(thistuple[:6])
+# print(thistuple[1:])
+
+
+
+    # Change Tuple Values
+# Once a tuple is created, you cannot change its values. 
+# Tuples are unchangeable, or immutable as it also is called
+
+# x = ("apple", "banana", "cherry")
+# y = list(x)
+# y[1] = "kiwi"
+# x = tuple(y)
+# print(x)
+
+
+# Note : When.... Add items, update items, remove items on the tuple, make it a list ,then make the change, then make it a tuple again.
+
+
+# Unpacking a Tuple
+# fruits = ("apple", "banana", "cherry")
+# fruits = ("apple", "banana", "cherry", "strawberry", "raspberry")
+# (green, yellow, *red) = fruits
+# print(green)
+# print(yellow)
+# print(red)
+
+
+
+# Loop Through a Tuple
+# thistuple = ("apple", "banana", "cherry")
+# for x in thistuple:
+#   print(x)
+
+
+# Join Two Tuples
+# tuple1 = ("a", "b" , "c")
+# tuple2 = (1, 2, 3)
+# tuple3 = tuple1 + tuple2
+# print(tuple3)
+
+
+# Multiply Tuples
+# fruits = ("apple", "banana", "cherry")
+# mytuple = fruits * 2
+# print(mytuple)
+
+
+# Tuple Methods:
+# count()	Returns the number of times a specified value occurs in a tuple
+# index()	Searches the tuple for a specified value and returns the position of where it was found
+
+
+# ---------------------------------------------------------
+# ---------------------------------------------------------
 # ---------------------------------------------------------
