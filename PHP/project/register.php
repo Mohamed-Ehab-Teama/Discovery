@@ -15,7 +15,7 @@
 <body>
 
     <div class="container mt-5">
-        <form method="post" action="./registerHandle.php">
+        <form method="post" action="registerHandle.php" >
             <div class="mb-3">
                 <label for="exampleInputEmail" class="form-label">Name</label>
                 <input type="name" class="form-control" name="name" id="exampleInputEmail" aria-describedby="emailHelp">
@@ -28,7 +28,7 @@
                 <label for="exampleInputPassword1" class="form-label">Password</label>
                 <input type="password" class="form-control" name="pass" id="exampleInputPassword1">
             </div>
-            <button type="submit" class="btn btn-primary">Make Account</button>
+            <button type="submit" class="btn btn-primary" > Make Account </button>
         </form>
     </div>
 
