@@ -1,0 +1,78 @@
+/* @keyframes test {
+    from { 
+        background-color: red; 
+        top: 0; 
+        left: 0; 
+    }
+    to { 
+        background-color: yellow;
+        top: 100px;
+        left: 40%;  
+    }
+} */
+
+@keyframes test0 {
+    0% {
+        background-color: black;
+        top: 0;
+        left: 0;
+    } 
+    25% {
+        background-color: yellow;
+        top: 0;
+        left: 50%;
+    }
+    50% {
+        background-color: green;
+        top: 250px;
+        left: 50%;
+    }
+    70% {
+        background-color: blue;
+        top: 250px;
+        left: 0;
+    }
+    100% {
+        background-color: black;
+        top: 0;
+        left: 0;
+    }
+}
+
+.test {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    background-color: red;
+    /* animation-name: test0;
+    animation-duration: 5s;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-timing-function: ease-in-out;
+    animation: test0 5s normal 1s infinite ease; */
+
+    /* display: none; 
+    visibility: hidden; */
+}
+.test12 {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    background-color: gold;
+    
+    transform: translate(100px, 100px) ;
+    transform: rotate(90deg) ;
+    transform: scale( 0.8 );
+    transform: skew(120deg);
+
+}
+
+.pa{
+    background-color: aqua;
+    width: 200px;
+    height: 200px;
+    /* overflow: auto; 
+    overflow-x: auto;
+    overflow-y: auto;   */
+}
