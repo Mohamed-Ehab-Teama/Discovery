@@ -11,7 +11,8 @@
 # type() : To get type of any variabel
 
 # The list() Constructor:
-# mylist = list(("apple", "banana", "cherry")) # note the double round-brackets
+# mylist = list( ("apple", "banana", "cherry") ) # note the double round-brackets
+
 
 # ---------------------------------------------------------
 
@@ -64,7 +65,7 @@
 # thislist.remove("banana")
 
 # pop() method removes the specified index
-# thislist.pop(1)
+# thislist.pop(1)   => Remove the value at index 1
 # thislist.pop()    => Remove the last index
 
 # del keyword also removes the specified index
@@ -80,6 +81,7 @@
 # thislist = ["apple", "banana", "cherry"]
 # for x in thislist:
 #   print(x)
+
 
 # Looping Using List Comprehension
     # List Comprehension offers the shortest syntax for looping through lists
