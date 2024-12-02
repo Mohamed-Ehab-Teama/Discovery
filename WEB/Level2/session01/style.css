@@ -1,63 +1,51 @@
-/* div {
-    color: blue;
-    background-color: aqua;
-}
-
-#div1 {
-    color: gold;
-    background-color: red;
-}
-
-.clc0 {
+#st1 {
     color: wheat;
     background-color: black;
 }
 
-.clc1 {
-    background-color: blueviolet;
-} */
-
-
-/*
-.test {
-     color: red ;
-    color: rgb(255, 0, 0) ;
-    color: rgba(0,0,255,0.2) ;
-    color: #00ff00 ;
-    color: #00ff0099 ;
-
-    color: rgba(201, 217, 145, 0.998) ;
-    color: yellow;
-    background-color: blue; 
+#rr {
+    color: red;
+    background-color: chartreuse;
 }
-*/
 
-/* body {
-    background-color: #00ff00;
+.reda {
+    color: gold;
+    background-color: red;
+}
+
+
+#end {
+    color: gold;
+    background-color: black;
+}
+
+.end {
+    background-color: blue ;
+    color: red ;
+}
+
+.clc {
+    /* background-color: red ;
+    background-color: rgb( 100 , 10 , 125 ) ;
+    background-color: rgba( 255 , 0 , 0 , 1 ) ;
+    background-color: #00ff00 ;
+    background-color: #00ff00ff;
+
+    background-color: gold ; */
+    color: gold;
+}
+
+
+body {
+    /* background-color: lightblue;
+
     background-image: url('back-img.avif') ;
-    background-size: cover ;
-    background-repeat: no-repeat ;
-    background-position: center center;
-    background-attachment: fixed ;
+    background-repeat: no-repeat;
+    background-size: 30%;
+    background-position: bottom right;
+    background-size: cover;
+    background-attachment: fixed; */
 
-} */
-
-.test0 {
-    background-color: aqua;
-    /* width: 100px;
-    width: 80% ;
-    height: 100px;
-    height: 50vh ; */
-
-    /* min-width: 100px;
-    max-width: 70%;
-
-    min-height: 50px;
-    max-height: 40vh ;
-
-    overflow: scroll; */
-
-   
-
+    background: aqua url('back-img.avif') no-repeat fixed ;
+    background-size: cover;
 }
-
