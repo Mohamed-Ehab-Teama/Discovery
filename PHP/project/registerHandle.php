@@ -30,8 +30,9 @@ if ( !filter_var ( $email, FILTER_VALIDATE_EMAIL ))
 
 $email = filter_var ( $email, FILTER_SANITIZE_EMAIL );
 
+$pass = md5($pass);
 
-$sql = " INSERT INTO users (id,name,email,password) VALUES ('1','$name','$email', '$pass') ";
+$sql = " INSERT INTO users (name,email,password) VALUES ('$name','$email', '$pass') ";
 $result = mysqli_query( $connection, $sql );
 
 if ( $result ){
