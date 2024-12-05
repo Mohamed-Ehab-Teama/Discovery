@@ -6,29 +6,30 @@ Constructors: Special methods (e.g., __init__) used to initialize objects when t
 
 '''
 
-class Laptop:
-    def __init__ ( self , color, model, ram ):
-        self.color = color
-        self.model = model
-        self.ram = ram
-        
-    def open(self):
-        return ( f" {self.model} is opened" )
-        
-    def shutdown(self):
-        return ( f" {self.model} is closing" )
 
-hp = Laptop("Black" , "HP Z-book G2", "8 GB")
-asus = Laptop("Gray", "ASUS VivoBOOK", "16 GB")
+class human:    
+    def __init__ (self, user_name, user_age, user_hairColor) :
+        self.name = user_name
+        self.age = user_age
+        self.hair_color = user_hairColor
 
-print ( hp.color )
-print ( hp.model )
-print ( hp.ram )
-print ( hp.open() )
-print ( hp.shutdown() )
-print ("---------------------")
-print ( asus.color )
-print ( asus.model )
-print ( asus.ram )
-print ( asus.open() )
-print ( asus.shutdown() )
+    def walk(self):
+        return f'{self.name} is Walking'
+    def run(self):
+        return 'running'    
+    def eat(self):
+        return 'eating'
+    
+    def getProperities(self):
+        # print ( f"your name is:{self.name}   /"   ,    
+        # f'   your age is:{self.age}      /',
+        # f'     your hair color is:{self.hair_color}' )
+        print ( f"Name : {self.name} -- Age: {self.age} -- HairColor: {self.hair_color}" )
+        # print ( f"Name : {self.age}" )
+        # print ( f"Name : {self.hair_color}" )
+    
+
+person1 = human("Ali",25,"Black")
+person2 = human("Ahmed",27,"Red")
+print ( person1.getProperities() )
+print ( person2.getProperities() )
