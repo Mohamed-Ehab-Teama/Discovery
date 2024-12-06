@@ -1,0 +1,74 @@
+/* 
+Box-shadow:
+    box-shadow: x y blur spread color;
+        box-shadow: 10px 10px 5px 12px lightblue;
+
+Box-sizing:
+    box-sizing: content-box;
+        Default => The width and height properties (and min/max properties) includes only the content. 
+        Border and padding are not included
+    box-sizing: border-box;
+        The width and height properties (and min/max properties) includes content, padding and border
+
+
+            .div1 {
+            width: 300px;
+            height: 100px;
+            border: 10px solid blue;
+            box-sizing: border-box;
+            }
+
+            .div2 {
+            width: 300px;
+            height: 100px;  
+            padding: 50px;
+            border: 1px solid red;
+            box-sizing: border-box;
+            }
+
+*/
+
+
+
+/* 
+Pseudo Elements : Before - After
+
+    Before : Insert a string before the content
+        ::before {
+            css declarations;
+        }
+            p::after {
+                content: " - Remember this";
+                background-color: yellow;
+                color: red;
+                font-weight: bold;
+            }
+
+    After : Insert a string after the content
+        ::after {
+            css declarations;
+        }
+            p::after {
+                content: " - Remember this";
+                background-color: yellow;
+                color: red;
+                font-weight: bold;
+            }
+
+*/
+
+
+/* 
+.div::after{
+    content: '';
+    position: absolute;
+    left: 42%;
+    top: 100%;
+    width: 0;
+    height: 0;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-top: 20px solid #e8e8e8;
+    clear: both;
+} 
+*/
