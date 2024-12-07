@@ -37,7 +37,7 @@ Pseudo Elements : Before - After
         ::before {
             css declarations;
         }
-            p::after {
+            p::before {
                 content: " - Remember this";
                 background-color: yellow;
                 color: red;
