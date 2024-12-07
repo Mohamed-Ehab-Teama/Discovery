@@ -1,7 +1,6 @@
 # Class and Instance Attributes
     # Class Attributes: Shared across all instances of the class.
     # Instance Attributes: Unique to each object (instance).
-    
 class Vehicle:
     wheels = 4  # Class attribute
 
