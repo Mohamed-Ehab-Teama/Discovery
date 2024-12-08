@@ -1,51 +1,36 @@
-#st1 {
-    color: wheat;
-    background-color: black;
+
+#mazen01 {
+    background-color: blue;
+    color: yellow;
 }
 
-#rr {
+#h3-id {
     color: red;
-    background-color: chartreuse;
+    /* background-color: aqua; */
 }
 
-.reda {
-    color: gold;
-    background-color: red;
-}
+.web {
+    /* background-color: black; */
+    color: red;
+} 
 
-
-#end {
-    color: gold;
-    background-color: black;
-}
-
-.end {
-    background-color: blue ;
-    color: red ;
-}
-
-.clc {
-    /* background-color: red ;
-    background-color: rgb( 100 , 10 , 125 ) ;
-    background-color: rgba( 255 , 0 , 0 , 1 ) ;
-    background-color: #00ff00 ;
-    background-color: #00ff00ff;
-
-    background-color: gold ; */
-    color: gold;
-}
 
 
 body {
-    /* background-color: lightblue;
+    background-color: black;
+    background-color: rgb(120,15,255) ;
+    background-color: rgba(255,0,0,0.7);
+    background-color: #00ff00 ;
+    background-color: #0000ff9a ;
+
+    background-color: aqua;
+    
 
     background-image: url('back-img.avif') ;
     background-repeat: no-repeat;
-    background-size: 30%;
-    background-position: bottom right;
-    background-size: cover;
-    background-attachment: fixed; */
+    background-size: 500px ;
+    background-position: top center;
+    background-size: cover ;
+    background-attachment: fixed;
 
-    background: aqua url('back-img.avif') no-repeat fixed ;
-    background-size: cover;
 }
