@@ -1,50 +1,74 @@
 
-/* .test{
-    text-align: left;
+/* .test {
+    background-color: aqua;
+
+    width: 200px;
+    width: 50%;
+
+    height: 120px;
+    height: 50vh;
+
+    min-width: 20px;
+    max-width: 500px;
+
+    min-height: 20px;
+    max-height: 500px;
+
+
+} */
+
+.sp {
+    background-color: chocolate;
+    width: 50%;
+    height: 20vh;
+}
+
+
+.para {
+    background-color: cyan;
+
+    height: 50px;
+
+    text-align: center;
     direction: ltr;
+
 }
 
-.test1{
-    text-align: right;
-    direction: rtl;
+.reda {
+    vertical-align: super;
 }
 
-.test3{
-    vertical-align: sup;
-} */
+.test {
+    /* background-color: aqua; */
+    text-align: center;
 
-/* .deco {
-    text-decoration-line: underline overline line-through;
-    text-decoration-color: blueviolet;
-    text-decoration-style: wavy;
+    text-decoration-line: underline overline ;
+    text-decoration-color: red;
+    text-decoration-style: dotted ;
     text-decoration-thickness: 1px;
-    text-decoration: blue wavy 3px line-through overline;
-}
 
-a {
+    text-decoration: blue 5px wavy line-through overline underline ;
     text-decoration: none;
-} */
 
-/* .deco {
-    text-transform: capitalize;
-    text-transform: lowercase;
     text-transform: uppercase;
-    text-align: center;
+    text-transform: lowercase;
+    text-transform: capitalize;
 
-    text-shadow: 20px 10px 10px blue;
-    text-shadow: 0px 0px 8px yellow;
-} */
+    text-shadow: 10px 10px 8px red ;
+    text-shadow: 0 0 8px black;
 
-/* .deco {
-    text-align: center;
+    font-weight: 900;
 
-    font-weight: normal;
-
-    font-size:  large ;
-    font-size: 16px;
+    font-size: 60px;
     font-size: 5rem;
 
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: italic;
+    
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-} */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Times New Roman', Times, serif;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+
+}
