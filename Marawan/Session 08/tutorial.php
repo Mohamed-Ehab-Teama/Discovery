@@ -37,7 +37,7 @@ do {
     code
     code
     -- Don't forget the increment or decrement
-    } while ( condition )
+} while ( condition )
     
     do {
         echo $x . "<br>";
@@ -126,3 +126,5 @@ The include and require statements are identical, except upon failure:
 The require_once() statement is identical to require() except:
     PHP will check if the file has already been included, and if so, not include (require) it again.
 */
+
+$name = "Ali";
