@@ -64,7 +64,7 @@ input:focus {
 
 /* ------------------------------------------------------------------------------------ */
 
-/* .tooltip {
+.tooltip {
     margin-left: 40%;
     margin-top: 150px;
     text-align: center;
@@ -86,8 +86,8 @@ input:focus {
     bottom: 120%;
     left: 0%;
     opacity: 0;
-    transition: opacity 1;
-} */
+    transition: opacity 1s;
+}
 
 /* content: "";
   position: absolute;
@@ -98,7 +98,7 @@ input:focus {
   border-style: solid;
   border-color: #555 transparent transparent transparent; */
 
-/* .tooltip .tooltip-text::after {
+.tooltip .tooltip-text::after {
     content: "";
     position: absolute;
     top: 100%;
@@ -110,5 +110,5 @@ input:focus {
 
 .tooltip:hover .tooltip-text {
     opacity: 1;
-} */
+}
 

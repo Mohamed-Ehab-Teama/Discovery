@@ -1,0 +1,126 @@
+/* 
+Hover   =>  select elements when you mouse over them
+        Syntax:
+            :hover {
+            css declarations;
+            }
+    
+    a:hover {
+        background-color: yellow;
+    }
+
+*/
+
+/* 
+opacity =>  sets the opacity level for an element
+    Syntax:
+        opacity: number[0:1] |initial|inherit;
+
+        div.first {
+            opacity: 0.1;
+            opacity: 0.6;
+            opacity: 0.9;
+        }
+
+*/
+
+/* 
+Transitions =>  allows you to change property values smoothly, over a given duration
+
+transition  :   shorthand property
+transition-delay
+transition-duration
+transition-property 
+transition-timing-function
+
+
+
+transition-timing-function
+    ease - specifies a transition effect with a slow start, then fast, then end slowly (this is default)
+    linear - specifies a transition effect with the same speed from start to end
+    ease-in - specifies a transition effect with a slow start
+    ease-out - specifies a transition effect with a slow end
+    ease-in-out - specifies a transition effect with a slow start and end
+
+
+
+    transition-property: width;
+    transition-duration: 2s;
+    transition-timing-function: linear;
+    transition-delay: 1s;
+
+    transition: width 2s linear 1s;
+
+*/
+
+/* 
+Focus   =>  used to select and style the element that gets focus
+    Syntax
+        :focus {
+            css declarations;
+        }
+
+        input:focus {
+            background-color: yellow;
+            width: 250px;
+        }
+
+*/
+
+
+
+
+/* ToolTips  */
+
+/* 
+HTML
+
+    <div class="tooltip">
+        Try to Hover Me !!
+        <span class="tooltip-text">This is ToolTip</span>
+    </div>
+*/
+
+/*  
+CSS
+
+    .tooltip {
+        margin-left: 40%;
+        margin-top: 150px;
+        text-align: center;
+        
+        position: relative;
+        display: inline-block;
+        border-bottom: 2px dotted black;
+    }
+
+    .tooltip .tooltip-text {
+        width: 120px;
+        padding: 2px 5px;
+        background-color: silver;
+        color: black;
+        text-align: center;
+        border-radius: 10px;
+
+        position: absolute;
+        bottom: 120%;
+        left: 0%;
+        opacity: 0;
+        transition: opacity 1s;
+    }
+
+
+    .tooltip .tooltip-text::after {
+        content: "";
+        position: absolute;
+        top: 100%;
+        left: 45%;
+        border-style: solid;
+        border-width: 5px;
+        border-color: silver transparent transparent transparent ;
+    }
+
+    .tooltip:hover .tooltip-text {
+        opacity: 1;
+    }
+*/
