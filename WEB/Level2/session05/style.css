@@ -1,55 +1,138 @@
-.test1 {
-    background-color: blue;
-    width: 50%;
-    height: 100px;
-    position: absolute;
+.div1 {
+    /* position: absolute; */
+    /* position: relative; */
+    background-color: red;
+    width: 30%;
+    height: 180px;
     top: 50px;
     left: 50px;
 
-    z-index: 5;
-}
+    z-index: 10;
 
-.test2 {
-    background-color: red;
-    width: 50%;
-    height: 100px;
+    cursor: pointer;
+}
+.div2 {
     position: absolute;
+    background-color: brown;
+    width: 30%;
+    height: 180px;
     top: 100px;
     left: 100px;
+    
+    z-index: 5;
+}
+.div3 {
+    position: absolute;
+    background-color: blue;
+    width: 30%;
+    height: 180px;
+    top: 150px;
+    left: 150px;
 
     z-index: -1;
 }
 
-.test3 {
-    background-color: black;
+
+
+.list {
+    background-color: aqua;
+
+    list-style-image: url('back-img.avif') ;
+    list-style-type: circle;
+    list-style-position: inside;
+
+    list-style-type: none;
+
+    list-style: circle inside url('back-img.avif')  ;
+    list-style: none;
+
+    cursor: grab;
+}
+
+li {
+    background-color: wheat;
+
+    cursor: wait;
+}
+
+.in {
     width: 50%;
     height: 100px;
-    position: absolute;
-    top: 150px;
-    left: 150px;
-}
-
-
-
-ul{
-    list-style-type: decimal;
-    /* list-style-image: url('back-img.avif') ; */
-    list-style-position: inside;
-    list-style-type: none;
-    list-style: circle inside ;
-
-
-    cursor: pointer;
-}
-
-input{
-    width: 50%;
-    height: 50px;
+    font-size: 50px;
 
     caret-color: red;
+
+    cursor: wait;
 }
 
 
-p {
+.test{
+    background-color: red;
+    display: inline-block;
+    width: 30%;
+    height: 180px;
+
+    float: right;
     float: none;
+}
+
+.test1{
+    background-color: blue;
+    display: inline-block;
+    width: 30%;
+    height: 180px;
+
+    float: left;
+}
+
+
+
+
+
+
+
+
+
+.face {
+    position: relative;
+    top: 40px;
+    left: 200px;
+    background-color: yellow;
+    width: 200px;
+    height: 200px;
+    border: 3px black solid;
+    border-radius: 50%;
+}
+
+.right-eye {
+    position: absolute;
+    background-color: black;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+
+    top: 30%;
+    left: 30px;
+}
+
+.left-eye {
+    position: absolute;
+    background-color: black;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+
+    top: 30%;
+    right: 30px;
+}
+
+.mouse {
+    position: absolute;
+    bottom: 40px;
+    left: 30% ;
+    width: 40%;
+    height: 50px;
+
+    border-bottom: solid 3px black ;
+    border-radius: 50%;
 }
