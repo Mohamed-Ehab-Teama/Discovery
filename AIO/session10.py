@@ -63,13 +63,20 @@
     # Get Items
         # The items() method will return each item in a dictionary, as tuples in a list.
             # print ( thisdict.items() )
-        
+    
         
         
     # Check if Key Exists:
         # if "model" in thisdict:
         #   print("Yes, 'model' is one of the keys in the thisdict dictionary")
-        
+     
+thisdict = {
+    "brand": "Ford",
+    "model": "Mustang",
+    "year": 1964,
+    "year": 2020
+}
+# print( 'model' in thisdict )   
 # ---------------------------------------------------------
     # Change Values
         # by referring to its key name:
@@ -123,8 +130,7 @@
         # mydict = thisdict.copy()
         
     # dict() function:
-        # mydict = dict(thisdict)
-        
+        # mydict = dict(thisdict)    
     
         # Note:
             # dict2 = dict1 : You cannot copy a dictionary simply by typing dict2 = dict1
@@ -157,7 +163,7 @@
     
     # Set items are unchangeable, but you can remove items and add new items.
         # Sets are unordered, so you cannot be sure in which order the items will appear.
-        
+ 
     # The values [True and 1] [False and 0] are considered the same value in sets, and are treated as duplicates.
     
     

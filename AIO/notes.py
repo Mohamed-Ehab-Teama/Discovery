@@ -20,12 +20,14 @@
         
 
 # get method
+    # dictionary.get(keyname)
     # dictionary.get(keyname, value)
 car = {
 "brand": "Ford",
 "model": "Mustang",
 "year": 1964
 }
+
 
 # Get the value of the "model" key
 model = car.get("model")

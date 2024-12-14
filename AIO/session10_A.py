@@ -40,7 +40,7 @@ for i in range(1, 11):
 
 
 # 6 - Write a program that takes a list of numbers as input and prints the largest number.
-numbers = list(map(int, input("Enter numbers separated by space: ").split()))
+numbers = list(input("Enter numbers separated by space: ").split())
 print("The largest number is:", max(numbers))
 
 
@@ -63,7 +63,9 @@ print("Unique elements are:", unique_numbers)
 # 9 - Write a program that counts the frequency of each word in a sentence provided by the user. 
     # Output the result as a dictionary.
 sentence = input("Enter a sentence: ")
+# Hello Welcome hi Ahemd hi Hello
 words = sentence.split()
+# [Hello, Welcome, hi, Ahemd, hi, Hello]
 word_count = {}
 for word in words:
     word_count[word] = word_count.get(word, 0) + 1
@@ -73,7 +75,10 @@ print("Word frequencies:", word_count)
 
 # 10 - Write a program to reverse a number entered by the user using a while loop.
 number = int(input("Enter a number: "))
+        # number = 0.7
 reverse = 0
+        # reverse = 357
+        # remainder = 7
 while number > 0:
     remainder = number % 10
     reverse = reverse * 10 + remainder
