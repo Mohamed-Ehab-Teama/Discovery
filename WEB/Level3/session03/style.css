@@ -1,114 +1,38 @@
-/* 
-Transition :
-    transition-property: width;
-    transition-duration: 2s;
-    transition-timing-function: linear; [linear, ease, ease-in, ease-out, ease-in-out]
-    transition-delay: 1s;
-        transition: width 2s linear 1s;
-*/
-
-/* ------------------------------------------------------------------------------------ */
-
-/*
-div {
-    width: 60%;
-    height: 300px;
-    background-color: aqua;
-    margin: auto;
-    margin-top: 50px;
-    padding: 20px;
-    text-align: center;
-    opacity: 0.4;
-    
-    transition-property: background-color;
-    transition-duration: 2s;
-    transition-timing-function: linear;
-    transition-delay: 0.5s;
-    transition: 1s linear 0.5s;
-}
-
-div:hover {
-    background-color: blueviolet;
-    width: 70%;
-    margin-top: 100px;
-    opacity: 1;
-}
-
-*/
-
-/* ------------------------------------------------------------------------------------ */
-
-/*
-form {
-    border: solid red 2px;
-    width: 70%;
-    margin: auto;
-    margin-top: 50px;
-    padding: 50px;
-    text-align: center;
-}
-
-input{
-    width: 50%;
-    height: 30px;
-    transition: 2s ease;
-}
-
-input:focus {
-    width: 70%;
-    background-color: silver;
-    color: yellow;
-}
-
-*/
-
-/* ------------------------------------------------------------------------------------ */
-
-.tooltip {
-    margin-left: 40%;
-    margin-top: 150px;
-    text-align: center;
-    
+.test {
     position: relative;
-    display: inline-block;
-    border-bottom: 2px dotted black;
+    background-color: aqua;
+    width: 30%;
+    height: 100px;
+    box-sizing: border-box;
+    padding: 25px;
+
+    transition-property: background-color ;
+    transition-duration: 3s;
+    transition-delay: 2s;
+    transition-timing-function: linear;
+
+    transition: background-color 5s linear 1s ;
+    transition: 5s linear 1s ;
+
 }
 
-.tooltip .tooltip-text {
-    width: 120px;
-    padding: 2px 5px;
+.test:hover {
+    background-color: blue;
+    width: 70%;
+
+    opacity: 0.5;
+}
+
+.in {
+    width: 40%;
+    height: 60px;
+    font-size: 50px;
+
+    transition: 2s;
+}
+
+.in:focus {
+    width: 60%;
+    height: 100px;
     background-color: silver;
-    color: black;
-    text-align: center;
-    border-radius: 10px;
-
-    position: absolute;
-    bottom: 120%;
-    left: 0%;
-    opacity: 0;
-    transition: opacity 1s;
 }
-
-/* content: "";
-  position: absolute;
-  top: 100%;
-  left: 50%;
-  margin-left: -5px;
-  border-width: 5px;
-  border-style: solid;
-  border-color: #555 transparent transparent transparent; */
-
-.tooltip .tooltip-text::after {
-    content: "";
-    position: absolute;
-    top: 100%;
-    left: 45%;
-    border-style: solid;
-    border-width: 5px;
-    border-color: silver transparent transparent transparent ;
-}
-
-.tooltip:hover .tooltip-text {
-    opacity: 1;
-}
-
