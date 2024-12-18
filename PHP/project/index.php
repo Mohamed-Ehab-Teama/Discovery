@@ -1,20 +1,73 @@
-<!DOCTYPE html>
+<?php
+
+require_once './connection.php';
+
+$sql = " SELECT * FROM users  ";
+$result = mysqli_query($connection, $sql);
+
+?>
+
+
+
+
+<!doctype html>
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <title>Hello, world!</title>
 </head>
 
 <body>
 
+    <div class="container mt-5">
+        <table class="table">
+            <thead>
+                <tr>
+                    <th scope="col"> ID </th>
+                    <th scope="col"> Name </th>
+                    <th scope="col"> Email </th>
+                    <th scope="col"> Password </th>
+                    <th> Action </th>
+                </tr>
+            </thead>
+            <tbody>
 
-    <center>
-        <h1> Home Page </h1>
-        <h1> Home Page </h1>
-        <h1> Home Page </h1>
-    </center>
+                <?php
+                if ($result):
+                    while ($row = mysqli_fetch_assoc($result)):
+                ?>
+                        <tr>
+                            <th scope="row"> <?php echo $row['id']; ?> </th>
+                            <td> <?php echo $row['name']; ?> </td>
+                            <td> <?php echo $row['email']; ?> </td>
+                            <td> <?php echo $row['password']; ?> </td>
+                            <td>
+                                <a href="delete.php?id=<?php echo $row['id'];?>" >
+                                    <button class="btn btn-warning">
+                                        Delete
+                                    </button>
+                                </a>
+
+                            </td>
+                        </tr>
+
+                <?php
+                    endwhile;
+                endif;
+                ?>
+            </tbody>
+        </table>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 
 </body>
 
