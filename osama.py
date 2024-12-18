@@ -28,3 +28,14 @@ print( b.color)
 b.go()
 b.stop()
 b.speed()
+
+
+# inheretence and polymorphism
+class Animal:
+    pass
+
+class Dog(Animal):
+    pass
+
+class Cat(Animal):
+    pass
