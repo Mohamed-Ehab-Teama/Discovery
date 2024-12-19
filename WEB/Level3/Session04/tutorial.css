@@ -1,0 +1,103 @@
+/* 
+Difference Between float and flex
+    Float:
+        - The float property in CSS was originally designed to allow text and inline elements to wrap around a floated element, such as an image. 
+        - When an element is floated, it is taken out of the normal document flow, allowing other content to flow around it.
+            - float: left;   -> Floats the element to the left 
+            - float: right;  -> Floats the element to the right 
+            - float: none;   -> Default, element is not floated 
+
+    Flex:
+        - Flexbox, or the Flexible Box Layout, is a modern layout model designed for distributing space along a single axis (either row or column). 
+        - It provides powerful alignment and sizing capabilities, making it ideal for responsive design.
+*/
+
+/* 
+Flex:
+    A flexbox always consists of:
+        - Flex Container - the parent (container)  element
+        - Flex Items - the items inside the container 
+
+            <div class="flex-container">
+                <div>1</div>
+                <div>2</div>
+                <div>3</div>
+            </div>
+
+*/
+
+/* 
+Flex Container:
+
+    - The flex container becomes flexible by setting the display property to flex
+
+    - flex-direction property specifies the display-direction of flex items in the flex container.
+    - flex-wrap property specifies whether the flex items should wrap or not, 
+        if there is not enough room for them on one flex line.
+    - flex-flow property is a shorthand property for setting both the flex-direction and flex-wrap properties
+
+    - justify-content property is used to align the flex items when they do not use all available space on the main-axis (horizontally).
+
+    - align-items property is used to align the flex items when they do not use all available space on the cross-axis (vertically).
+
+
+
+    .flex-container {
+        display: flex;
+
+        flex-direction: row;    row column row-reverse column-reverse
+        flex-wrap: nowrap;      wrap nowrap wrap-reverse
+        flex-flow: row wrap;
+
+        justify-content: center;    center flex-start flex-end space-around space-between space-evenly
+
+        align-items: center;        center flex-start flex-end stretch baseline normal
+
+
+    }
+
+*/
+
+
+
+/* 
+Media Quries:
+    @media rule to include a block of CSS properties only if a certain condition is true.
+*/
+body {
+    background-color: red;
+}
+
+@media (max-width: 600px) {
+    body {
+      background-color: lightblue;
+    }
+}
+
+
+/* ----------------------------------------------------- */
+
+
+/* Media Query for Tablets (768px and above) */
+@media (min-width: 768px) {
+    .container {
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .card {
+        width: 45%;
+    }
+}
+
+/* Media Query for Desktops (1024px and above) */
+@media (min-width: 1024px) {
+    .container {
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+
+    .card {
+        width: 30%;
+    }
+}
