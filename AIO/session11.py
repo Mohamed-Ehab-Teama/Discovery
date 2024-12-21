@@ -7,7 +7,6 @@ my_function()
 
 
 
-
 # Function With Arguments:
 def my_function(fname):
     print(fname + " Refsnes")
@@ -65,9 +64,9 @@ my_function(fname = "Tobias", lname = "Refsnes")
 # Default Parameter Value
 def my_function(country = "Norway"):
     print("I am from " + country)
+my_function()
 my_function("Sweden")
 my_function("India")
-my_function()
 my_function("Brazil")
 
 
@@ -86,6 +85,7 @@ my_function(fruits)
 # Return Values
 def my_function(x):
     return 5 * x
+my_function(3)
 print(my_function(3))
 print(my_function(5))
 print(my_function(9))

@@ -78,14 +78,14 @@ for shape in shapes:
 # Task
 
 # Step 1: Define the Base Class
-    # Create a class called Animal.
-    # Add an attribute name to store the animal's name.
-    # Add a method make_sound() to print a generic sound.
+#     Create a class called Animal.
+#     Add an attribute name to store the animal's name.
+#     Add a method make_sound() to print a generic sound.
 
 # Step 2: Create Subclasses
-    # Create two subclasses: Dog and Cat.
-    # Override the make_sound() method in both classes to print specific sounds.
+#     Create two subclasses: Dog and Cat.
+#     Override the make_sound() method in both classes to print specific sounds.
     
 # Step 3: Use the Classes
-    # Create objects for Dog and Cat.
-    # Call the make_sound() method for each object to see the overridden behavior.
+#     Create objects for Dog and Cat.
+#     Call the make_sound() method for each object to see the overridden behavior.

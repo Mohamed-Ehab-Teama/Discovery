@@ -1,0 +1,23 @@
+.box {
+    display: flex;
+
+    background-color: aqua;
+
+    flex-direction: row;
+
+    justify-content: space-around;
+    align-items: center;
+}
+
+.center {
+    display: flex;
+
+    width: 30%;
+
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+span{
+    color: red;
+}
