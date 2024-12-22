@@ -1,38 +1,64 @@
-.test {
-    position: relative;
+.hello {
     background-color: aqua;
-    width: 30%;
-    height: 100px;
-    box-sizing: border-box;
-    padding: 25px;
-
-    transition-property: background-color ;
-    transition-duration: 3s;
-    transition-delay: 2s;
-    transition-timing-function: linear;
-
-    transition: background-color 5s linear 1s ;
-    transition: 5s linear 1s ;
-
-}
-
-.test:hover {
-    background-color: blue;
-    width: 70%;
-
-    opacity: 0.5;
-}
-
-.in {
     width: 40%;
-    height: 60px;
-    font-size: 50px;
+    height: 80px;
 
-    transition: 2s;
+    opacity: 0.3;
+
+    transition-property: width;
+    transition-duration: 2s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 1s;
+    transition:  2s ease-in 1s ;
+
 }
 
-.in:focus {
-    width: 60%;
-    height: 100px;
-    background-color: silver;
+.hello:hover {
+    background-color: gold;
+    width: 70%;
+    height: 150px;
+
+    opacity: 0.9;
+}
+
+
+
+.inp {
+    width: 50%;
+    height: 50px;
+    font-size: 2rem;
+
+    transition: 2s ease ;
+}
+
+.inp:focus {
+    background-color: black;
+    color: gold;
+}
+
+
+.tool {
+    text-align: center;
+    position: relative;
+
+    width: 40%;
+    top: 50px;
+    font-size: 2rem;
+}
+
+.text {
+    position: absolute;
+    background-color: black;
+    color: white;
+    width: 50%;
+
+    border-radius: 20px;
+    top: -40px;
+    left: 150px;
+
+    opacity: 0;
+}
+
+.tool:hover .text{
+    opacity: 1;
 }
