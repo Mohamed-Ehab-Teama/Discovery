@@ -1,70 +1,72 @@
-.he1 {
-    background-color: aqua;
-    /* display: inline; */
-    /* width: 50%; */
-    display: inline-block;
-    width: 20%;
-    display: none;
-}
 
-.pa1 {
-    background-color: red;
-    /* display: inline; */
-    /* width: 40%; */ 
-    display: inline-block;
-    width: 50%;
-}
-
-.sp1 {
-    background-color: goldenrod;
-    /* display: block; */
-    /* width: 60%; */
-    display: inline-block;
-    width: 60%;
-}
-
-.sp2 {
-    background-color: blueviolet;
-    /* display: block; */
-    /* width: 60%; */
-    display: inline-block;
-    width: 30%;
-}
-
-
-.test {
-    background-color: aqua;
-    /* position: static; */
-    /* position: fixed; */
-    /* position: sticky; */
-    top: 0; 
-    left: 0;
-}
-
-.te1 {
-    width: 50%;
-    height: 120px;
+.di1 {
     background-color: blue;
-    position: absolute;
-    top: 50px;
-    left: 100px;
-}
-.te2 {
-    width: 50%;
-    height: 120px;
-    background-color: red;
+    width: 40%;
+    height: 100px;
+
+    display: inline-block;
 }
 
-.box {
-    width: 50%;
-    height: 200px;
+.di2 {
     background-color: red;
-    position: relative;
+    width: 40%;
+    height: 100px;
+
+    display: inline-block;
 }
-.item {
-    width: 100px;
-    height: 50px;
-    background-color: gold;
+.sp1 {
+    background-color: orangered;
+    width: 40%;
+    height: 80px;
+
+    display: inline-block;
+}
+.sp2 {
+    background-color: black;
+    width: 40%;
+    height: 80px;
+
+    display: inline-block;
+}
+
+
+
+.pos {
+    background-color: aqua;
+    font-size: 50px;
+
+    position: static;
+    position: fixed;
+    position: relative;
     position: absolute;
-    left: 50%;
+    position: sticky;
+
+    top: 50px;
+
+    /* top: 400px;
+    left: 120px;
+    bottom: 50px;
+    right: 0; */
+}
+
+
+
+.parent {
+    position: relative;
+    width: 50%;
+    height: 320px;
+    border: solid goldenrod 2px;
+
+    /* top: 50px;
+    left: 200px;*/
+} 
+
+.child {
+    position: absolute;
+    width: 20%;
+    height: 50px;
+    border: solid gold 2px;
+
+    top: 70%;
+    right: 10px;
 }
