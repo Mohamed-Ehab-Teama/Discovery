@@ -22,21 +22,8 @@
 # get method
     # dictionary.get(keyname)
     # dictionary.get(keyname, value)
-car = {
-"brand": "Ford",
-"model": "Mustang",
-"year": 1964
-}
 
+# -------------====================------------------=========================
 
-# Get the value of the "model" key
-model = car.get("model")
-print(model) # Output: Mustang
-
-# Get the value of a non-existing key with a default value
-price = car.get("price", 15000)
-print(price) # Output: 15000
-
-# Get the value of the "model" key
-model = car.get("model", "BMW")
-print(model) # Output: Mustang
+# The map() function in Python is a built-in function that allows you to apply a specified function to each item in an iterable (such as a list, tuple, etc.) and return a map object (which is an iterator) of the results.
+    # map(function, iterable, ...)
