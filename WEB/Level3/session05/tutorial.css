@@ -25,9 +25,24 @@ Grid VS flex
 
 
 /* 
-To create a simple grid in HTML and CSS, you can follow these steps1:
+To create a simple grid in HTML and CSS, you can follow these steps:
     - Define the HTML container.
     - Create a grid container and specify the number of columns in CSS.
     - Define the grid items.
     - Place the grid items on the grid.
 */
+
+
+/* 
+Grid Container
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 80px 200px auto 30px;
+    grid-template-rows: 80px 100px;
+    row-gap: 10px;
+    column-gap: 20px;
+}
+
+*/
+
