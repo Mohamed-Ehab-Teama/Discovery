@@ -46,3 +46,42 @@ Grid Container
 
 */
 
+
+/* 
+Grid Items
+
+.item1 {
+    grid-column: 1 / 5;         start on column 1 and end before column 5
+    grid-column: 1 / span 3;    start on column 1 and span 3 columns
+    grid-row: 1 / 4;
+    grid-row: 1 / span 5;
+}
+
+*/
+
+
+/* -------------------------------------------------------- */
+
+/* 
+CSS Variables
+
+:root {
+    --blue: #1e90ff;
+    --white: #ffffff;
+}
+
+body { 
+    background-color: var(--blue); 
+}
+
+*/
+
+
+/* -------------------------------------------------------- */
+
+
+/* 
+Intro to Frameworks
+    A CSS framework is a library of prewritten CSS, HTML, and JavaScript code designed to simplify the process of creating responsive, cross-browser compatible web layouts. 
+    They typically include components like buttons, forms, navigation, and typography styles.
+*/
