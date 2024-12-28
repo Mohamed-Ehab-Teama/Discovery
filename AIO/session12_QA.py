@@ -45,9 +45,9 @@ print( common )
 # 5- Ask the user for a string and print out whether this string is a palindrome or not.
 str = input("Enter Your Text  ")
 if str == str[::-1]:
-    print ( "Palindrom" )
+    print ( "Palindrom " )
 else:
-    print ( "Not Palindrom" )
+    print ( "Not Palindrom " )
 
 # -----------------------------------------------------------
 # 6- li = [1, 4, 9, 16, 25, 36, 49, 64, 81, 100]. Write one line of Python that takes this list a and makes a new list that has only the even elements of this list in it.
@@ -57,7 +57,26 @@ even = [x for x in li if x % 2 == 0]
 print ( even )
 
 # -----------------------------------------------------------
+# 7 - Write a function word_frequency(text) that takes a string and returns a dictionary with each word as a key and its frequency as the value.
+def word_frequency(text):
+    words = text.split()
+    freq = {}
+    for word in words:
+        freq[word] = freq.get(word, 0) + 1
+    return freq
+print(word_frequency("hello world hello"))  # Output: {'hello': 2, 'world': 1}
+
 # -----------------------------------------------------------
+# 8 - Write a function fibonacci(n) that takes a positive integer n and returns a list containing the first n numbers in the Fibonacci sequence.
+def fibonacci(n):
+    sequence = []
+    a, b = 0, 1
+    for _ in range(n):
+        sequence.append(a)
+        a, b = b, a + b
+    return sequence
+print(fibonacci(5))  # Output: [0, 1, 1, 2, 3]
+
 # -----------------------------------------------------------
 # -----------------------------------------------------------
 # -----------------------------------------------------------

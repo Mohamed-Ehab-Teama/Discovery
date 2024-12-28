@@ -2,6 +2,15 @@
 Project on level 3
 '''
 
+# Create Phone Class
+    # properities : model, year, color, RAM, Storage
+    # methods : turn_on, turn_off, raise_sound, lower_sound
+    
+# Create Subclasses inherits form Phone ( oppo, Vivo, huawei, Nokia )
+    # perform Method OverLoading
+    # Create method Get_Info : get the info of all properities
+
+
 class Cpu:
     def __init__(self, core, hz):
         self.core = core

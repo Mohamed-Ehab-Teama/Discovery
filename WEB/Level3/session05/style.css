@@ -1,0 +1,32 @@
+:root{
+    --firstColor : #f208c0;
+    --secondColor : #1e0218;
+}
+
+.div-style{
+    background-color: var( --firstColor ) ;
+    color: white;
+    width: 50px;
+    height: 50px;
+}
+
+.container {
+    background-color: aquamarine;
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 50px 50px 50px 50px ;
+    grid-template-rows: 50px 50px 50px  ;
+    row-gap: 10px;
+    column-gap: 10px;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.div1 {
+    grid-column: 1 / 4;
+    grid-column: 2 / span 2 ;
+
+    grid-row: 1 / 3;
+    grid-row: 1 / span 2;
+}
