@@ -1,110 +1,125 @@
-.monkey {
+body {
+    background-color: violet;
+}
+
+.face {
     position: relative;
-    background-color: #e84c4c;
+
+    background-color: #f17840;
     width: 300px;
     height: 300px;
-    top: 50px;
-    left: 500px;
     border-radius: 50%;
+
+    top: 100px;
+    left: 35%;
 }
 
-.Lear {
-    position: absolute;
-    background-color: #e84c4cbd;
-    width: 90px;
-    height: 90px;
-    border-radius: 50%;
-    top: 30%;
-    left: -40px;
-}
-
-.Rear {
-    position: absolute;
-    background-color: #e84c4cbe;
-    width: 90px;
-    height: 90px;
-    border-radius: 50%;
-    top: 30%;
-    right: -40px;
-}
-
-.Leye {
+.left-eye {
     position: absolute;
     background-color: black;
-    width: 45px;
-    height: 45px;
+    width: 20px;
+    height: 20px;
     border-radius: 50%;
+    top: 140px;
+    left: 80px;
 
-    top: 120px;
-    left: 50px;
+    outline: 5px solid white;
 }
 
-.Reye {
+.right-eye {
     position: absolute;
     background-color: black;
-    width: 45px;
-    height: 45px;
+    width: 20px;
+    height: 20px;
     border-radius: 50%;
+    top: 140px;
+    right: 80px;
 
-    top: 120px;
-    right: 50px;
+    outline: 5px solid white;
 }
 
-.Lnose {
+.left-nose {
     position: absolute;
     background-color: black;
     width: 10px;
     height: 10px;
     border-radius: 50%;
+    top: 200px;
+    left: 138px;
 
-    top: 190px;
-    left: 135px;
 }
 
-.Rnose {
+.right-nose {
     position: absolute;
     background-color: black;
     width: 10px;
     height: 10px;
     border-radius: 50%;
+    top: 200px;
+    right: 138px;
 
-    top: 190px;
-    right: 135px;
 }
 
 .mouth {
     position: absolute;
-    width: 60px;
-    height: 50px;
-    border-bottom: solid black 8px;
+    width: 50px;
+    height: 40px;
+    border-bottom: 10px solid black;
+    border-radius: 50%;
+    bottom: 50px;
+    left: 125px;
+}
+
+
+.left-ear {
+    background-color: wheat;
+    width: 100px;
+    height: 100px;
     border-radius: 50%;
 
-    left: 120px ;
-    bottom: 50px;
+    position: absolute;
+    left: -50px;
+    top: 100px;
+    z-index: -1;
+    outline: #f17840 solid 20px;
 }
+
+.right-ear {
+    background-color: wheat;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+
+    position: absolute;
+    right: -50px;
+    top: 100px;
+    z-index: -1;
+    outline: #f17840 solid 20px;
+}
+
 
 .hair1 {
     position: absolute;
-    border-bottom: solid #e84c4c 15px;
+    left: 35%;
+    top: -10px;
+
     width: 100px;
     height: 50px;
+    border-bottom: #f17840 20px solid;
     border-radius: 50%;
-
-    top: -10px;
-    left: 35%;
 
     transform: rotate(225deg);
 }
 
 .hair2 {
     position: absolute;
-    border-bottom: solid #e84c4c 15px;
+    left: 20%;
+    top: -10px;
+
     width: 100px;
     height: 50px;
+    border-bottom: #f17840 20px solid;
     border-radius: 50%;
-
-    top: -10px;
-    left: 25%;
 
     transform: rotate(225deg);
 }
