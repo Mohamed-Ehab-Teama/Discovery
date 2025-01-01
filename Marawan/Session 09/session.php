@@ -1,4 +1,4 @@
-<?php 
+<?php
 
 // DRY => Don't Repeat Yourself
 
@@ -99,10 +99,98 @@
 
 
 
+// Variable Function
+// function one(){
+//     return "Hello From One Function ";
+// }
+// echo one();
+
+// $var = "one";
+// echo "<br>";
+// echo $var;
+// echo "<br>";
+// echo $var();        // one();
+// echo "<br>";
+// echo "<br>";
+
+// function hello($name) {
+//     return " Hello $name ";
+// }
+// echo hello("Mohamed");      // Hello Mohamed
+// echo "<br>";
+// $n = "hello";   
+
+// echo $n;                // hello
+// echo "<br>";
+// echo $n();              // hello()  =>  Error
+// echo "<br>";
+// echo $n("Marwan");      // Hello Marwan
 
 
-echo "<br>";
-echo "<br>";
-echo "<br>";
-echo "<br>";
-echo "<br>";
+// function hello(){
+//     return "hello";
+// }
+
+// if ( function_exists("hello1") ){
+//     echo hello();
+// }else{
+//     echo "Function Not Existed";
+// }
+// echo "<br>";
+
+// function connect_to_DB(){
+//     return mysqli_connect('localhost','root','','kero_blog');
+// }
+
+// if ( function_exists('connect_to_DB') ) {
+//     $connection = connect_to_DB();
+// }else{
+//     echo " Connection Error";
+//     die;
+// }
+
+// var_dump($connection);
+
+
+
+// function double_number($number){
+//     return $number * 2 ;
+// }
+
+// $nums = [1,2,3,4,5,6,7,8,9,10];
+
+// echo "<pre>";
+// print_r( array_map( "double_number", $nums ) );
+// echo "</pre>";
+
+
+// $greet = function( ) {
+//     return " Hello From Anoynomus Function ";
+// };
+// echo $greet( );
+
+// $greet = fn() => "Hello From Anoynomus Function";
+// echo $greet();
+
+
+// $greet = function( $firstName, $lastName ){
+//     return " Hello $firstName - $lastName  From Anoynomus Function ";
+// };
+// echo $greet( "Mohamed", "Ehab" );
+
+// $greet = fn($firstName, $lastName) => " Hello $firstName - $lastName  From Anoynomus Function ";
+// echo $greet( "Mohamed", "Ehab" );
+
+
+// $NickName = "Hamo";
+// $greet = function( $firstName, $lastName ) use ($NickName){
+//     return " Hello $firstName - $lastName [$NickName] From Anoynomus Function ";
+// };
+// echo $greet( "Mohamed", "Ehab" );
+
+// $NickName = "Hamo";
+// $greet = fn($firstName, $lastName) => "Hello $firstName - $lastName [$NickName] From Anoynomus Function";
+// echo $greet( "Mohamed", "Ehab" );
+
+
+// Recursive functions in PHP
