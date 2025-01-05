@@ -1,67 +1,18 @@
-
-.test{
-    border-color: darkblue;
-    border-width: 8px;
-    border-style: ridge;
-
-    border: inset red 10px ;
-
-    border-top: inset red 5px;
-    border-right: blue 5px groove;
-    border-bottom: outset 5px black;
-    border-left: dashed gold 5px;
-
-    border-right: transparent 5px groove;
-    border-left: dashed transparent 5px;
-
-    border: none;
-
-    border: black 4px solid;
-
-    padding-top: 5px;
-    padding-left: 5px;
-    padding-bottom: 10px;
-    padding-right: 5px;
-
-    padding: 10px 5px 12px 14px ;
-    padding: 10px 15px;
-    padding: 5px;
-
-    margin-top: 30px;
-    margin-left: 20px;
-    margin-right: 40px;
-    margin-bottom: 20px;
-    margin: 10px 10px 8px 8px;
-    margin: 10px 12px;
-    margin: 5px;
-    
+.calender {
+    width: 130px;
+    box-shadow: 0 0 5px 5px black;
 }
 
-.test0 {
-    border: 5px blue solid;
-    padding: 5px;
+.one {
+    background-color: green;
+    font-size: 3rem;
+    text-align: center;
+    padding: 10px;
+    color: white;
+}
 
-    margin-top: 30px;
-    margin-left: 20px;
-    margin-right: 40px;
-
-    margin: 5px;
-
-
-
-    outline-style: solid ;
-    outline-width: 20px;
-    outline-color: red;
-
-    outline-offset: 5px ;
-
-    outline: solid gold 10px;
-
-    outline: none;
-
-    border-radius: 10px ;
-
-    box-shadow: 5px 5px 10px 5px black;
-    box-shadow: 0 0 10px 5px gold;
-
+.date {
+    background-color: aqua;
+    text-align: center;
+    padding: 10px;
 }
