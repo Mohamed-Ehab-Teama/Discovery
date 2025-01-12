@@ -1,72 +1,19 @@
-
-.di1 {
-    background-color: blue;
-    width: 40%;
-    height: 100px;
-
-    display: inline-block;
-}
-
-.di2 {
-    background-color: red;
-    width: 40%;
-    height: 100px;
-
-    display: inline-block;
-}
-.sp1 {
-    background-color: orangered;
-    width: 40%;
-    height: 80px;
-
-    display: inline-block;
-}
-.sp2 {
-    background-color: black;
-    width: 40%;
-    height: 80px;
-
-    display: inline-block;
-}
-
-
-
-.pos {
-    background-color: aqua;
-    font-size: 50px;
-
-    position: static;
-    position: fixed;
-    position: relative;
-    position: absolute;
-    position: sticky;
-
-    top: 50px;
-
-    /* top: 400px;
-    left: 120px;
-    bottom: 50px;
-    right: 0; */
-}
-
-
-
 .parent {
-    position: relative;
     width: 50%;
-    height: 320px;
-    border: solid goldenrod 2px;
+    height: 50vh;
+    border: 5px solid green;
 
-    /* top: 50px;
-    left: 200px;*/
-} 
+    position: relative;
+    top: 50px;
+    left: 250px;
+}
 
 .child {
-    position: absolute;
-    width: 20%;
-    height: 50px;
-    border: solid gold 2px;
+    width: 100px;
+    height: 100px;
+    border: 5px solid gold;
 
-    top: 70%;
-    right: 10px;
+    position: absolute;
+    right: 0;
+    bottom: 20px;
 }
