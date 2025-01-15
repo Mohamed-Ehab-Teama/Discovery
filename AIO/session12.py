@@ -13,11 +13,8 @@
 # 7 - Write a function word_frequency(text) that takes a string and returns a dictionary with each word as a key and its frequency as the value.
 
 # 8 - Write a function fibonacci(n) that takes a positive integer n and returns a list containing the first n numbers in the Fibonacci sequence.
-def fibonacci(n):
-    sequence = []
-    a, b = 0, 1
-    for _ in range(n):
-        sequence.append(a)
-        a, b = b, a + b
-    return sequence
-print(fibonacci(5)) 
+
+# l = [1,2,3,4,5,5,6,4,1]
+# print(dict.fromkeys(l))
+# print(list(dict.fromkeys(l)))
+
