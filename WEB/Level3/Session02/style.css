@@ -1,56 +1,24 @@
-.test {
-    background-color: aqua;
-    width: 30%;
-    height: 200px;
-    /* margin-top: 50px;
-    margin-left: 200px;
 
-    box-shadow: 10px 10px 5px 5px red; */
-}
-
-.test0 {
-    background-color: aqua;
-    width: 30%;
-    height: 50px;
-    /* display: inline-block;
-    padding: 30px;
-    box-sizing: border-box;
-    border: 10px red solid; */
-}
-
-.test::before{
-    content: "Before div1";
-    background-color: yellow;
-}
-
-.test1 {
-    background-color: aqua;
-    width: 30%;
-    height: 50px;
-    /* display: inline-block;
-    padding: 15px;
-    box-sizing: border-box;
-    border: 10px red solid; */
-}
-
-p{
-    background-color: violet;
-    border-radius: 30px;
+.chat1 {
     position: relative;
+    background-color: cyan;
+    width: 200px;
+    height: 80px;
+
+    border-radius: 20px;
+    padding-top: 30px;
+    padding-left: 30px;
+
+    box-sizing: border-box;
 }
 
-p::before{
-    content: "";
+.chat1::before{
     position: absolute;
     top: 100%;
-    left: 10%;
-    border-top: 5px violet solid ;
-    border-right: 5px solid transparent;
-    border-left: 5px solid transparent;
-}
+    left: 20px;
 
-p::after {
-    content: " End  ";
-    background-color: black;
-    color: gold;
+    content: "";
+    border-top: 10px solid cyan;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
 }
