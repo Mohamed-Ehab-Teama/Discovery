@@ -1,65 +1,47 @@
-*{
-    box-sizing: border-box;
-}
-
-body {
-    background-color: #1f1f21;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-
-a{
+body{
+    background-color: rgba(0, 0, 0, 0.911);
     color: white;
-    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-header {
-    display: flex;
-    justify-content: space-around;
-}
-
+/* Logo */
 .logo {
-    color: #fff;
-    font-size: 2rem;
-    text-decoration: none;
-    font-weight: 900;
+    font-size: 2.4rem;
 }
 
-.m {
-    color: #ffae00;
+.logo-m {
+    color: orange;
 }
 
-/* ----------------------------------------- */
-.nav-box{
-    width: 60%;
-}
-
+/* Nav */
 .nav {
-    color: #fff;
     list-style: none;
+    width: 50%;
     display: flex;
     justify-content: space-around;
+
+    font-size: 1.4rem;
 }
 
-.nav a:hover {
-    color: #ffae00;
+.nav li:hover {
+    cursor: pointer;
+    color: orange;
 }
 
-a.active {
-    color: #ffae00;
-}
-
-/* ----------------------------------------- */
-
-.intro {
-    background-color: #191919;
-    color: #fff;
+/* Button */
+.info-btn button {
+    font-size: 1.5rem;
+    color: white;
+    background-color: rgb(31, 30, 30);
     width: 100px;
     height: 50px;
-    border: 1px solid #3b3b3b;
-    border-radius: 30px;
-    box-shadow: 0px 0px 40px #46444470;
-    font-size: 1.3rem;
+    border: 3px aqua solid;
+    border-radius: 20px;
 }
 
-/* ----------------------------------------- */
-
+/* Header */
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
