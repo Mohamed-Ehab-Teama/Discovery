@@ -2,41 +2,31 @@ import tkinter as tk
 
 root = tk.Tk()
 
-root.geometry("600x450")
-root.title("Session 2 Program")
-
-label1 = tk.Label(root, text="UserName", font=("Arial",20), bg="yellow", fg="red")
-label1.pack()
-entry1 = tk.Entry(root)
-entry1.pack()
-
-label2 = tk.Label(root, text="Password", bg="yellow", fg="red")
-label2.pack()
-entry2 = tk.Entry(root, show="*")
-entry2.pack()
-
-fram0 = tk.Frame(root, width=200, height=150, bg="red", cursor="hand2")
-fram0.pack(padx=10, pady=10)
-
-def spaek():
-    print ("Hello World")
+root.geometry('600x500')
+root.title("Session 02 Tkinter")
 
 
-def speak_again(speech):
-    print (speech)
+# # Label
+# label0 = tk.Label( root, text="Welcome To Pyhton", bg="black", fg='white', font=('Arial',25), pady=20, padx=50 )
+# label0.pack()
 
 
-def gg():
-    labelx = tk.Label(fram0, text="new label")
-    labelx.pack()
+# # Entry
+# en = tk.Entry( root, bg='blue', fg='yellow', font=('Arial', 30), justify='left', border=10, relief='sunken', show='*' )
+# en.pack()
 
 
-btn1 = tk.Button(fram0, text="Click Me One", command=gg)
-btn1.pack()
+# def test(x, y):
+#     print("Testing now", x , y)
+# # Button
+# btn = tk.Button( root, text="Click Me 0 ", border=5, relief='groove', font=(15), command=lambda: test("Ahmed", "Ali") )
+# btn.pack()
 
+fr = tk.Frame(root, bg='orange', width=400, height=200)
+fr.pack()
 
-btn2 = tk.Button(fram0, text="Click Me Two", command=lambda:speak_again("Mohamed Ehab Teama") )
-btn2.pack()
+label10 = tk.Label(fr, text="We are in Frame", font=(30))
+label10.pack()
 
 
 
