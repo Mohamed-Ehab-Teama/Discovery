@@ -1,60 +1,67 @@
-.div1 {
-    /* position: absolute; */
+.red {
     background-color: red;
-    width: 30%;
-    height: 300px;
+    width: 200px;
+    height: 200px;
+
+    /* position: absolute;
     top: 50px;
     left: 50px;
 
-    z-index: 1;
+    z-index: 1;*/
 
     float: right;
-}
-.div2 {
-    /* position: absolute; */
+} 
+
+.blue {
     background-color: blue;
-    width: 30%;
-    height: 300px;
+    width: 200px;
+    height: 200px;
+
+    /* position: absolute;
     top: 100px;
     left: 100px;
-    
-    z-index: 1;
 
-    float: left;
+    z-index: 2; */
+
+    float: none;
 }
-.div3 {
-    /* position: absolute; */
+
+.black {
     background-color: black;
-    width: 30%;
-    height: 300px;
+    width: 200px;
+    height: 200px;
+
+    /* position: absolute;
     top: 150px;
     left: 150px;
 
-    z-index: 1;
+    z-index: 3;
 
-    float: left;
+    cursor: cell; */
+    float: right;
 }
 
 
-.test {
+.my-list {
     list-style-type: circle;
-    list-style-image: url('back-img.avif') ;
+    list-style-image: url('Small\ Image.png') ;
     list-style-position: inside;
-    list-style-type: none;
 
-    list-style: circle url('back-img.avif') inside ;
+    list-style: inside url('Small\ Image.png') circle ;
     list-style: none;
 
-    cursor: pointer;
+    cursor: grab;
 }
 
 
-.tr {
-    width: 50%;
+input {
+    width: 300px;
     height: 50px;
-    font-size: 3rem;
+    font-size: 30px;
 
     cursor: all-scroll;
+    background-color: black;
+    color: white;
 
-    caret-color: green;
+    caret-color: blue;
 }
