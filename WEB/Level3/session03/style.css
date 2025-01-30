@@ -1,64 +1,61 @@
-.hello {
-    background-color: aqua;
+.ho {
+    background-color: blue;
     width: 40%;
+    height: 50px;
+    opacity: 0.5;
+
+    transition-property: width height;
+    transition-duration: 3s;
+    transition-delay: 1s;
+    transition-timing-function: linear;
+
+    transition:  5s 0.5s ease-in-out;
+
+}
+
+.ho:hover {
+    background-color: red;
+    width: 80%;
     height: 80px;
 
-    opacity: 0.3;
-
-    transition-property: width;
-    transition-duration: 2s;
-    transition-timing-function: ease-in-out;
-    transition-delay: 1s;
-    transition:  2s ease-in 1s ;
-
+    opacity: 1;
 }
 
-.hello:hover {
-    background-color: gold;
-    width: 70%;
-    height: 150px;
-
-    opacity: 0.9;
-}
-
-
-
-.inp {
-    width: 50%;
-    height: 50px;
-    font-size: 2rem;
-
-    transition: 2s ease ;
+.inp{
+    transition: 5s ease-in-out;
 }
 
 .inp:focus {
     background-color: black;
-    color: gold;
-}
-
-
-.tool {
-    text-align: center;
-    position: relative;
-
-    width: 40%;
-    top: 50px;
+    color: yellow;
+    width: 500px;
+    height: 50px;
     font-size: 2rem;
 }
 
-.text {
-    position: absolute;
-    background-color: black;
-    color: white;
-    width: 50%;
 
+
+
+
+.tooltip {
+    position: relative;
+    top: 40vh;
+    left: 40%;
+}
+
+.tooltip-text {
+    background-color: rgba(0, 0, 0, 0.842);
+    color: white;
+    padding: 5px;
     border-radius: 20px;
-    top: -40px;
-    left: 150px;
+
+    position: absolute;
+    top: -30px;
+    left: 0;
 
     opacity: 0;
 }
 
-.tool:hover .text{
+.tooltip:hover .tooltip-text{
     opacity: 1;
 }

@@ -1,19 +1,80 @@
-.parent {
+.d1 {
+    background-color: aqua;
     width: 50%;
-    height: 50vh;
-    border: 5px solid green;
+    height: 50px;
+    display: inline;
+}
+
+.d2 {
+    background-color: brown;
+    width: 70%;
+    height: 90px;
+}
+
+.sp1 {
+    background-color: blue;
+    width: 50%;
+    height: 50px;
+    display: block;
+}
+
+.sp2 {
+    background-color: red;
+    width: 80%;
+    height: 100px;
+    display: inline-block;
+}
+
+
+/* ------------------------------ */
+
+
+.test {
+    background-color: blueviolet;
+    display: inline-block;
+    width: 200px;
+    height: 80px;
+
+    position: static;
+    position: fixed;
+    position: relative;
+    position: absolute;
+
+    top: 200px;
+    left: 500px;
+}
+
+.st {
+    background-color: black;
+    color: white;
+    width: 30%;
+    height: 30px;
+
+    position: sticky;
+
+    top: 10px;
+    left: 10px;
+}
+
+/* -------------------= */
+
+.parent {
+    border: 3px green solid;
+    width: 500px;
+    height: 300px;
 
     position: relative;
     top: 50px;
-    left: 250px;
+    left: 400px;
 }
 
 .child {
-    width: 100px;
-    height: 100px;
-    border: 5px solid gold;
+    border: 3px green solid;
+    width: 200px;
+    height: 50px;
 
     position: absolute;
+
     right: 0;
     bottom: 20px;
 }
