@@ -1,39 +1,41 @@
 
-// var x = 10;
-// console.log(x)
-// var x = 50
-// console.log(x)
-// x = 150
-// console.log(x)
+// let Name = " Hello "
+// let name = " Test "
 
-// console.log('-----------------------')
+// console.log(Name)
+// console.log(name)
 
-// let y = 20.5
-// console.log(y)
-// // let y = 50       => Error
-// // console.log(y)
-// y = 500
-// console.log(y)
-
-// // -------------------------
-
-const z = "Con"
-// console.log(z)
-// // const z = 0  => Error
-// // z = 20       => Error
-// console.log(z)
-
-console.log('-----------------------')
-console.log('-----------------------')
-
-var first_name 
-var firstName 
-var FirstName 
+// var first_name = " Test name "
+// var firstName = " Test 2 "
+// var FirstName = " Test 3 "
 
 // Single Line Comment
-/* Comment */
+// console.log("Ahmed Hany")
+// console.log("Ahmed")
+
+
 /*
-Comennt
-Comennt
-Comennt
+    Multi-line Comment
+console.log("Ahmed")
+console.log("Ahmed")
+console.log("Ahmed")
+console.log("Ahmed")
 */
+
+// var x = 10          // Number
+// var x = "Ahmed"     // String
+// var x = true        // Boolean
+// var x = flase       // Boolean
+// var x = null       // Null
+
+
+// console.log( 10 + 10 )
+// console.log( "10 + 10" )
+// console.log( 10 - 10 )
+// console.log( 10 * 10 )
+// console.log( 10 / 10 )
+
+// var z = 20.3
+
+var num1 = 1
+var num2 = 5
