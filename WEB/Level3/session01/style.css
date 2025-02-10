@@ -1,31 +1,16 @@
-@keyframes changeColor {
-    from{
-        background-color: brown;
-        top: 0;
-        left: 0;
+@keyframes firstAnimation {
+    from {
+        background-color: blue;
+        width: 200px;
     }
     to {
-        background-color: blue;
-        top: 300px;
-        left: 70%;
-    }
-}
-
-@keyframes changeColor2 {
-    0% {
-        background-color: brown;
-        top: 0;
-        left: 0;
-    }
-    100% {
-        background-color: blue;
-        top: 300px;
-        left: 70%;
+        background-color: red;
+        width: 800px;
     }
 }
 
 
-@keyframes movement {
+@keyframes anime10 {
     0% {
         background-color: red;
         top: 0;
@@ -34,16 +19,16 @@
     25% {
         background-color: black;
         top: 0;
-        left: 80%;
+        left: 800px;
     }
     50% {
-        background-color: yellow;
-        top: 500px;
-        left: 80%;
+        background-color: green;
+        top: 300px;
+        left: 800px;
     }
-    75% {
+    70% {
         background-color: blue;
-        top: 500px;
+        top: 300px;
         left: 0;
     }
     100% {
@@ -53,50 +38,35 @@
     }
 }
 
-/* ----------------------------- */
 
-.anime {
+
+.ani {
     position: relative;
-    width: 400px;
-    height: 200px;
-    background-color: brown;
 
-    /* animation-name: changeColor;
+    background-color: aqua;
+    width: 200px;
+    height: 200px;
+
+    /* animation-name: firstAnimation ;
     animation-duration: 3s;
     animation-delay: 1s;
-    animation-iteration-count: infinite;
+    animation-iteration-count: infinite ;
     animation-direction: normal;
-    animation-timing-function: ease-in-out;
+    animation-timing-function: ease-in;
 
-    animation: changeColor 5s 0.5s infinite normal ease-in-out ;
-    
-    animation: movement 10s infinite reverse linear; */
+    animation: firstAnimation 5s 0.5s infinite normal ease-in-out ;
 
-    /* visibility: hidden;   */
-    /* display: none; */
+    animation: anime10 12s infinite normal linear; */
 
-    top: 0;
-    left: 0;
+    /* display: none;
+    visibility: hidden; */
 
-    transform: rotate(0deg) ;
-
-    transform: skewX(40deg);
-    transform: skewY(10deg);
-    transform: skew(30deg);
-    transform: skew(0);
-
-    transform: scale(1);
-
-    transform: translate(-90px, -90px);
 }
 
-
-.text {
+.pa {
     background-color: aqua;
     width: 300px;
-    height: 300px;
+    height: 200px;
 
-    overflow-x: auto;
-    overflow-y: auto;
     overflow: auto;
 }

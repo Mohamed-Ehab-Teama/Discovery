@@ -1,61 +1,70 @@
-.ho {
-    background-color: blue;
-    width: 40%;
-    height: 50px;
-    opacity: 0.5;
 
-    transition-property: width height;
-    transition-duration: 3s;
-    transition-delay: 1s;
-    transition-timing-function: linear;
+.come {
+    background-color: black;
+    width: 200px;
+    height: 200px;
 
-    transition:  5s 0.5s ease-in-out;
+    opacity: 0.7;
 
+    transition-property: width , height;
+    transition-duration: 5s;
+    transition-delay: 0.5s;
+    transition-timing-function: ease-in-out;
+    transition: width 6s 0.1s linear;
+    transition: 6s 0.1s linear;
 }
 
-.ho:hover {
-    background-color: red;
-    width: 80%;
-    height: 80px;
-
+.come:hover {
+    background-color: blueviolet;
+    width: 600px;
+    height: 300px;
+    
     opacity: 1;
 }
 
-.inp{
-    transition: 5s ease-in-out;
+
+.inp {
+    width: 200px;
+    height: 50px;
+    font-size: 3rem;
+    caret-color: black;
+
+    transition: all 4s ease-in-out;
 }
 
 .inp:focus {
     background-color: black;
-    color: yellow;
-    width: 500px;
-    height: 50px;
-    font-size: 2rem;
+    color: blue;
+    caret-color: yellow;
+    width: 600px;
 }
 
+/* ------------------------------------- */
 
-
-
-
-.tooltip {
+.tool-tip {
     position: relative;
-    top: 40vh;
-    left: 40%;
+    top: 100px;
+    left: 600px;
+
+    width: 200px;
+    height: 200px;
+
+    font-size: 1.5rem;
 }
 
-.tooltip-text {
-    background-color: rgba(0, 0, 0, 0.842);
-    color: white;
-    padding: 5px;
+.text{
+    background-color: black;
+    color: wheat;
+    width: 150px;
+    text-align: center;
     border-radius: 20px;
 
     position: absolute;
-    top: -30px;
-    left: 0;
+    bottom: 100%;
 
     opacity: 0;
 }
 
-.tooltip:hover .tooltip-text{
+.tool-tip:hover .text {
     opacity: 1;
 }
