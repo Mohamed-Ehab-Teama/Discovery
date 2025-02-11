@@ -1,67 +1,102 @@
-.red {
+
+.one {
     background-color: red;
-    width: 200px;
+    width: 400px;
     height: 200px;
 
-    /* position: absolute;
-    top: 50px;
-    left: 50px;
-
-    z-index: 1;*/
-
-    float: right;
-} 
-
-.blue {
-    background-color: blue;
-    width: 200px;
-    height: 200px;
-
-    /* position: absolute;
+    position: absolute;
     top: 100px;
     left: 100px;
 
-    z-index: 2; */
-
-    float: none;
+    z-index: 10;
 }
 
-.black {
-    background-color: black;
-    width: 200px;
+.two {
+    background-color: blue;
+    width: 400px;
     height: 200px;
 
-    /* position: absolute;
-    top: 150px;
-    left: 150px;
+    position: absolute;
+    top: 200px;
+    left: 200px;
 
-    z-index: 3;
+    z-index: 5;
+}
 
-    cursor: cell; */
-    float: right;
+.three {
+    background-color: black;
+    width: 400px;
+    height: 200px;
+
+    position: absolute;
+    top: 300px;
+    left: 300px;
+
+    z-index: -10;
 }
 
 
 .my-list {
+    font-size: 2rem;
+
+    list-style-type: disc;
     list-style-type: circle;
-    list-style-image: url('Small\ Image.png') ;
+    list-style-type: decimal;
+
+    list-style-image: url('Capture.PNG') ;
+
     list-style-position: inside;
 
-    list-style: inside url('Small\ Image.png') circle ;
+    list-style: circle inside url('Capture.PNG');
     list-style: none;
+}
 
-    cursor: grab;
+h1 {
+    cursor: all-scroll;
+}
+
+div {
+    cursor: pointer;
+}
+
+p {
+    cursor: progress;
+}
+
+.inp {
+    background-color: black;
+    color: aqua;
+
+    caret-color: rgb(255, 255, 152);
+    caret-color: yellow;
 }
 
 
-input {
-    width: 300px;
+
+
+
+
+.one1 {
+    background-color: red;
+    width: 50px;
     height: 50px;
-    font-size: 30px;
 
-    cursor: all-scroll;
+    float: right;
+
+}
+
+.two2 {
+    background-color: blue;
+    width: 50px;
+    height: 50px;
+
+    float: left;
+}
+
+.three3 {
     background-color: black;
-    color: white;
+    width: 50px;
+    height: 50px;
 
-    caret-color: blue;
+    float: right;
 }
