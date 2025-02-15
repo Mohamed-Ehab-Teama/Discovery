@@ -1,107 +1,82 @@
-# To use the scrollbar widget, you need to:
-    # First, create a scrollbar widget.
-    # Second, link the scrollbar with a scrollable widget.
+## Session 5: Scrollbar and Text Widget
 
-# padx & pady => Margin
-# ipadx & ipady => padding
+   # 1- The Scrollbar widget in Tkinter allows users to scroll through content in widgets like Text, Listbox.
+   
+'''
+Key Properties of Scrollbar:
+   orient	      Defines the direction (tk.VERTICAL or tk.HORIZONTAL).
+   command	      Links the scrollbar to a widget.
+   set()	         Updates the scrollbar position when linked to a widget.
+'''
 
-# T = Text(root, bg, fg, bd, height, width, font, ..)
-# w = Scrollbar(master, options) 
 
-# ------------------------------------------------------
+'''
+Attaching a Scrollbar to a Widget
+   To connect a scrollbar to a widget (like Text), we use the yview() and yscrollcommand methods.
 
+📌 Example Usage:
+scrollbar = tk.Scrollbar(root, orient=tk.VERTICAL, command=text_widget.yview)
+text_widget.config(yscrollcommand=scrollbar.set)
+
+      command=text_widget.yview → Moves the text when the scrollbar is dragged.
+      yscrollcommand=scrollbar.set → Updates scrollbar when text is scrolled.
+
+'''
+
+
+   # 2- The Text widget allows users to input and edit multi-line text.
+   
+'''
+📌 Key Methods of Text Widget:
+   .insert(index, text)	      Inserts text at a specific position.
+   .get(start, end)	         Retrieves text from a range.
+   .delete(start, end)	      Deletes text from a range.
+   .see(index)	               Scrolls to a specific position.
+   .config(wrap=tk.WORD)	   Ensures text wraps within the widget width.
+
+📌 Example Usage:
+   text_widget.insert(tk.END, "This is an example of a multi-line text widget.\n")
+
+'''
+
+
+
+   # ----------- Full Project ---------------
 import tkinter as tk
+from tkinter import scrolledtext, Menu
 
+# Create the main window
 root = tk.Tk()
+root.title("Advanced Text Editor")
+root.geometry("600x400")
 
-root.geometry('500x450')
-root.title('Session 05 GUI')
+# Create a Frame to hold the Text widget and Scrollbar
+frame = tk.Frame(root)
+frame.pack(pady=10, fill=tk.BOTH, expand=True)
 
-label1 = tk.Label(root, text='Enter Your Text : ')
-label1.pack()
+# Create a Scrollable Text Widget
+text_widget = tk.Text(frame, wrap=tk.WORD, font=("Arial", 12), undo=True)
+text_widget.pack(side=tk.LEFT, fill=tk.BOTH, expand=True)
 
+# Create a Scrollbar and attach it to the Text widget
+scrollbar = tk.Scrollbar(frame, orient=tk.VERTICAL, command=text_widget.yview)
+scrollbar.pack(side=tk.RIGHT, fill=tk.Y)
 
-frame = tk.Frame(root, bg='white')
-# frame.pack( padx=20, pady=20, ipadx=20, ipady=20 )
-frame.pack()
-
-scroll = tk.Scrollbar(frame, orient='vertical')
-scroll.pack( side='right', fill='y' )
-
-T = tk.Text(frame, width= 40, height=10, yscrollcommand= scroll.set)
-T.pack(ipadx=10, ipady=10, padx=10, pady=10)
-
-scroll.config( command= T.yview )
+# Configure the Text widget to use the Scrollbar
+text_widget.config(yscrollcommand=scrollbar.set)
 
 
+# Create a Menu Bar
+menu_bar = Menu(root)
+
+# Add File Menu
+file_menu = Menu(menu_bar, tearoff=0)
+file_menu.add_command(label="Exit", command=root.quit)
+
+menu_bar.add_cascade(label="Edit", menu=file_menu)
+
+# Display the Menu
+root.config(menu=menu_bar)
+
+# Run the Tkinter event loop
 root.mainloop()
-
-
-
-# ------------------------------------------------------
-
-
-# import tkinter as tk
-
-# root = tk.Tk()
-
-# root.geometry('450x250')
-# root.title('Session 05 Tutorial')
-
-# lab01 = tk.Label(root, text= 'Enter You Text Here : ', font='50')
-# lab01.pack()
-
-# scroll = tk.Scrollbar(root)
-# scroll.pack( side='right', fill='both')
-
-# mylist = tk.Listbox(root, yscrollcommand=scroll.set)
-
-# for i in range(1,25):
-#     mylist.insert(i, 'This is Line' + str(i) + '\n')
-
-# mylist.pack( side='left', fill='both')
-
-# scroll.config( command= mylist.yview )
-
-# root.mainloop()
-
-# ------------------------------------------------------
-
-
-# # Create Text Widget
-# text = tk.Text(root, height=5, width=20, wrap='none')
-# text.pack()
-
-# # Create ScrollBar
-# scrollb = tk.Scrollbar(root, orient='horizontal', command=text.xview)
-# scrollb.pack()
-
-# # Communicate Back to the ScrollBar
-# text['xscrollcommand'] = scrollb.set
-
-
-# ------------------------------------------------------
-
-
-# Cretae label
-# label1 = tk.Label(root, text= "Enter You Text here: ")
-# label1.pack()
-
-# Create Scroll Bar
-# scroll = tk.Scrollbar(root, orient='vertical')
-# scroll.pack( side='right', fill='y' )
-
-# Create Text Widget
-# text = tk.Text(root, height=3, wrap='none', yscrollcommand= scroll.set)
-# text.pack( padx=10, pady=5, ipadx=5, ipady=5 )
-
-# Create List Widget
-# myList = tk.Listbox(root)
-# myList.pack()
-
-
-
-# Communicate Back to the ScrollBar
-# text['yscrollcommand'] = scroll.set
-
-# ------------------------------------------------------
