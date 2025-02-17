@@ -1,58 +1,59 @@
-.test {
-    background-color: aqua;
-    width: 300px;
-    height: 300px;
-
-    border: 20px solid red;
-    padding: 50px;
-
-    box-sizing: content-box;
-    box-sizing: border-box;
-
-    /* box-shadow: 0 0 10px 3px black; */
-}
-
-
-.pe {
-    background-color: aqua;
-}
-
-.pe::before {
-    content: "Before";
-    background-color: black;
-    color: yellow;
-    font-size: 16px;
-    text-decoration: line-through;
-}
-
-.pe::after {
-    content: "After";
-    background-color: black;
-    color: yellow;
-    font-size: 16px;
-}
-
 .box {
-    position: relative;
-    background-color: blueviolet;
-    width: 250px;
-    height: 100px;
+    background-color: red;
+    width: 200px;
+    height: 200px;
 
-    border-radius: 20px;
-    padding: 20px;
+    /* border: inset silver 10px;
+    padding: 40px;
+    box-sizing: border-box; */
 
-    box-sizing: border-box;
-    color: wheat;
-    font-size: 25px;
+    /* transform: translate(200px,500px); */
+    /* transform: scale(1.5); */
+    /* transform: rotate(90deg); */
+    /* transform: skew(99deg); */
+
+    /* box-shadow: 10px 10px 12px 6px blue;
+    box-shadow: 0 0 10px 5px black; */
+
 }
 
-.box::before {
+
+.my-name {
+    background-color: aqua;
+}
+
+.my-name::before {
+    content: "This is";
+    background-color: brown;
+    color: yellow;
+    font-size: 2rem;
+}
+
+.my-name::after {
+    content: " Stop Here ";
+    background-color: blue;
+    color: goldenrod;
+    font-size: 1.5rem;
+}
+
+.message1{
+    position: relative;
+    background-color: cyan;
+    width: 300px;
+    height: 90px;
+
+    box-sizing: border-box;
+    padding: 30px;
+    border-radius: 30px;
+}
+
+.message1::before{
     content: "";
-    border-top: blueviolet 10px solid;
-    border-right: transparent 10px solid;
-    border-left: transparent 10px solid;
+    border-top: 10px solid cyan;
+    border-right: 10px solid transparent;
+    border-left: 10px solid transparent;
 
     position: absolute;
     top: 100%;
-    left: 30px;
+    left: 50px;
 }
