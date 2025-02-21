@@ -1,0 +1,107 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    background-color: aquamarine;
+}
+
+
+/* Basic Card */
+.basic {
+    background-color: white;
+    width: 400px;
+    height: fit-content;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 0 5px 0px rgba(0, 0, 0, 0.342);
+    transition: all 1s;
+}
+
+.head {
+    padding-top: 20px;
+    margin-bottom: 20px;
+}
+
+.price {
+    color: rgb(0, 191, 255);
+    font-size: 2.2rem;
+}
+
+.month {
+    opacity: 0.5;
+}
+
+.text {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 1rem;
+    opacity: 0.7;
+}
+
+hr {
+    opacity: 0.2;
+}
+
+.btn {
+    background-color: rgb(0, 191, 255);
+    padding: 10px;
+    margin: 15px;
+    color: white;
+    font-size: 1.3rem;
+    border: none;
+    border-radius: 10px;
+}
+
+/* End of Basic Card */
+
+
+
+
+/* Advanced Card */
+
+.advanced {
+    background-color: white;
+    width: 400px;
+    height: fit-content;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 0 5px 0px rgba(0, 0, 0, 0.342);
+}
+
+/* End of Advanced Card */
+
+
+
+/* Professional Card */
+
+.Professional {
+    background-color: white;
+    width: 400px;
+    height: fit-content;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 0 5px 0px rgba(0, 0, 0, 0.342);
+}
+
+/* End of Professional Card */
+
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 80%;
+    margin: auto;
+    gap: 10px;
+}
+
+.basic:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.488);
+}
