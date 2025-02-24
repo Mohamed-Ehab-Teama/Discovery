@@ -1,0 +1,53 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+header {
+  background-color: rgb(17, 17, 17);
+}
+
+.logo {
+  color: white;
+}
+
+.logo-moh {
+  color: orange;
+}
+
+
+nav {
+  display: flex;
+  justify-content: space-evenly;
+  width: 40%;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+.active {
+  text-decoration: underline orange;
+  color: orange;
+}
+
+.btn {
+  width: 130px;
+  height: 50px;
+  border: none;
+  border-radius: 10px;
+  font-size: 1.1rem;
+  font-weight: bolder;
+}
+
+
+header {
+  height: 80px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
