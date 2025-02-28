@@ -1,37 +1,71 @@
-// Concatination
-console.log( "Ahmed" + " " + "Hany" )
+// console.log("testing")
 
-let firstName = "Mohamed"
-let lastName = "Ehab"
+// my_name = "ALI"
 
-console.log( firstName + lastName )
-console.log( "The Full name is : " + firstName + " " + lastName )
+// console.log("Heloo ", "Test")
 
-console.log( firstName.concat( " ", lastName ," " , "Teama" ) )
+// console.log("This is " + my_name + " Web Design")
+
+// v1 = 'web'
+// v2 = 'design'
+
+// console.log( v1.concat(" " , v2 ) )
+
+// user_name = "admin"
+
+// console.log( user_name.length )
+// console.log( "Mohamed Ehab Teama".length )
 
 
-// Length
-console.log( firstName.length )
-console.log( " Hello From Java Script ".length )
-
-
-// Condition 
-let marks = 100
-
-// if ( marks >= 50 ){
-//     console.log("Successful")
+// x = 99
+// if ( x > 100) {
+//     console.log("Bigger than 100")
 // }
 
-// if ( marks >= 50 ){
-//     console.log("Successful")
-// }else{
-//     console.log("Failed")
+// if ( x > 100) {
+//     console.log("Bigger than 100")
+// } else {
+//     console.log("less than  100")
 // }
 
-if ( marks == 100 ){
-    console.log("Excellent")
-}else if (marks >= 50){
-    console.log("Good")
-}else {
-    console.log("Failed")
+// if ( x > 100) {
+//     console.log("Bigger than 100")
+// } else if ( x < 100){
+//     console.log("less than  100")
+// }else {
+//     console.log("equal  100")
+// }
+
+
+// day = "monday"
+
+// switch (day){
+//     case "Saturday":
+//         console.log("Holiday")
+//         break;
+//     case "sunday":
+//     case "monday":
+//     case "tuseday":
+//     case "wedensday":
+//         console.log("Working")
+//         break;
+//     case "Friday":
+//         console.log("Holiday")
+//         break;
+//     default :
+//         console.log("Enter a vaild day")
+//         break;
+// }
+
+// let age = 22
+
+// if ( age !== '22'){
+//     console.log('equal')
+// }
+username = "admin"
+password = "1,2,3,4,5,6"
+if( username == "admin" && password == "1,2,3,4,5,6")
+    console.log("sucess")
+else{
+    console.log("failed")
 }
