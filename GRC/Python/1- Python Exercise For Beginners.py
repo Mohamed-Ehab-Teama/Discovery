@@ -9,6 +9,7 @@
 # number2 = 30
 # Expected Output: 70
 
+
 # -----------------------------------------------------------------------
 
 # Exercise 2: Print the Sum of a Current Number and a Previous number
@@ -23,7 +24,9 @@
 # Write a Python code to accept a string from the user and display characters present at an even index number.
 # For example, str = "PYnative". so your code should display ‘P’, ‘n’, ‘t’, ‘v’.
 
-
+# str = "PYnative"
+# for i in range(0,len(str),2):
+#     print(str[i])
 
 # -----------------------------------------------------------------------
 
@@ -69,6 +72,8 @@
 # Expected Output:
 # Emma appeared 2 times
 
+# str.count('str') )
+
 # -----------------------------------------------------------------------
 
 # Exercise 8: Print the following pattern
@@ -104,6 +109,17 @@
 
 # Exercise 11: Get each digit from a number in the reverse order.
 # For example, If the given integer number is 7536, the output shall be “6 3 5 7“, with a space separating the digits.
+
+
+# Solution
+# number = 7536
+# print("Given number", number)
+# while number > 0:
+#     # get the last digit
+#     digit = number % 10
+#     # remove the last digit and repeat the loop
+#     number = number // 10
+#     print(digit, end=" ")
 
 # -----------------------------------------------------------------------
 
