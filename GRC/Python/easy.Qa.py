@@ -43,12 +43,15 @@
 # 22. Calculate the Square of a Number
 
 # 23. Convert Kilometers to Miles
+    # 1 km = 0.62137119 miles
 
 # 24. Count the Occurrences of an Element in a List
 
 # 25. Find the ASCII Value of a Character
 
 # 26. Check If a String is a Digit
+string = input("Enter a string: ")
+print("Contains only digits" if string.isdigit() else "Contains non-digit characters")
 
 # 27. Calculate the Area of a Circle
 

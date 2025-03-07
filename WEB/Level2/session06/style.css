@@ -2,49 +2,42 @@
     background-color: yellow;
     width: 500px;
     height: 500px;
-
-    border: 5px black solid;
     border-radius: 50%;
 
     position: relative;
-    left: 500px;
-    top: 100px;
+    left: 30%;
+    top: 80px;
 }
 
-
-.right {
+.left-eye {
     background-color: black;
     width: 70px;
     height: 70px;
-
     border-radius: 50%;
 
     position: absolute;
-    top: 130px;
-    left: 120px;
+    top: 150px;
+    left: 100px;
 }
 
-.left {
+.right-eye {
     background-color: black;
     width: 70px;
     height: 70px;
-
     border-radius: 50%;
 
     position: absolute;
-    top: 130px;
-    right: 120px;
+    top: 150px;
+    right: 100px;
 }
-
 
 .mouth {
-    border-top: 5px black solid;
+    border-bottom: 5px solid black;
     border-radius: 50%;
-
     width: 300px;
     height: 200px;
 
     position: absolute;
+    bottom: 100px;
     left: 100px;
-    bottom: 30px;
 }

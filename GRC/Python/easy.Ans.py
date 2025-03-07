@@ -28,10 +28,33 @@ print("Reversed:", string[::-1])
 
 # 6. Find the Factorial of a Number
 
+def factorial_loop(n):
+    result = 1
+    for i in range(1, n + 1):
+        result *= i
+    return result
+print(factorial_loop(5))  # Output: 120
+
+
 def factorial(n):
     return 1 if n == 0 else n * factorial(n - 1)
 num = int(input("Enter a number: "))
 print("Factorial:", factorial(num))
+
+
+import math
+def factorial_math(n):
+    return math.factorial(n)
+print(factorial_math(5))  # Output: 120
+
+
+def factorial_recursive(n):
+    if n == 0:
+        return 1
+    else:
+        return n * factorial_recursive(n - 1)
+print(factorial_recursive(5))  # Output: 120
+
 
 # 7. Check for a Palindrome String
 
@@ -43,6 +66,26 @@ print("Palindrome" if string == string[::-1] else "Not a Palindrome")
 n = int(input("Enter a number: "))
 print("Sum:", (n * (n + 1)) // 2)
 
+
+def sum_of_natural_numbers(n):
+    total = 0
+    for i in range(1, n + 1):
+        total += i
+    return total
+
+
+def sum_of_natural_numbers(n):
+    return n * (n + 1) // 2
+
+
+def sum_of_natural_numbers(n):
+    if n == 1:
+        return 1
+    else:
+        return n + sum_of_natural_numbers(n - 1)
+
+
+
 # 9. Generate Fibonacci Series
 
 def fibonacci(n):
@@ -52,6 +95,19 @@ def fibonacci(n):
         a, b = b, a + b
 n = int(input("Enter the number of terms: "))
 fibonacci(n)
+
+
+def Fibonacci(n):
+    if n < 0:
+        print("Incorrect input")
+    elif n == 0:
+        return 0
+    elif n == 1 or n == 2:
+        return 1
+    else:
+        return Fibonacci(n-1) + Fibonacci(n-2)
+print(Fibonacci(9))
+
 
 # 10. Find the Largest Element in a List
 
@@ -72,6 +128,16 @@ count = sum(1 for char in string if char in vowels)
 print("Vowel Count:", count)
 
 # 13. Check if a Number is Prime
+
+def is_prime_basic(n):
+    if n <= 1:
+        return False
+    for i in range(2, n):
+        if n % i == 0:
+            return False
+    return True
+
+
 
 def is_prime(n):
     if n < 2:
