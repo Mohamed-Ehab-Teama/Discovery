@@ -1,0 +1,50 @@
+// let newPara = document.createElement('h1');
+// newPara.textContent = "This is New Heading";
+    
+// document.getElementById('container').appendChild(newPara);
+
+// let h2 = document.createElement('h2');
+// h2.textContent = " Heading number 2 ";
+
+// document.getElementById('body').appendChild(h2);
+
+// let mylist = document.getElementById('mylist');
+
+// mylist.removeChild(mylist.lastElementChild)
+// mylist.removeChild(mylist.lastElementChild)
+
+// alert(" This is Alert ")
+
+// username = prompt( "Enter Your Name" )
+
+// alert ( 'Welcome ' + username )
+
+// let decision = confirm(" Are You sure for deletion ? ")
+// if (decision) {
+//     alert( " Item Deleted Successfully " )
+// }else {
+//     alert('Nothing has happened')
+// }
+
+
+function addPara() {
+    let p1 = document.createElement('p');
+    p1.textContent = " New Paragraph ";
+    document.getElementById('container').appendChild(p1);
+}
+
+function removePara() {
+    let parent = document.getElementById('container');
+    parent.removeChild(parent.lastElementChild);
+}
+
+let btn = document.getElementById('btn');
+
+btn.onmouseover = function() {
+    alert("On Mouse Over")
+}
+
+btn.onmouseleave = function() {
+    alert("On Mouse Leave")
+}
+
