@@ -1,64 +1,76 @@
-# Comment
+# print("Hello World")
 
-'''
-Comment 1
-Comment 2
-Comment 3
-'''
+# =============
 
-"""
-Comment 1
-Comment 2
-Comment 3
-"""
+# n1 = int( input() )
+# n2 = int( input() )
+# print( n1 + n2 )
 
-# Variables
-v1 = 10     # int
-v2 = 10.7   # float
-v3 = "Ali"  # string
-v4 = True   # Boolean
-v4 = False  # Boolean
+# =============
 
-first_name = "Mohamed"
-firstName = "Mohamed"
-FirstName = "Mohamed"
+# num = int(input())
+# if num % 2 == 0:
+#     print("Even")
+# else:
+#     print("Odd")
+    
+# =============
 
-# print( first_name )
-# print( type(v3) )
-
-
-# Casting
-# int()
-# float()
-# str()
-# bool()
-
-# x = bool("0")
-
-# x = int( input('Enter Number1 \n' ))
-# print( type(x) )
-# print(x)
-
-
-
-
-# Strings
-
-# name = "Hello Python Revision"
-
-# print(name)
-# print( name[0] )
-# print( name[0:10] )
-# print( name[0:10:2] )
-# print( name[2:] )
-# print( name[:13] )
-# print( name[::3] )
-# print( name[::-1] )
-
-
-# a = int( input("Enter number") )
-# b = int( input("Enter number") )
-# c = int( input("Enter number") )
-
+# a = int( input() )
+# b = int( input() )
+# c = int( input() )
 # print( max(a,b,c) )
 
+# a , b , c = map( int, input().split() )
+# print( max(a , b , c) )
+
+
+# =============
+
+# str = input()
+# print( str[::-1] )
+
+# =============
+
+# n = int( input() )
+# prod = 1
+# for i in range( 1, n+1 ):
+#     prod = prod * i
+# print( prod )
+
+# =============
+
+# str = input()
+# if str == str[::-1]:
+#     print("Palidrom")
+# else:
+#     print("Not Palidrom")
+
+# =============
+
+# number = int( input() )
+# sum = 0
+# for i in range( 0 , number+1 ):
+#     sum += i
+# print( sum )
+
+# =============
+
+# n = int( input() )
+# a, b = 0 , 1
+# for _ in range(n):
+#     print( a , end=" " )
+#     a, b = b, a+b
+
+# =============
+
+# my_list = [10,20,30,40,52,25,35]
+# print( max(my_list) )
+
+# my_list =  list( map( int , input().split() ) )
+# print( my_list )
+# print( max(my_list) )
+
+# =============
+# =============
+# =============

@@ -1,35 +1,33 @@
+.en {
+    text-align: justify;
+    direction: ltr;
+    vertical-align: middle;
+}
 
-.test {
+.ar {
+    text-align: right;
+    direction: rtl;
+}
+
+.text {
     text-align: center;
 
-    text-decoration-line: underline overline line-through ;
-    text-decoration-color: red ;
+    text-decoration-line: overline underline;
+    text-decoration-color: red;
+    text-decoration-thickness: 5px;
     text-decoration-style: solid;
-    text-decoration-thickness: 2px ;
 
-    text-decoration: underline blue dashed 4px ;
+    text-decoration: line-through underline blueviolet dashed 5px ;
     text-decoration: none;
 
-
-    text-transform: lowercase;
     text-transform: capitalize;
-    text-transform: uppercase;
 
-    text-shadow: 10px 10px 8px red;
-    text-shadow: 0 0 6px blue;
+    text-shadow: 20px 15px 5px blue;
+    text-shadow: 0 0 10px blue;
     text-shadow: none;
 
-
     font-weight: 100;
-
-    font-size: 30px;
-    font-size: 4em ;
-    font-size: 2rem ;
-
-    font-style: italic;
-    
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-family: Arial, Helvetica, sans-serif;
-
+    font-size: 50px;
+    font-size: 2rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
