@@ -1,19 +1,34 @@
 
-
-
-.test {
+h1 {
+    /* background-co lor: aqua; */
     color: red;
-    color: rgb(55, 155, 251);
-    color: rgba(255, 0, 0, 0.3);
-    color: #ffff00;
-    color: #ff00fff9;
 }
 
+#hi {
+    /* background-color: black; */
+    color: yellow;
+}
+
+.test {
+    /* background-color: chocolate; */
+    color: blue;
+    color: rgb(255, 0, 0);
+    color: rgba(255, 0, 0, 0.5);
+    color: #ffff00;
+    color: #ffff0099;
+
+    color: rgb(79, 90, 156);
+}
+
+
 body {
-    background-color: coral;
+    background-color: cyan;
     background-image: url('back-img.avif') ;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: top left;
     background-size: cover;
     background-attachment: fixed;
+    
+    background: aqua url('back-img.avif') no-repeat fixed;
+    background-size: cover;
 }

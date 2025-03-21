@@ -54,6 +54,15 @@ import math
 a, b = 12, 15
 print("GCD of", a, "and", b, "is:", math.gcd(a, b))
 
+# -----
+
+def gcd(a, b):
+    while b:
+        a, b = b, a % b
+    return a
+
+print(gcd(48, 18))  # 6
+
 
 # =======================================================
 
