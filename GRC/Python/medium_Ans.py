@@ -1,5 +1,6 @@
 # 1- Remove Duplicates from a List
 # Problem: Write a Python program to a list from the user then remove duplicates from the list.
+
 def remove_duplicates(lst):
     return list(set(lst))
 
