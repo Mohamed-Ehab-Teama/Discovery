@@ -146,6 +146,11 @@ def is_sorted(lst):
 print(is_sorted([1, 2, 3, 4, 5]))  # True
 print(is_sorted([5, 3, 1]))  # False
 
+# Extra info:
+    # The Python all() function returns True if all the elements of a given iterable (List, Dictionary, Tuple, set, etc.) are True. 
+    # It also returns True if the iterable object is empty. 
+    # The function is used to ensure that the user has not entered a False value. 
+    # The all() function takes an iterable as the argument and returns True only if all items in the iterable evaluate to True or if the iterable is empty.
 
 # =======================================================
 

@@ -1,59 +1,48 @@
+
 .box {
-    background-color: red;
-    width: 200px;
-    height: 200px;
+    /* width: 200px;
+    height: 200px; */
 
-    /* border: inset silver 10px;
-    padding: 40px;
-    box-sizing: border-box; */
-
-    /* transform: translate(200px,500px); */
-    /* transform: scale(1.5); */
-    /* transform: rotate(90deg); */
-    /* transform: skew(99deg); */
-
-    /* box-shadow: 10px 10px 12px 6px blue;
-    box-shadow: 0 0 10px 5px black; */
-
-}
-
-
-.my-name {
+    width: fit-content;
+    height: fit-content;
     background-color: aqua;
-}
 
-.my-name::before {
-    content: "This is";
-    background-color: brown;
-    color: yellow;
-    font-size: 2rem;
-}
 
-.my-name::after {
-    content: " Stop Here ";
-    background-color: blue;
-    color: goldenrod;
-    font-size: 1.5rem;
-}
-
-.message1{
     position: relative;
-    background-color: cyan;
-    width: 300px;
-    height: 90px;
+    top: 200px;
+    left: 400px;
+
+    /* box-shadow: 20px 20px 50px 5px blue;
+    box-shadow: 0 0 20px 5px blue; */
+
+    /* box-sizing: content-box; 
+    padding: 50px;
+    border: 10px solid blue; */
 
     box-sizing: border-box;
-    padding: 30px;
-    border-radius: 30px;
+
+
 }
 
-.message1::before{
-    content: "";
-    border-top: 10px solid cyan;
-    border-right: 10px solid transparent;
-    border-left: 10px solid transparent;
+.box::before {
+    content: " This is BEFORE ";
+    color: red;
+    background-color: blue;
+    border-radius: 20px;
+    padding: 5px;
+}
 
-    position: absolute;
-    top: 100%;
-    left: 50px;
+.box::after {
+    content: "--- After";
+    color: gold;
+    background-color: black;
+    border-radius: 50px;
+}
+
+.home {
+    background-color: goldenrod;
+    width: 200px;
+    height: 300px;
+
+    position: relative;
 }
