@@ -1,33 +1,31 @@
-.en {
-    text-align: justify;
-    direction: ltr;
-    vertical-align: middle;
-}
 
-.ar {
-    text-align: right;
-    direction: rtl;
-}
+.box {
+    background-color: aqua;
+    width: 100%;
+    height: 120px;
 
-.text {
     text-align: center;
+    direction: rtl;
+    vertical-align: top;
 
-    text-decoration-line: overline underline;
-    text-decoration-color: red;
-    text-decoration-thickness: 5px;
-    text-decoration-style: solid;
 
-    text-decoration: line-through underline blueviolet dashed 5px ;
+    text-decoration-line: overline line-through;
+    text-decoration-color: blue;
+    text-decoration-thickness: 4px;
+    text-decoration-style: wavy;
+
+    text-decoration: overline underline red 2px dashed;
     text-decoration: none;
 
     text-transform: capitalize;
 
-    text-shadow: 20px 15px 5px blue;
-    text-shadow: 0 0 10px blue;
-    text-shadow: none;
+    font-weight: 900;
 
-    font-weight: 100;
-    font-size: 50px;
-    font-size: 2rem;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px;
+    font-size: 5rem;
+
+    font-style: italic;
+    
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
 }
