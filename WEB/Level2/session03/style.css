@@ -1,46 +1,48 @@
 
-.test {
-    border-width: 5px;
-    border-color: blue;
+.element {
     border-style: solid;
-    
-    border-top: inset 10px aqua;
-    border-right: outset 10px black;
-    border-bottom: solid 10px blue;
-    border-left: 10px red ridge;
-    border: inset 5px red;
+    border-color: red;
+    border-width: 5px;
+    border: blue 3px double;
 
 
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 20px;
+    padding-right: 5px;
     padding-left: 50px;
-    padding: 20px 10px 50px 200px;
-    padding: 10px 15px;
-    padding: 10px;
+
+    padding: 5px 6px 7px 8px;
+    padding: 5px 20px;
+    padding: 15px;
 
 
     margin-top: 50px;
-    margin-bottom: 50px;
+    margin-right: 40px;
+    margin-bottom: 20px;
     margin-left: 50px;
-    margin-right: 50px;
-    margin: 10px 10px 10px 10px;
-    margin: 20px 10px;
+
+    margin: 10px 50px 5px 30px;
+    margin: 10px 100px;
     margin: 10px;
 
 
-    /* outline-style: solid;
-    outline-width: 10px;
-    outline-color: aqua;
-    outline-offset: 5px;
-    outline: darkblue inset 5px; */
 
-    box-shadow: 10px 10px 5px 20px black;
-    box-shadow: 0 0 5px 1px black;
+    outline-style: solid;
+    outline-width: 20px;
+    outline-color: aqua;
+    outline-offset: 3px;
+
+    outline: inset 10px gold;
+
+    padding: 0;
+    margin: 0;
+    outline: none;
+
+    box-shadow: 2px 3px 10px 5px gold;
+    box-shadow: 0 0 5px 0px blue;
 
 }
 
-.test0 {
-    border: solid 5px black;
-    margin: 0;
+.element2 {
+    border: solid 5px red;
 }
