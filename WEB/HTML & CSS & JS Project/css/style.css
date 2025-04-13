@@ -1,0 +1,99 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+/* Header  */
+.logo {
+    text-transform: uppercase;
+    width: fit-content;
+    background-image: linear-gradient(
+        to right, 
+        red 10%, 
+        blue 30%, 
+        yellow 50% , 
+        black 70%,
+        green 100%
+        );
+    background-clip: text;
+    color: transparent;
+    font-size: 3rem;
+}
+
+.nav-links{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style: none;
+    color: black;
+
+    gap: 50px;
+}
+
+.nav-links li a{
+    font-size: 1.4rem;
+    transition: all 1s;
+}
+
+.nav-links li a:hover {
+    color: blue;
+    text-shadow: 0 0 5px black;
+    font-size: 2rem;
+}
+
+.buy {
+    text-transform: uppercase;
+    background-color: aqua;
+    width: fit-content;
+    height: fit-content;
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    transition: all 1s;
+}
+
+.buy:hover {
+    background-color: rgba(0, 0, 0, 0.842);
+    color: Gold;
+    box-shadow: 0 0 10px 0px blue;
+    transform: scale(1.1);
+}
+
+.login {
+    text-transform: uppercase;
+    /* background-color: transparent; */
+    width: fit-content;
+    height: fit-content;
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    transition: all 1s;
+}
+
+.login:hover {
+    background-color: aqua;
+    color: blue;
+    box-shadow: 0 0 10px 0px blue;
+    transform: scale(1.1);
+}
+
+.header_Content {
+    padding-block: 20px;
+    margin-inline: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.fa-search {
+    font-size: 1.5rem;
+}
+
+/* Header END */

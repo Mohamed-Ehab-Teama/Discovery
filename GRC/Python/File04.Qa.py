@@ -24,7 +24,13 @@
 
 # Problem 7: Convert Roman Numerals to Integers
 # Problem: Convert a Roman numeral string into an integer.
-
+values = {
+    'I': 1, 
+    'V': 5, 
+    'X': 10, 
+    'L': 50, 
+    'C': 100
+    }
 
 # Problem 8: Find All Pairs in an Array That Sum to a Target
 # Problem: Find all pairs of numbers in an array that add up to a target value.

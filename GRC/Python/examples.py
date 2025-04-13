@@ -88,39 +88,39 @@
 # ----------------------------------------------------------
 
 # 5-
-# def most_frequent_element(arr):
-#     if not arr:  # Handle empty array
-#         return None
+def most_frequent_element(arr):
+    if not arr:  # Handle empty array
+        return None
     
-#     # Count frequencies manually
-#     frequency = {}
-#     for num in arr:
-#         if num in frequency:
-#             frequency[num] += 1
-#         else:
-#             frequency[num] = 1
+    # Count frequencies manually
+    frequency = {}
+    for num in arr:
+        if num in frequency:
+            frequency[num] += 1
+        else:
+            frequency[num] = 1
     
-#     # Find the most frequent element
-#     most_frequent = None
-#     max_count = 0
+    # Find the most frequent element
+    most_frequent = None
+    max_count = 0
     
-#     for num, count in frequency.items():
-#         if count > max_count or (count == max_count and (most_frequent is None or num < most_frequent)):
-#             most_frequent = num
-#             max_count = count
+    for num, count in frequency.items():
+        if count > max_count or (count == max_count and (most_frequent is None or num < most_frequent)):
+            most_frequent = num
+            max_count = count
     
-#     return most_frequent
+    return most_frequent
 
-# # Input: An array of integers
-# arr = [1, 3, 2, 3, 4, 1, 1, 2, 2]
+# Input: An array of integers
+arr = [1, 3, 2, 3, 4, 1, 1, 2, 2]
 
-# # Find the most frequent element
-# result = most_frequent_element(arr)
+# Find the most frequent element
+result = most_frequent_element(arr)
 
-# # Output the result
-# if result is not None:
-#     print("The most frequent element is:", result)
-# else:
-#     print("The array is empty.")
+# Output the result
+if result is not None:
+    print("The most frequent element is:", result)
+else:
+    print("The array is empty.")
     
 # ----------------------------------------------------------

@@ -1,9 +1,9 @@
-h1 {
+/* h1 {
     background-color: black;
     color: gold;
-}
+} */
 
-#h01 {
+/* #h01 {
     color: blue;
     background-color: chartreuse;
 }
@@ -16,5 +16,33 @@ h1 {
 .new {
     background-color: red;
     color: chartreuse;
+} */
+
+.co {
+    color: blue ;
+    color: rgb(210, 150 , 98);
+    color: rgba(255, 0, 0, 0.5);
+    color: #0000ff ;
+    color: #ffff0099 ;
+
+    color: yellow;
+    background-color: black;
+    
+    width: 300px;
+    height: 200px;
+
+    width: 40%;
+    height: 20vh;
 }
 
+body {
+    background-color: blueviolet;
+    opacity: 1;
+    background-image: url('back-img.avif') ;
+    background-repeat: no-repeat;
+    background-position: top left;
+    background-size: cover;
+    background-attachment: fixed;
+
+    background: red url('Aizen.jpg') no-repeat fixed ;
+}
