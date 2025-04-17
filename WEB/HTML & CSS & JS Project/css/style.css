@@ -2,7 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 a {
@@ -10,90 +10,56 @@ a {
     color: black;
 }
 
-/* Header  */
+/* Header Start */
 .logo {
-    text-transform: uppercase;
-    width: fit-content;
-    background-image: linear-gradient(
-        to right, 
-        red 10%, 
-        blue 30%, 
-        yellow 50% , 
-        black 70%,
-        green 100%
-        );
+    background-image: linear-gradient(to right, red, blue, black, blue);
     background-clip: text;
     color: transparent;
-    font-size: 3rem;
+    width: fit-content;
 }
 
-.nav-links{
+nav .links{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     list-style: none;
-    color: black;
-
     gap: 50px;
 }
 
-.nav-links li a{
-    font-size: 1.4rem;
+nav .links li a {
     transition: all 1s;
 }
 
-.nav-links li a:hover {
-    color: blue;
-    text-shadow: 0 0 5px black;
-    font-size: 2rem;
-}
-
-.buy {
-    text-transform: uppercase;
-    background-color: aqua;
-    width: fit-content;
-    height: fit-content;
-    padding: 10px;
-    border: none;
-    border-radius: 20px;
-    transition: all 1s;
-}
-
-.buy:hover {
-    background-color: rgba(0, 0, 0, 0.842);
-    color: Gold;
-    box-shadow: 0 0 10px 0px blue;
-    transform: scale(1.1);
+nav .links li a:hover {
+    color: blueviolet;
+    border-bottom: 2px blueviolet solid;
 }
 
 .login {
-    text-transform: uppercase;
-    /* background-color: transparent; */
-    width: fit-content;
-    height: fit-content;
-    padding: 10px;
-    border: none;
-    border-radius: 20px;
+    width: 120px;
+    height: 50px;
+    font-size: 1.2rem;
+    border: 3px gold solid;
+    border-radius: 30px;
+    background-color: rgba(0, 0, 0, 0.677);
+    color: yellow;
     transition: all 1s;
 }
 
 .login:hover {
-    background-color: aqua;
-    color: blue;
-    box-shadow: 0 0 10px 0px blue;
-    transform: scale(1.1);
+    background-color: black;
+    border: none;
+    font-size: 1.3rem;
 }
 
-.header_Content {
-    padding-block: 20px;
-    margin-inline: 20px;
+header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 10px 50px;
+    padding: 20px;
+
+    background-image: linear-gradient(to left, aqua, yellow, cyan);
 }
 
-.fa-search {
-    font-size: 1.5rem;
-}
-
-/* Header END */
+/* Header End */
