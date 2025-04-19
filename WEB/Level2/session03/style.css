@@ -1,48 +1,51 @@
+.test {
+    width: fit-content;
+    height: fit-content;
 
-.element {
-    border-style: solid;
-    border-color: red;
+    border-style: ridge;
     border-width: 5px;
-    border: blue 3px double;
+    border-color: red;
+    border: inset 10px blue;
 
+    padding-top: 50px;
+    padding-left: 20px;
+    padding-right: 60px;
+    padding-bottom: 100px;
 
-    padding-top: 5px;
-    padding-bottom: 20px;
-    padding-right: 5px;
-    padding-left: 50px;
-
-    padding: 5px 6px 7px 8px;
-    padding: 5px 20px;
-    padding: 15px;
-
-
-    margin-top: 50px;
-    margin-right: 40px;
-    margin-bottom: 20px;
-    margin-left: 50px;
-
-    margin: 10px 50px 5px 30px;
-    margin: 10px 100px;
-    margin: 10px;
-
+    padding: 10px 20px 30px 40px;
+    padding: 10px 30px;
+    padding: 50px;
+    padding: 0;
 
 
     outline-style: solid;
-    outline-width: 20px;
-    outline-color: aqua;
-    outline-offset: 3px;
+    outline-width: 60px;
+    outline-color: gold;
 
-    outline: inset 10px gold;
+    outline-offset: 10px;
 
-    padding: 0;
-    margin: 0;
-    outline: none;
-
-    box-shadow: 2px 3px 10px 5px gold;
-    box-shadow: 0 0 5px 0px blue;
-
+    outline: solid 20px green;
 }
 
-.element2 {
-    border: solid 5px red;
+.test2 {
+    border: 5px solid red;
+
+    margin-top: 50px;
+    margin-right: 200px;
+    margin-left: 200px;
+    margin-bottom: 100px;
+    margin: 10px 50px 20px 50px;
+    margin: 50px 300px;
+    margin: 50px;
+}
+
+
+
+.box {
+    width: 200px;
+    height: 200px;
+    border: 5px solid greenyellow;
+
+    box-shadow: 10px 10px 15px 2px blue;
+    box-shadow: 0 0 20px 2px red;
 }

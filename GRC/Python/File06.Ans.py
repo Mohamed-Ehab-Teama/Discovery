@@ -117,6 +117,48 @@ def check_password(password):
     else:
         return f"Weak: Add {', '.join(errors)}"
 
+
+# Another Solution
+def check_password( password ):
+    errors = []
+    
+    # Check if password less than 8 chars
+    if len(password) < 8:
+        errors.append("Password can't be less than 8 characters.")
+    
+    # Check if password contains Uppercase
+    upper = False
+    for i in password:
+        if i.isupper():
+            upper = True
+    if upper != True:
+        errors.append('The password must contain Uppercase')
+        
+    # Check if password contains number
+    number = False
+    for j in password:
+        if j.isdigit():
+            number = True
+    if number != True:
+        errors.append('The password must contain a number')
+        
+    # Check if password contains (!@#)
+    symbol = False
+    for s in password:
+        if s in '!@#':
+            symbol = True
+    if symbol != True:
+        errors.append('The password must contain a ! or # or @.')
+
+
+    # Check if the errors are empty
+    if not errors:
+        print("Strong Password")
+    else:
+        print("Weak, the errors are : ", ', '.join(errors) )
+        
+
+
 # Test
 print(check_password("Py@2024"))  # Strong
 print(check_password("python"))   # Weak

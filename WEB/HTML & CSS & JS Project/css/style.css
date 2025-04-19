@@ -1,65 +1,44 @@
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-
-a {
-    text-decoration: none;
-    color: black;
-}
-
-/* Header Start */
-.logo {
-    background-image: linear-gradient(to right, red, blue, black, blue);
-    background-clip: text;
-    color: transparent;
-    width: fit-content;
-}
-
-nav .links{
+.container {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    list-style: none;
     gap: 50px;
 }
 
-nav .links li a {
-    transition: all 1s;
-}
-
-nav .links li a:hover {
-    color: blueviolet;
-    border-bottom: 2px blueviolet solid;
-}
-
-.login {
-    width: 120px;
-    height: 50px;
-    font-size: 1.2rem;
-    border: 3px gold solid;
-    border-radius: 30px;
-    background-color: rgba(0, 0, 0, 0.677);
-    color: yellow;
-    transition: all 1s;
-}
-
-.login:hover {
-    background-color: black;
-    border: none;
-    font-size: 1.3rem;
-}
-
-header {
+.box1 {
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
-    margin: 10px 50px;
-    padding: 20px;
 
-    background-image: linear-gradient(to left, aqua, yellow, cyan);
+    border: solid 5px black;
+    border-radius: 50px;
+    padding: 20px;
 }
 
-/* Header End */
+.box2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    border: solid 5px black;
+    border-radius: 50px;
+    padding: 20px;
+}
+
+.box3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    border: solid 5px black;
+    border-radius: 50px;
+    padding: 20px;
+}
+
+.view {
+    width: 200px;
+    height: 50px;
+}
