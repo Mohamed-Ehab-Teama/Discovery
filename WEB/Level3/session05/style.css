@@ -1,42 +1,25 @@
-:root {
-    --mainColor : rgb(255,0,0) ;
-    --secondColor : rgb(0,150,255) ;
+.box {
+    position: relative;
+    width: fit-content;
+    height: fit-content;
 }
 
-
-body{
-    background-color: var(--secondColor) ;
+.btn {
+    background-color: green;
+    width: 150px;
+    height: 80px;
 }
 
-.big-box div {
+.hide {
     background-color: aqua;
-    /* width: 100px;
-    height: 100px; */
+    box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.505);
+
+    width: 200px;
+    height: 100px;
+
+    display: none;
 }
 
-.big-box {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr ;
-    grid-template-rows: 100px 100px 100px 100px 100px;
-    column-gap: 10px;
-    row-gap: 20px;
-    gap: 50px 10px;
-    gap: 30px;
-}
-
-.di1 {
-    grid-column: 1 / 4 ;
-}
-
-.di7 {
-    grid-column: 2 / span 3 ;
-}
-
-.di3 {
-    grid-row: 2 / 4 ;
-}
-
-.di9 {
-    grid-column: 2 / span 1;
-    grid-row: 4 / span 2 ;
+.box:hover .hide{
+    display: block;
 }
