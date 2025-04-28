@@ -1,71 +1,59 @@
-// console.log("testing")
-
-// my_name = "ALI"
-
-// console.log("Heloo ", "Test")
-
-// console.log("This is " + my_name + " Web Design")
-
-// v1 = 'web'
-// v2 = 'design'
-
-// console.log( v1.concat(" " , v2 ) )
-
-// user_name = "admin"
-
-// console.log( user_name.length )
-// console.log( "Mohamed Ehab Teama".length )
-
-
-// x = 99
-// if ( x > 100) {
-//     console.log("Bigger than 100")
-// }
-
-// if ( x > 100) {
-//     console.log("Bigger than 100")
-// } else {
-//     console.log("less than  100")
-// }
-
-// if ( x > 100) {
-//     console.log("Bigger than 100")
-// } else if ( x < 100){
-//     console.log("less than  100")
-// }else {
-//     console.log("equal  100")
-// }
-
-
-// day = "monday"
-
-// switch (day){
-//     case "Saturday":
-//         console.log("Holiday")
-//         break;
-//     case "sunday":
-//     case "monday":
-//     case "tuseday":
-//     case "wedensday":
-//         console.log("Working")
-//         break;
-//     case "Friday":
-//         console.log("Holiday")
-//         break;
-//     default :
-//         console.log("Enter a vaild day")
-//         break;
-// }
-
+// let my_name = "Mohamed"
 // let age = 22
 
-// if ( age !== '22'){
-//     console.log('equal')
-// }
-username = "admin"
-password = "1,2,3,4,5,6"
-if( username == "admin" && password == "1,2,3,4,5,6")
-    console.log("sucess")
-else{
-    console.log("failed")
+// console.log(my_name)
+// console.log(age)
+
+// console.log( my_name, age)
+
+// console.log( "Hello", "Reda" )
+// console.log( "Hello" + "Reda" )
+
+// console.log( "Name:" + " " + my_name )
+// console.log( "Age: " + age )
+
+// console.log( "Name: " + my_name + " -- Age: " + age )
+
+// console.log( "Name: " + my_name )
+
+// console.log( "Name:".concat(" ",my_name) )
+// console.log( "Age is:".concat(" -> ", age) )
+
+// console.log( "Hello To JavaScript Session 02".length )
+
+// let message = "Welcome To Discovery AST"
+// console.log( message.length )
+
+let marks = 1
+
+// If Statement
+if ( marks == 50 ){
+    console.log( 'Success' )
+}
+
+// If-else Statement
+if ( marks >= 50){
+    console.log("Success")
+}else{
+    console.log("Failure")
+}
+
+// If-else if- else Statement
+if ( marks >= 90 ) {
+    console.log("Excellent")
+}
+else if (marks >= 80)
+{
+    console.log("Very Good")
+}
+else if ( marks >= 70)
+{
+    console.log("Good")
+}
+else if (marks >= 50)
+{
+    console.log("Pass")
+}
+else {
+    console.log("Failure")
 }
