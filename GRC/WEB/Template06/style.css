@@ -71,7 +71,7 @@ a.active {
         align-items: center;
         background-color: aqua;
         width: 80%;
-        height: auto;
+        height: 0px;
         top: 100%;
         overflow: hidden;
         transition: all 1s;

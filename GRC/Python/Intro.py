@@ -1,54 +1,61 @@
-# pies = {
-#     "apple" : 500,
-#     "orange" : 700,
-#     "chocolate" : 1000,
-# }
+# UserName => 8-20 characters, 1 UpperCase, 1 number, Special Character (!#$_), contain @, end with the ".discovery"
 
-# def order_price (type, plates, delievery):
-#     total_price = 0
+def check_userName( userName ):
+    errors = []
     
-#     for p in pies:
-#         if p == type:
-#             total_price += pies[p]
-            
-#     if plates > 0:
-#         total_price += plates * 200
-    
-#     if delievery > 0:
-#         total_price += (delievery / 100) * 10
+    # Check if the userName is empty
+    if len(userName) <= 0 :
+        errors.append("User Name cannot be empty")
         
-#     print( total_price )
-    
-# order_price('chocolate', 10, 1500)
+    # Check username Length
+    if len(userName) < 8 or len(userName) > 20:
+        errors.append("User name must be 8-20 characters")
         
+    # check if UserName contains an uppercase
+    upper = False
+    for u in userName:
+        if u.isupper():
+            upper = True
+    if upper == False:
+        errors.append("User Name must contain an uppercase")
         
-        
-        
-        
-# Library
+    # check if UserName contains a number
+    number = False
+    for n in userName:
+        if n.isdigit():
+            number = True
+    if number == False:
+        errors.append("User Name must contain a number")
 
-library = []
-
-def add_book( book ):
-    if book in library:
-        print('Book is Existed')
+    # Check if the user name contains !#$_
+    specialChar = False
+    for s in userName:
+        if s in ("!#$_"):
+            specialChar = True      
+    if specialChar == False:
+        errors.append("User Name must contain a Special Character")
+    
+    # Check if the user name contains @
+    containt_at = False
+    for a in userName:
+        if a == '@':
+            containt_at = True      
+    if containt_at == False:
+        errors.append("User Name must contain an @")
+        
+    # Check if userName endswith .discovery
+    # if userName[-10:] != '.discovery':
+    #     errors.append("User Name must ends with .discovery ")
+    if not userName.endswith(".discovery"):
+        errors.append("User Name must ends with .discovery ")
+    
+    # Check if Acceoted or not
+    if not errors:
+        print("Accepted")
     else:
-        library.append(book)
-        print('Book Added Successfully')
+        # for e in errors:
+        #     print(e)
+        print(" ".join(errors))
+        print("Rejected")
         
-def remove_book( book ):
-    if book not in library:
-        print('Book is Not Existed')
-    else:
-        library.remove(book)
-        print('Book removed Successfully')
-        
-add_book('Python 101')
-add_book('Python 101')
-add_book('Algorithm')
-add_book('PyGame')
-
-remove_book('Python 101')
-remove_book('Algorithm')
- 
-print(library)
+check_userName("Ali_ee@10.discovery")
