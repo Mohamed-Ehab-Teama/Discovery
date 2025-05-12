@@ -1,61 +1,49 @@
-// Arrays in JavaScript
 
-let numbers = [1, 2, 3, 4, 5];
-let floats = [1.5, 2.4, 3.4, 4.4, 5.4];
-let booleans = [true, true, true, false, false];
-let names = ['Omar', "Ali", "mai"];
-let colors = ['red', true, 2.5, 15, false, 2025];
+// Variable
+// var age = 22
+// let first_name = "Mohamed"
+// const GENDER = 'Male'
 
-// console.log( colors );
 
-// var text = colors.join("--")
-// console.log(text)
 
-// console.log( floats.find( function(x) {
-//     return x > 4.5
-// }))
+// Array
+// var class_name = ["Mohamed", "Ali", "Reda", "Mona", "Mai"]  // Strings
+// var ages = [22, 19, 23, 25, 30, 21]                         // Integers
+// var numbers = [20.1, 19.5, 9.8, 12.4, 14.7]                 // Floats
+// var statuses = [false, false , true, false, true]           // Boolean
 
-// console.log( colors[2] );
-// console.log( colors[4] );
+// let arr = ["Mohamed Ehab", 22, 175.5, true, false, "Ahmed"]          // Mixed
 
-// console.log( colors.length );
+// Print Array Element
+// console.log( arr )
 
-// colors.push("Yellow");
-// colors.push("Red", "Green")
+// console.log( arr[0] )
+// console.log( arr[1] )
+// console.log( arr[2] )
+// console.log( arr[3] )
+// console.log( arr[4] )
 
-// colors.pop()
-// colors.pop()
-// colors.pop()
+let arr = ["Mohamed Ehab", 22, 175.5, true, false, "Ahmed", "Ali", "Reda", "Mona", "Hasnaa"]          // Mixed
 
-// console.log(colors)
+// Print Array Length
+console.log( arr.length )
 
-// const arr = ["One", "Two", "Three", "Four", "Five", 'Six', "Seven"];
 
-// for(i = 0; i < arr.length; i++)
+// Add and Remove Elements from array
+arr.push("Reda Last One")
+arr.push("Ali Last One")
+
+arr.pop()
+arr.pop()
+arr.pop()
+arr.pop()
+
+// Print All Array Elements
+// for ( let i = 0; i <= 5; i++ )
 // {
 //     console.log( arr[i] )
 // }
 
-// for( i = 0; i < 5; i++ )
-// {
-//     console.log( arr[i] )
-// }
-
-
-let my_car = { 
-    "Name" : "Fiat", 
-    "Model" : 2015,
-    'color' : "White"
+for ( let j = 0; j < arr.length; j++ ) {
+    console.log( arr[j] )
 }
-console.log(my_car)
-
-console.log( my_car['Name'] )
-console.log( my_car.Name )
-
-my_car.Name = "Fiat 128"
-my_car['color'] = "Silver"
-
-my_car.logo = "FiA"
-my_car['number'] = 5024
-
-console.log(my_car)

@@ -7,55 +7,124 @@
 
 <body>
 
-    <!-- <audio src="sound.mp3" controls muted autoplay ></audio>
-
-    <video src="background-vid.mp4" controls muted autoplay width="400px" height="300px" ></video> -->
-
-    <label> Select Country: </label>
-    <br>
-    <select>
-        <option> Egypt </option>
-        <option> Sudan </option>
-        <option> Lybia </option>
-        <option> Morroco </option>
-    </select>
+    
+    <!-- Simple Table -->
+    <table border="1">
+        <tr>
+            <td> Name </td>
+            <td> Age </td>
+            <td> Grade </td>
+        </tr>
+        <tr>
+            <td> Omar </td>
+            <td> 12 </td>
+            <td> A+ </td>
+        </tr>
+        <tr>
+            <td> Ali </td>
+            <td> 11 </td>
+            <td> B+ </td>
+        </tr>
+    </table>
 
     <hr>
+    <hr>
 
-    <select>
+    <!-- Full Table -->
+    <table border="2">
+        <!-- Table Head -->
+        <thead>
+            <tr>
+                <th> ID </th>
+                <th> Name </th>
+                <th> Age </th>
+                <th> Salary </th>
+            </tr>
+        </thead>
+
+        <!-- Table Body -->
+        <tbody>
+            <tr>
+                <td> 1 </td>
+                <td> Omar </td>
+                <td> 12 </td>
+                <td> 100$ </td>
+            </tr>
+            <tr>
+                <td> 2 </td>
+                <td> Ali </td>
+                <td> 11 </td>
+                <td> 80$ </td>
+            </tr>
+            <tr >
+                <td> 3 </td>
+                <td> Ahmed </td>
+                <td> 10 </td>
+                <td> 80$ </td>
+            </tr>
+        </tbody>
+
+        <!-- Table Foot -->
+        <tfoot>
+            <tr>
+                <th colspan="3"> TOTAL </th>
+                <td> 260$ </td>
+            </tr>
+        </tfoot>
+    </table>
+
+    <hr>
+    <hr>
+
+    <!-- Audio -->
+    <audio src="sound.mp3" controls autoplay muted ></audio>
+
+    <br>
+
+    <audio controls autoplay muted>
+        <source src="sound.mp3" type="audio/mp3" >
+        <source src="sound.mp3" type="audio/mpeg" >
+    </audio>
+
+    <hr>
+    <hr>
+
+    <!-- Video -->
+    <video src="background-vid.mp4" controls autoplay muted width="600px"></video>
+
+    <br>
+
+    <video controls width="500px">
+        <source src="background-vid.mp4" type="video/mp4">
+        <source src="background-vid.mp4" type="video/webm">
+        <source src="background-vid.mp4" type="video/ogg">
+    </video>
+
+    <hr>
+    <hr>
+
+    <label for="con"> Select Your Country: </label>
+    <select id="con">
         <optgroup label="Africa">
             <option> Egypt </option>
-            <option> sudan </option>
-            <option> Lybia </option>
-        </optgroup>
-
-        <optgroup label="Aisa">
-            <option> Qatar </option>
-            <option> Saudi Arabia </option>
-            <option> Jordan </option>
+            <option> Sudan </option>
+            <option> Morroco </option>
         </optgroup>
 
         <optgroup label="Europe">
             <option> Spain </option>
+            <option> France </option>
             <option> Italy </option>
-            <option> England </option>
+        </optgroup>
+
+        <optgroup label="Aisa">
+            <option> Saudi Arabia </option>
+            <option> Qatar </option>
+            <option> Emmirates </option>
         </optgroup>
     </select>
 
     <hr>
-
-    <div> Div 01 </div>
-    <div> Div 02 </div>
-
-    <span> Span 01 </span>
-    <span> Span 02 </span>
-
-    <header> Header </header>
-    <nav> Navigation </nav>
-    <aside> Aside bar </aside>
-    <Section> section </Section>
-    <article> Article  </article>
-    <footer> End of page </footer>
 
 
 </body>
