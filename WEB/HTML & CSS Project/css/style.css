@@ -1,0 +1,50 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+
+/* ---------------------------------- Header */
+header {
+    height: 60px;
+    background-color: #4539f3;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 20px 100px;
+}
+
+.logo-box {
+    display: flex;
+    gap: 20px;
+}
+
+.logo-text {
+    color: white;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    gap: 80px;
+}
+
+.links {
+    list-style: none;
+    display: flex;
+    gap: 50px;
+}
+
+.buttons {
+    display: flex;
+    gap: 30px;
+}
+
+/* ---------------------------------- Header End */
