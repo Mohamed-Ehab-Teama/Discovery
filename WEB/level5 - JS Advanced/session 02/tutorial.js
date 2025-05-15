@@ -2,7 +2,6 @@
 Template literals: provide a more flexible way to work with strings.
     They are enclosed by backticks (``) instead of single or double quotes
     to use variable inside the `` => ${}
-
 */
 
 // var num1 = 9;

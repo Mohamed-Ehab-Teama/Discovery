@@ -1,69 +1,67 @@
+// let userName = "Hanin"
 
-// var x = 50
-// var y = 26
+// console.log('Hello ', userName)
+// console.log('Hello userName ' )
+// console.log('Hello ${userName} ' )
 
-// var result = x + y
+// console.log("Hello userName " )
+// console.log("Hello ${userName} " )
 
-// console.log("the sum of x and y is result")
+// console.log( `Hello ${userName}` )
 
-// console.log(`the sum of ${x} and ${y} is ${result}`);
+// console.log( 'Hello
+//     JavaScript' )
+// console.log( "Hello
+//     JavaScript" )
+// console.log( `Hello
+//     Hanin 
+//     To
+//     JavaScript` )
 
-// console.log("I'm Mohamed Welcome ")
-// console.log("I'm Mohamed \n Welcome ")
-// console.log(`Hello, I'm Mohamed
-//         Welcome `)
+// var num1 = 9;
+// var num2 = 5;
+// let result = num1 + num2;
 
+// console.log(`The Addition of ${num1} and ${num2} is ${result} `);
 
-////////////////////////////////////////////////////////////////////////////////////
+// -----------------------------------------------------------------------
 
-// var h1 = document.getElementById('head1')
+// let h1 = document.getElementById('haeding01');
 
-// h1.innerText = 'Hello World'
+// let hq1 = document.querySelector('h1');
+// let hq2 = document.querySelector('#haeding01');
+// let h2 = document.querySelector('.test');
 
-// console.log(h1)
+// let allH2 = document.querySelectorAll('h2');
 
+// console.log( h1 )
+// console.log( hq1 )
+// console.log( hq2 )
+// console.log( h2 )
+// console.log( allH2 )
 
-// var pa = document.getElementById('para')
+// -----------------------------------------------------------------------
 
-// pa.innerText = 'We are in Web session'
-// pa.innerHTML = "Heelo There"
+// let head01 = document.getElementById('edit');
 
-// console.log(pa)
+// console.log( head01 )
 
-// var div = document.getElementById('divv')
-// div.innerText = "<h1>We are in div</h1>"
-// div.innerHTML = "<h1>We are in div</h1>";
+// head01.innerText = "Hello Hanin";
 
-////////////////////////////////////////////////////////////////////////////////////
+// head01.innerHTML = "HTML"
 
-// var first_h1 = document.querySelector('h1')
+// head01.innerText = '<h1>Hello</h1>'
+// head01.innerHTML = '<h1>Hello</h1>'
 
-// var div1 = document.querySelector('div')
+// -----------------------------------------------------------------------
 
-// console.log(first_h1)
-// console.log(div1)
+let head01 = document.getElementById('edit');
 
+head01.innerText = 'Calm Down y Hanin'
+head01.style.border = 'solid 5px red'
 
-// var all = document.querySelectorAll('h1')
+head01.classList.add("Test", 'h20')
+head01.classList.remove('hello', 'h20')
+console.log( head01.classList )
+// -----------------------------------------------------------------------
 
-// console.log(all)
-
-////////////////////////////////////////////////////////////////////////////////////
-
-// var h1 = document.getElementById('head1')
-
-// h1.style.color = 'red'
-// h1.style.backgroundColor = "black"
-
-
-////////////////////////////////////////////////////////////////////////////////////
-
-// var div = document.getElementById('di').classList
-
-// div.add('here', 'We-go')
-// div.remove('one','two','three')
-
-// console.log(div)
-// console.log(div.length)
-
-////////////////////////////////////////////////////////////////////////////////////
