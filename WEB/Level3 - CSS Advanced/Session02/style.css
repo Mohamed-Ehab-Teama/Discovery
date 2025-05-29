@@ -1,48 +1,25 @@
-
-.box {
-    /* width: 200px;
-    height: 200px; */
-
-    width: fit-content;
-    height: fit-content;
-    background-color: aqua;
-
-
-    position: relative;
-    top: 200px;
-    left: 400px;
-
-    /* box-shadow: 20px 20px 50px 5px blue;
-    box-shadow: 0 0 20px 5px blue; */
-
-    /* box-sizing: content-box; 
-    padding: 50px;
-    border: 10px solid blue; */
+.message01 {
+    width: 300px;
+    height: 100px;
+    background-color: cyan;
 
     box-sizing: border-box;
 
+    padding: 40px 20px;
 
-}
-
-.box::before {
-    content: " This is BEFORE ";
-    color: red;
-    background-color: blue;
     border-radius: 20px;
-    padding: 5px;
-}
-
-.box::after {
-    content: "--- After";
-    color: gold;
-    background-color: black;
-    border-radius: 50px;
-}
-
-.home {
-    background-color: goldenrod;
-    width: 200px;
-    height: 300px;
 
     position: relative;
+}
+
+.message01::before {
+    content: "";
+
+    position: absolute;
+    top: 100%;
+    left: 40px;
+
+    border-top: 10px solid cyan;
+    border-right: 10px solid transparent;
+    border-left: 10px solid transparent;
 }

@@ -7,125 +7,74 @@
 
 <body>
 
-    
-    <!-- Simple Table -->
-    <table border="1">
-        <tr>
-            <td> Name </td>
-            <td> Age </td>
-            <td> Grade </td>
-        </tr>
-        <tr>
-            <td> Omar </td>
-            <td> 12 </td>
-            <td> A+ </td>
-        </tr>
-        <tr>
-            <td> Ali </td>
-            <td> 11 </td>
-            <td> B+ </td>
-        </tr>
-    </table>
-
-    <hr>
-    <hr>
-
-    <!-- Full Table -->
-    <table border="2">
-        <!-- Table Head -->
-        <thead>
-            <tr>
-                <th> ID </th>
-                <th> Name </th>
-                <th> Age </th>
-                <th> Salary </th>
-            </tr>
-        </thead>
-
-        <!-- Table Body -->
-        <tbody>
-            <tr>
-                <td> 1 </td>
-                <td> Omar </td>
-                <td> 12 </td>
-                <td> 100$ </td>
-            </tr>
-            <tr>
-                <td> 2 </td>
-                <td> Ali </td>
-                <td> 11 </td>
-                <td> 80$ </td>
-            </tr>
-            <tr >
-                <td> 3 </td>
-                <td> Ahmed </td>
-                <td> 10 </td>
-                <td> 80$ </td>
-            </tr>
-        </tbody>
-
-        <!-- Table Foot -->
-        <tfoot>
-            <tr>
-                <th colspan="3"> TOTAL </th>
-                <td> 260$ </td>
-            </tr>
-        </tfoot>
-    </table>
-
-    <hr>
-    <hr>
 
     <!-- Audio -->
-    <audio src="sound.mp3" controls autoplay muted ></audio>
-
-    <br>
-
-    <audio controls autoplay muted>
-        <source src="sound.mp3" type="audio/mp3" >
-        <source src="sound.mp3" type="audio/mpeg" >
-    </audio>
-
-    <hr>
-    <hr>
+    <!-- <audio src="sound.mp3" controls autoplay muted ></audio> -->
 
     <!-- Video -->
-    <video src="background-vid.mp4" controls autoplay muted width="600px"></video>
+    <!-- <video src="background-vid.mp4" controls autoplay muted width="500px" ></video> -->
 
-    <br>
 
-    <video controls width="500px">
-        <source src="background-vid.mp4" type="video/mp4">
-        <source src="background-vid.mp4" type="video/webm">
-        <source src="background-vid.mp4" type="video/ogg">
-    </video>
+
+
+    <!-- Select -->
+    <label for="se"> Select Your Country: </label>
+    <select id="se">
+        <option> Egypt </option>
+        <option> Sudan </option>
+        <option> Qatar </option>
+        <option> Spain </option>
+        <option> France </option>
+        <option> England </option>
+    </select>
 
     <hr>
     <hr>
 
-    <label for="con"> Select Your Country: </label>
-    <select id="con">
+    <label for="aq"> Select You Country: </label>
+    <select id="aq">
+
         <optgroup label="Africa">
             <option> Egypt </option>
             <option> Sudan </option>
-            <option> Morroco </option>
-        </optgroup>
-
-        <optgroup label="Europe">
-            <option> Spain </option>
-            <option> France </option>
-            <option> Italy </option>
+            <option> Lybia </option>
+            <option> Tunisia </option>
         </optgroup>
 
         <optgroup label="Aisa">
             <option> Saudi Arabia </option>
             <option> Qatar </option>
-            <option> Emmirates </option>
+            <option> Immirates </option>
+            <option> Bahreen </option>
         </optgroup>
+
+        <optgroup label="Europe">
+            <option> Spain </option>
+            <option> Beligum </option>
+            <option> Germany </option>
+            <option> France </option>
+            <option> England </option>
+        </optgroup>
+
     </select>
 
     <hr>
+    <hr>
 
+    <!-- Block Element -->
+    <h1> Hello From Heading 01 </h1>
+    <h2> Hello From Heading 02 </h2>
+    <p> Jody </p>
+    <div> Hello From Division 111 </div>
+    <div> Hello From Division 222 </div>
+    <div> Hello From Division 333 </div>
+
+    <!-- In-line Element -->
+    <audio src="sound.mp3" controls></audio>
+    <span> Hello From Span 01 </span>
+    <span> Hello From Span 02 </span>
+    <span> Hello From Span 03 </span>
 
 </body>
+
 </html>

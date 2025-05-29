@@ -1,94 +1,28 @@
-.box1 {
-    background-color: red;
-    width: 100px;
-    height: 100px;
 
-}
 
-.box2 {
+.parent {
     background-color: black;
-    width: 100px;
-    height: 100px;
-    
-}
+    color: white;
 
-.box3 {
-    background-color: blue;
-    width: 100px;
-    height: 100px;
-
-}
-.box4 {
-    background-color: gold;
-    width: 100px;
-    height: 100px;
-
-}
-
-.box5 {
-    background-color: aqua;
-    width: 100px;
-    height: 100px;
-
-}
-
-.box6 {
-    background-color: brown;
-    width: 100px;
-    height: 100px;
-
-}
-.box7 {
-    background-color: coral;
-    width: 100px;
-    height: 100px;
-
-}
-
-.box8 {
-    background-color: crimson;
-    width: 100px;
-    height: 100px;
-
-}
-
-.box9 {
-    background-color: green;
-    width: 100px;
-    height: 100px;
-
-}
-
-
-.container {
-    height: 90vh;
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap-reverse;
-    flex-flow: row wrap;
 
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center;
 }
 
-
-body {
-    background-color: aqua;
+.links {
+    display: flex;
+    justify-content: space-evenly;
+    width: 50%;
 }
 
-@media (max-width:800px)
-{
-    body{
-        background-color: black;
-    }
+.s {
+    color: orange;
 }
 
-@media (max-width: 500px)
-{
-    body {
-        background-color: brown;
-    }
+.btn {
+    width: 120px;
+    height: 50px;
+    border-radius: 20px;
+    border: none;
 }
-
-
-

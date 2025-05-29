@@ -1,51 +1,67 @@
+
 .test {
     width: fit-content;
     height: fit-content;
+    background-color: aqua;
 
-    border-style: ridge;
-    border-width: 5px;
+    /* Boreder */
+    border-style: groove;
+    border-width: 10px;
     border-color: red;
-    border: inset 10px blue;
-
+    border-top: solid red 5px;
+    border-left: dotted blue 10px;
+    border-top: inset black 5px;
+    border-bottom: inset black 5px;
+    border:  blue 12px double;
+    /* Boreder End */
+    
+    /* Padding */
     padding-top: 50px;
-    padding-left: 20px;
-    padding-right: 60px;
-    padding-bottom: 100px;
+    padding-right: 100px;
+    padding-bottom: 20px;
+    padding-left: 40px;
 
-    padding: 10px 20px 30px 40px;
-    padding: 10px 30px;
-    padding: 50px;
-    padding: 0;
+    padding: 50px 60px 70px 80px ;
+    padding: 20px 200px;
+    padding: 10px;
+    /* Padding End */
 
 
+    /* Margin */
+    margin-top: 50px;
+    margin-left: 200px;
+    margin-right: 150px;
+    margin-bottom: 80px;
+
+    margin: 50px 30px 20px 100px;
+    margin: 50px 200px;
+    margin: 10px;
+    /* Margin End */
+
+
+    /* Outline */
     outline-style: solid;
-    outline-width: 60px;
-    outline-color: gold;
+    outline-width: 8px;
+    outline-color: goldenrod;
 
     outline-offset: 10px;
 
-    outline: solid 20px green;
+    outline: solid 12px orange;
+    /* Outline End */
+
 }
 
-.test2 {
-    border: 5px solid red;
+
+.test01 {
+    width: 500px;
+    height: 100px;
+    border: solid 5px red;
 
     margin-top: 50px;
-    margin-right: 200px;
-    margin-left: 200px;
-    margin-bottom: 100px;
-    margin: 10px 50px 20px 50px;
-    margin: 50px 300px;
-    margin: 50px;
-}
 
+    text-shadow: 5px 5px 2px blue;
+    text-shadow: 0 0 2px blue;
 
-
-.box {
-    width: 200px;
-    height: 200px;
-    border: 5px solid greenyellow;
-
-    box-shadow: 10px 10px 15px 2px blue;
-    box-shadow: 0 0 20px 2px red;
+    box-shadow: 5px 6px 5px 1px blue;
+    box-shadow: 0 0 10px 2px blue;
 }
